@@ -1,0 +1,129 @@
+<!--#include file="includes/page-before.shtml" -->
+
+<div class="main-wide" id="content-main">
+    <h1>About Colour</h1>
+
+	<p class="intro">Colour has the potential to become one of the most
+	fundamental elements in your home. You can use colour to brighten
+	up your mood, make your space look larger or smaller, or reflect
+	more light. It can easily identify personal space for you and your
+	family at home. For the interior, you could utilise colours already
+	existing within your furnishings and accessories. This can make a
+	great starting point for transforming your home.</p>
+
+	<div class="addable space-img" style="background: url(/media/354627/colourful-room.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 312px; height: 208px;" data="[ItemType=4][ItemValue=/media/354627/colourful-room.jpg]"><img width="312" height="208" alt="Colourful Room" src="/media/354627/colourful-room.jpg"></div>
+
+	<h3 class="para-img">Inspiration</h3>
+
+	<p>Inspiration is found in many ways. Try taking a walk around your
+	neighbourhood to see how colour schemes work on the exterior. If
+	you're painting a room or all of your interior, you can review
+	Dulux colour cards, house and garden magazines and books. The Dulux
+	website and colour wall will also inspire colour schemes and ideas.
+	Have a look in your own home, where you can draw on colours from
+	your favourite cushions, lamp or sofa.</p>
+
+	<p>Use our <a title="Colour Galleries" href="/colour/colour-gallery">Colour Inspiration Gallery</a> to help you
+	in your colour selection process.</p>
+
+	<div class="addable space-img" style="background: url(/media/354632/exterior-deck.jpg) no-repeat scroll 4px 4px #ffffff; float: right; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/354632/exterior-deck.jpg]"><img width="145" height="165" style="float: right;" alt="Exterior Deck" src="/media/354632/exterior-deck.jpg"></div>
+
+	<div class="addable space-img" style="background: url(/media/354637/pink-modern-room.jpg) no-repeat scroll 4px 4px #ffffff; float: right; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/354637/pink-modern-room.jpg]">
+	<h3><img width="145" height="165" style="float: right;" alt="Pink Modern Room" src="/media/354637/pink-modern-room.jpg"></h3>
+	</div>
+
+	<h3>Style</h3>
+
+	<p>What sort of style are you looking for in your home?
+	Contemporary, traditional or modern? This also helps you to define
+	the colour palettes you should begin with. Not only do you have
+	choices in colour, you now also have options with textured or
+	metallic products. So you see, the sky is the limit.</p>
+
+	<h3>Lighting and Colour</h3>
+
+	<p>The amount of natural light a room receives will dramatically
+	affect the density of a colour. Rooms facing south or rooms that
+	receive little light will appear lighter with lighter shades of
+	colour (e.g. whites or neutrals). Rooms facing north that receive a
+	great amount of light (and may feel very warm) will suit the cooler
+	palette of colours.</p>
+
+	<h2>How could colour make you feel?</h2>
+
+	<div class="img-col2 left">
+	<div class="addable space-img" style="background: url(/media/353682/yellow.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/353682/yellow.jpg]"><img width="145" height="164" src="/media/353682/yellow_145x164.jpg"></div>
+
+	<h4>Yellows</h4>
+
+	<p>Yellows can create a happy, sunny feel and will make the room
+	appear brighter. Yellow radiates warmth and is a reflective
+	colour.</p>
+	</div>
+
+	<div class="img-col2 left">
+	<div class="addable space-img" style="background: url(/media/289722/blue.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/289722/blue.jpg]"><img width="145" height="165" src="/media/289722/blue.jpg"></div>
+
+	<h4>Blues</h4>
+
+	<p>Blues can give a tranquil, serene feeling and sense of
+	spaciousness. Blues are calming and help us think of our
+	environment.</p>
+	</div>
+
+	<div class="img-col2 left">
+	<div class="addable space-img" style="background: url(/media/289717/red.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/289717/red.jpg]"><img width="145" height="164" src="/media/289717/red_145x164.jpg"></div>
+
+	<h4>Reds</h4>
+
+	<p>Reds can create a wonderfully warm, passionate feeling with a
+	hint of excitement, and are renowned as a colour of strength and
+	power. Red works wonders as a dramatic entrance colour or in a
+	formal or contemporary dining or living area.</p>
+	</div>
+
+	<div class="img-col2 left">
+	<div class="addable space-img" style="background: url(/media/289886/brown.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/289886/brown.jpg]"><img width="145" height="165" src="/media/289886/brown.jpg"></div>
+
+	<h4>Neutrals</h4>
+
+	<p>Whites and neutrals are ideal for creating a clean, classical
+	backdrop and will allow you to add a splash of your favourite
+	colour to any space. You have options of cooler or warmer whites
+	and neutrals, such as greys, beiges, tans, creams and coffees.</p>
+	</div>
+
+	<div class="img-col2 left">
+	<div class="addable space-img" style="background: url(/media/289913/green1.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/289913/green1.jpg]"><img width="145" height="165" src="/media/289913/green1.jpg"></div>
+
+	<h4>Greens</h4>
+
+	<p>Relaxing and restful to the eye, greens create a cool, fresh and
+	calm atmosphere. Greens come in many shades and can be lime, mint,
+	citrus, or teal.</p>
+	</div>
+
+	<div class="img-col2 left">
+	<div class="addable space-img" style="background: url(/media/289837/purple.jpg) no-repeat scroll 4px 4px #ffffff; float: left; width: 145px; height: 165px;" data="[ItemType=4][ItemValue=/media/289837/purple.jpg]"><img width="145" height="165" src="/media/289837/purple.jpg"></div>
+
+	<h4>Purples</h4>
+
+	<p>Decorating with purple can create an illusion of grandeur.
+	Lavender is lovely in a baby's nursery and you could easily try a
+	rich eggplant for a feature wall in your living area.</p>
+	</div>
+
+	<p>&nbsp;</p>
+</div>
+
+
+<div class="sub-thin" id="sub-content">
+
+	<h4>Dulux Facts</h4>
+	<p class="facts prod-spec">
+	    When considering enamel paints, try Aquanamel&reg;. It’s water based so it emits less odours than oil based enamels. Plus it dries faster. Win-win!
+	</p>
+
+</div>
+
+<!--#include file="includes/page-after.shtml" -->
