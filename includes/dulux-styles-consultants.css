@@ -1,0 +1,487 @@
+/**
+ * Generic Level Styles
+ */
+.consultants h1{
+    width:500px !important;
+}
+
+#dock-wrap{
+    z-index:100;
+}
+
+#dragged{
+    z-index:101;
+}
+
+/**
+ * Carousel
+ */
+.carousel{
+    width:784px;
+    height:346px;
+    position:relative;
+    margin: 10px 0 30px;
+    background: #FFF url(imgs/bg-carousel.gif) repeat-x center bottom;
+    visibility: hidden;
+}
+
+.carousel .mask{
+    position:absolute;
+    z-index:10;
+    background-image: url(imgs/bg-carousel-frame.png);
+    background-repeat: no-repeat;
+    z-index:10;
+}
+
+.carousel .mask-top{
+    position:absolute;
+    width:784px;
+    height:7px;
+    background-position:center top;
+    top:0px;
+    left:0px;
+    
+}
+
+.carousel .mask-left{
+    width:10px;
+    top:7px;
+    height:333px;
+    left:0px;
+    background-position:left -7px;
+}
+
+.carousel .mask-right{
+    width:10px;
+    top:7px;
+    height:333px;
+    left:774px;
+    background-position:right -7px;
+}
+
+.carousel .mask-bottom{
+    position:absolute;
+    width:784px;
+    height:10px;
+    background-position:center bottom;
+    top:340px;
+    left:0px;
+}
+
+.carousel .items{
+    padding:0;
+    width:784px;
+    height:346px;
+    overflow:hidden;
+    position:relative;
+    display:none;
+}
+
+.carousel .item{
+    position:relative;
+    z-index: 1;
+}
+
+
+.carousel .item .image{
+    display:block;
+    position:absolute;
+    width:520px;
+    height:340px;
+    top:6px;
+    left:3px;
+    overflow:hidden;
+
+}
+
+.carousel .item .image .addable,
+.carousel .item .image .non-addable{
+	border: 0px none !important;
+    padding:0px !important;
+    background-color: transparent !important;
+    background-position:center center !important;
+    background-repeat: none !important;
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:520px;
+    height:340px;
+}
+
+.carousel .item .image a{
+	display:none;
+}
+
+.carousel .item .image{
+    position:absolute;
+    z-index: 1;
+}
+
+.colourApplicator .carousel .current,
+.colourApplicator .carousel .current .image .addable,
+.colourApplicator .carousel .current .image .non-addable{
+    z-index: 2;
+	cursor: default!important;
+}
+
+.colourConsumer .carousel .current,
+.colourConsumer .carousel .current .image .addable,
+.colourConsumer .carousel .current .image .non-addable{
+    z-index: 2;
+}
+
+.colourApplicator #content #content-main div.video-add {
+	display: none;	
+}
+
+.carousel .next,
+.carousel .next .addable,
+.carousel .next .non-addable{
+    z-index: 3;
+}
+
+.carousel .item .magnify{
+    background:url(imgs/bg-carousel-magnify.png) no-repeat right top;
+    display:block;
+    height:88px;
+    width:88px;
+    position:absolute;
+    right:0px;
+    top:0px;
+    display:none;
+    z-index:4;
+    cursor:pointer;
+}
+
+.colourApplicator .carousel .swatches{
+    position:absolute;
+	border: 1px solid #BBBCB6;
+    left:535px;
+    top:20px;
+    width:228px;
+    height:69px;
+    float:left;
+	display: none;
+}
+
+.colourConsumer .carousel .swatches{
+    position:absolute;
+    left:535px;
+    top:20px;
+    width:227px;
+    height:69px;
+    float:left;
+    display:none;
+}
+
+.colourConsumer .carousel .current .swatches{
+    display:block;
+}
+
+.colourApplicator .carousel .swatches:hover {
+	border: 1px solid #BBBCB6!important;	
+}
+
+.colourApplicator .carousel .swatches .swatch{
+	cursor: default!important;
+    width:74px;
+    height:69px;
+    float:left;
+    margin: 0 0 0 2px;
+    font-size:0.8em;
+    color: #FFF;
+    position:relative;
+}
+
+.colourConsumer .carousel .swatches .swatch{
+    width:74px;
+    height:69px;
+    float:left;
+    margin: 0 0 0 2px;
+    font-size:0.8em;
+    color: #FFF;
+    position:relative;
+}
+
+#wrapper .carousel .swatches .first{
+    margin: 0;
+}
+
+.colourConsumer .carousel .swatches .black,
+.colourApplicator .carousel .swatches .black {
+    color: #000;
+}
+
+.carousel .swatches .swatch .name{
+    position:absolute;
+    width:70px;
+    bottom:2px;
+    left:2px;
+}
+
+.carousel .testimonial{
+    position:absolute;
+
+    background: url(imgs/bg-carousel-testimonial.gif) no-repeat center center;
+    width:218px;
+    height:138px;
+    left:523px;
+    top:115px;
+    padding:45px 20px 0 20px;
+    visibility:hidden;
+    font-size:1.36em !important;
+    display:none;
+}
+
+.carousel .current .testimonial{
+    display:block;
+}
+
+.carousel .author{
+    position:absolute;
+    left:545px;
+    top:300px;
+    color: #717171;
+    display:none;
+    font-weight:bold;
+}
+
+.carousel .current .author{
+    display:block;
+}
+
+.carousel .controls{
+    position:absolute;
+    width:45px;
+    height:20px;
+    left:725px;
+    top:315px;
+    z-index:9;
+}
+
+.carousel .controls .control{
+    background-image: url(imgs/bg-carousel-control.gif);
+    background-repeat: no-repeat;
+    width:20px;
+    height:20px;
+    display:block;
+    position:absolute;
+    top:0px;
+    cursor:pointer;
+}
+
+.carousel .controls .next{
+    background-position: left top;
+    right:0px;
+}
+
+.carousel .controls .previous{
+    background-position: left bottom;
+    left:0px;
+}
+
+
+/**
+ * Consultant Booking
+ */
+.consultant-booking{
+    float:left;
+    width:100%;
+}
+
+/**
+ * Consultant Booking: Form
+ */
+.consultant-booking .form{
+    width:250px;
+    float:right;
+    background: #f3f5f7;
+    padding: 0 0 15px;
+}
+
+.consultant-booking .form h3{
+    line-height:31px;
+    text-transform: uppercase;
+    color: #FFF;
+    background: #416390;
+    padding:0 10px;
+    border-bottom:1px solid #FFF;
+}
+
+.consultant-booking .form p{
+    padding: 0 10px;
+}
+
+.consultant-booking .form fieldset{
+    padding:0 0 0 10px; 
+}
+
+.consultant-booking .form fieldset p{
+    padding: 0 10px 0 0;
+    font-size:1.0em !important;
+}
+
+.consultant-booking .form fieldset div.field{
+    float:left;
+    padding: 0 10px 0 0;
+    position:relative;
+}
+
+.consultant-booking .form fieldset div.action {
+    width:220px;
+
+}
+
+.consultant-booking .form fieldset div.checkbox,
+.consultant-booking .form fieldset div.text{
+    width:230px;
+}
+
+.consultant-booking .form fieldset .req{
+    float:right !important;
+    position:absolute;
+    right:10px;
+    top: 16px;
+}
+
+.consultant-booking .form fieldset .clear{
+    padding: 0 0 10px;
+}
+
+.consultant-booking .form fieldset label{
+    display:block;
+    font-size: 1.09em;
+    margin: 0 0 2px;
+}
+
+.consultant-booking .form fieldset .checkbox label{
+    display:inline;
+    padding: 0 5px 0 0;
+    font-size:1.0em;
+}
+
+.consultant-booking .form fieldset .checkbox .req{
+   top:-2px;
+   *top:2px;
+}
+
+.consultant-booking .form fieldset .select .req{
+
+}
+
+.consultant-booking .form fieldset input.text{
+    float:left;
+    width:210px;
+}
+
+.consultant-booking .form fieldset div.title{
+    width:60px;
+}
+
+.consultant-booking .form fieldset div.first-name{
+    width:160px;
+}
+
+.consultant-booking .form fieldset .first-name input.text{
+    width:140px;
+}
+
+.consultant-booking .form fieldset div.state{
+    width:110px;
+}
+
+.consultant-booking .form fieldset div.postcode{
+    width:110px;
+}
+
+.consultant-booking .form fieldset .postcode input{
+    width:90px;
+}
+
+.consultant-booking .form fieldset div.project-type,
+.consultant-booking .form fieldset div.project-area{
+    width:230px;
+}
+
+.consultant-booking .form fieldset div.project-type select,
+.consultant-booking .form fieldset div.project-area select{
+    width:217px;
+    *width:214px;
+}
+
+.consultant-booking .information{
+    float:left;
+    width:500px;
+}
+
+.consultant-booking input.book{
+    float:right;
+    border:none;
+    background:url(imgs/btn-book.png) no-repeat center center;
+    text-indent:-9999px;
+    height:32px;
+    width:78px;
+    margin:10px 0 0;
+    font-size:0px;
+}
+
+.consultant-booking label.error{
+    color: #C84329;
+    font-size:1em !important;
+    margin: 2px 0 0 !important;
+    padding:0 !important;
+}
+
+.consultant-booking .checkbox label.error{
+    float:right;
+    width:100%;
+    text-align:left;
+    margin: 4px 0 0 !important;
+}
+
+.consultant-booking .error-alert {
+    margin: 10px;
+    width:190px;
+    background:#FFF url("imgs/bg_alert-small.png") no-repeat 5px 5px;
+    padding:5px 5px 5px 35px;
+}
+
+.consultant-booking .error-alert h3{
+    background: none;
+    color: #C84329;
+    font-size: 1.1em;
+    line-height:inherit;
+    padding:0;
+    text-transform:none;
+}
+
+.consultant-booking .error-alert li{
+    font-weight:normal !important;
+}
+
+.colourApplicator div.video-add {
+       display: none;       
+}
+
+
+/*ADDED BY ADI on 29.10.2010*/
+.consultant-booking .form fieldset .last-name input{
+    float:left;
+    width:210px;
+}
+
+.consultant-booking .form fieldset .email input{
+    float:left;
+    width:210px;
+}
+
+.consultant-booking .form fieldset .address input{
+    float:left;
+    width:210px;
+}
+
+.consultant-booking .form fieldset .suburb input{
+    float:left;
+    width:210px;
+}
+/*--------------------------*/

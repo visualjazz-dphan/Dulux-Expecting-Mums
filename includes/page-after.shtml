@@ -8,11 +8,40 @@
 </div>
 <!--/////////////////////////// END CONTENT //////////////////////////////////////////////////////////////////////////-->
 
-                <a class="bck-top" href="#wrapper">Top of the page</a>
-	            <div class="push"></div>
-            </div>
-            <!-- End Wrapper -->
-            <div id="footer"><ul id="btm-nav"><li><a href="/media" title="Media">Media</a></li><li><a href="/recommended-sites" title="Recommended Sites">Recommended Sites</a></li><li><a href="/colour-accuracy" title="Colour Accuracy">Colour Accuracy</a></li><li><a href="http://duluxsustainability.com.au/" title="Sustainability">Sustainability</a></li></ul><ul id="copy-nav"><li /><li><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li><li><a href="/corporate-info" title="Corporate Info">Corporate Info</a></li><li><a href="http://www.duluxgroup.com.au/" target="_blank" title="Investor Info">Investor Info</a></li><li><a href="/site-terms-" title="Site Terms">Site Terms</a></li><li><a href="/site-map" title="Site Map">Site Map</a></li></ul><ul id="promo-nav"><li><a class="pnav-pro-coat" href="/specifier/our-brands/dulux-protective-coatings" title="Protective Coatings">Protective Coatings</a></li><li><a class="pnav-pow-coat" href="/specifier/our-brands/dulux-powder-coatings" title="Powder Coatings">Powder Coatings</a></li><li><a class="pnav-acratex" href="/specifier/our-brands/dulux-acratex" title="Acratex">Acratex</a></li><li><a class="pnav-auto-refin" href="http://www.duluxrefinish.com.au" title="Auto Refinish">Auto Refinish</a></li><li><a class="pnav-intergrain" href="/specifier/our-brands/intergrain-timber-finishes" title="Intergrain">Intergrain</a></li><li><a class="pnav-envirosolutions" href="/specifier/our-brands/dulux-envirosolutions" title="Envirosolutions">Envirosolutions</a></li></ul><img class="aus-made" src="/css/imgs/aus-made.png" alt="Australian Made" /></div>
+        <a class="bck-top" href="#wrapper">Top of the page</a>
+
+        <!-- PLACEHOLDING FOOTER FOR TEMPLATE //-->
+        <img src="includes/footer.png" width="970" height="156" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
+        <!-- END PLACEHOLDING FOOTER FOR TEMPLATE //-->
+    </div>
+    <!-- End Wrapper -->
+
+
+
+    <div id="footer" style="display:none;">
+        <ul id="btm-nav">
+            <li><a href="/media" title="Media">Media</a></li>
+            <li><a href="/recommended-sites" title="Recommended Sites">Recommended Sites</a></li>
+            <li><a href="/colour-accuracy" title="Colour Accuracy">Colour Accuracy</a></li>
+            <li><a href="http://duluxsustainability.com.au/" title="Sustainability">Sustainability</a></li>
+        </ul>
+        <ul id="copy-nav"><li />
+            <li><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="/corporate-info" title="Corporate Info">Corporate Info</a></li>
+            <li><a href="http://www.duluxgroup.com.au/" target="_blank" title="Investor Info">Investor Info</a></li>
+            <li><a href="/site-terms-" title="Site Terms">Site Terms</a></li>
+            <li><a href="/site-map" title="Site Map">Site Map</a></li>
+        </ul>
+        <ul id="promo-nav">
+            <li><a class="pnav-pro-coat" href="/specifier/our-brands/dulux-protective-coatings" title="Protective Coatings">Protective Coatings</a></li>
+            <li><a class="pnav-pow-coat" href="/specifier/our-brands/dulux-powder-coatings" title="Powder Coatings">Powder Coatings</a></li>
+            <li><a class="pnav-acratex" href="/specifier/our-brands/dulux-acratex" title="Acratex">Acratex</a></li>
+            <li><a class="pnav-auto-refin" href="http://www.duluxrefinish.com.au" title="Auto Refinish">Auto Refinish</a></li>
+            <li><a class="pnav-intergrain" href="/specifier/our-brands/intergrain-timber-finishes" title="Intergrain">Intergrain</a></li>
+            <li><a class="pnav-envirosolutions" href="/specifier/our-brands/dulux-envirosolutions" title="Envirosolutions">Envirosolutions</a></li>
+        </ul>
+        <img class="aus-made" src="/css/imgs/aus-made.png" alt="Australian Made" />
+    </div>
 
 <!-- Dock -->
 <!--
