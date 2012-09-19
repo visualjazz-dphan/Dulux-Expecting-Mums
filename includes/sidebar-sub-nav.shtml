@@ -1,0 +1,21 @@
+    <!-- Sidebar (Left) -->
+    <div id="sidebar">
+	    <h2 class="prod-det">Dulux Colour</h2>
+        <ul id="side-nav">
+            <li><a class=" active" href="#" title="About Colour">About Colour</a></li>
+            <li><a class="" href="#" title="Colour Gallery">Colour Gallery</a></li>
+            <li><a class="" href="#" title="Colour Wall">Colour Wall</a></li>
+            <li><a class="" href="#" title="Australia's Favourite Colours">Australia's Favourite Colours</a></li>
+            <li><a class="" href="#" title="Colour Trends 2012">Colour Trends 2012</a></li>
+            <li><a class="" href="#" title="MyColour Visualiser">MyColour Visualiser</a></li>
+            <li><a class="" href="#" title="Colour Awards">Colour Awards</a></li>
+            <li><a class="" href="#" title="Colour Consultants">Colour Consultants</a></li>
+            <li><a class="" href="#" title="Colour Booklets">Colour Booklets</a></li>
+            <li><a class="" href="#" title="Dulux &amp; Kirrily Johnston">Dulux &amp; Kirrily Johnston</a></li>
+            <li><a class="" href="#" title="Dulux Colour Selection">Dulux Colour Selection</a></li>
+            <li><a class="" href="#" title="Dulux Design Collection">Dulux Design Collection</a></li>
+            <li><a class="" href="#" title="Dulux &amp; Jim Fogarty">Dulux &amp; Jim Fogarty</a></li>
+            <li><a class="" href="#" title="Love Your Winter Blues">Love Your Winter Blues</a></li>
+        </ul>
+    </div>
+    <!-- End Sidebar -->

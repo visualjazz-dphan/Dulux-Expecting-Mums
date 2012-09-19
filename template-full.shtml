@@ -1,0 +1,12 @@
+<!--#include file="includes/page-before.shtml" -->
+
+<div id="content" class="full">
+    <!-- Content Main -->
+    <div id="content-main" class="borderless">
+
+    	<p>CONTENT HERE</p>
+
+    </div>
+    <!-- End Content Main -->
+
+<!--#include file="includes/page-after.shtml" -->
