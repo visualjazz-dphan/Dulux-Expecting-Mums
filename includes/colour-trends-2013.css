@@ -1,0 +1,36 @@
+/* Dulux Colour Trends 2013
+   Author: Tony Trinh, 21.9.12
+*/
+
+/* GLOBAL */
+.colour-trends-2013 img { display: block; }
+.colour-trends-2013,
+.ct13-colours
+	{ width: 972px; }
+
+/* GLOBAL */
+/* GLOBAL */
+/* GLOBAL */
+/* GLOBAL */
+
+/* CT13 COLOURS */
+.ct13-colours { list-style: none; height: 1200px; position: relative; }
+	.ct13-colours .ct13-box 	{ position: absolute; }
+	.ct13-colours .ct13-small 	{ width: 182px; }
+	.ct13-colours .ct13-big 	{ width: 376px; }
+
+	.ct13-colours .ct13-col1 { left: 0; }
+	.ct13-colours .ct13-col2 { left: 201px; }
+	.ct13-colours .ct13-col3 { left: 395px; }
+	.ct13-colours .ct13-col4 { left: 596px; }
+	.ct13-colours .ct13-col5 { left: 790px; }
+	.ct13-colours .ct13-row1 { top: 0; }
+	.ct13-colours .ct13-row2 { top: 141px; }
+	.ct13-colours .ct13-row3 { top: 282px; }
+	.ct13-colours .ct13-row4 { top: 408px; }
+	.ct13-colours .ct13-row5 { top: 464px; }
+	.ct13-colours .ct13-row6 { top: 713px; }
+	.ct13-colours .ct13-row7 { top: 839px; }
+	.ct13-colours .ct13-row8 { top: 965px; }
+
+	.ct13-colours h5 { font: 12px/1.2em Tahoma, Geneva, sans-serif; color: #333333; text-transform: uppercase; }

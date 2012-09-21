@@ -1,0 +1,106 @@
+<!--#include file="includes/page-before-navless.shtml" -->
+
+<div class="colour-trends-2013" id="">
+	<div class="ct13-head"></div>
+	<div class="ct13-description"></div>
+	<ul class="ct13-colours">
+
+		<li class="ct13-box ct13-small ct13-col1 ct13-row1">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col1 ct13-row2">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-big ct13-col2 ct13-row1">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="376" height="244"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-big ct13-col4 ct13-row1">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="376" height="370"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col1 ct13-row3">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col2 ct13-row3">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col3 ct13-row3">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-big ct13-col1 ct13-row4">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="376" height="244"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col3 ct13-row4">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-big ct13-col4 ct13-row5">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="376" height="244"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col2 ct13-row6">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col3 ct13-row6">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col4 ct13-row6">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-big ct13-col1 ct13-row7">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="376" height="244"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col3 ct13-row7">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col4 ct13-row7">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col3 ct13-row8">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col4 ct13-row8">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+		<li class="ct13-box ct13-small ct13-col5 ct13-row6">
+			<div class="ct13-top"><img src="images/vivid-white.png" alt="Vivid White" width="182" height="103"></div>
+			<div class="ct13-bottom"><h5>Vivid White</h5></div>
+		</li>
+
+	</ul>
+</div>
+
+<!--#include file="includes/page-after.shtml" -->
