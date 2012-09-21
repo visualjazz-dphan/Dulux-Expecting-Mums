@@ -2,6 +2,8 @@
 VJI Read Me
 ###########
 
+Read me before you start working in this project, and write me as you add and develop.
+
 -----
 
 Website: Dulux
