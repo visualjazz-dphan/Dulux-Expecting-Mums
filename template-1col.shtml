@@ -1,0 +1,20 @@
+<!--#include file="includes/page-before.shtml" -->
+
+<!-- VJI DEV: This page fits within the existing Dulux template structure
+			  Only refer to markup within CONTENT area
+			  //-->
+
+<div class="wrapper">
+
+<!--/////////////////////////// START CONTENT //////////////////////////////////////////////////////////////////////////-->
+<div id="content" class="full">
+    <!-- Content Main -->
+    <div id="content-main" class="borderless">
+
+    	<p>CONTENT HERE</p>
+
+    </div>
+    <!-- End Content Main -->
+</div>
+
+<!--#include file="includes/page-after.shtml" -->

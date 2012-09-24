@@ -1,12 +1,15 @@
 <!--#include file="includes/page-before.shtml" -->
 
-<div id="content" class="full">
-    <!-- Content Main -->
-    <div id="content-main" class="borderless">
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
 
-    	<p>CONTENT HERE</p>
+<div id="content">
 
-    </div>
-    <!-- End Content Main -->
+	<div class="wrapper-screen">
+		<div class="inner">
+			<p>CONTENT GOES HERE</p>
+		</div>
+	</div>
 
 <!--#include file="includes/page-after.shtml" -->

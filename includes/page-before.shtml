@@ -10,6 +10,12 @@
         <link rel="stylesheet" type="text/css" media="screen,projection" href="includes/sifr.css" />
         <!--link rel="stylesheet" type="text/css" href="/scripts/shadowbox/dulux.css" /-->
 
+        <!-- VJI CSS INCLUDES //-->
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="css/vji-dev.css" />
+
+
+
+
         <script type="text/javascript" src="includes/jquery-1.3.2.min.js"></script>
         <script type="text/javascript" src="includes/sifr.js"></script>
         <script type="text/javascript" src="includes/sifr-config.js"></script>
@@ -42,7 +48,7 @@
             </div>
             <![endif]-->
 
-        <div id="wrapper">
+        <div class="wrapper">
 
             <!-- PLACEHOLDING FOOTER FOR TEMPLATE //-->
             <img src="includes/header.png" width="969" height="160" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
@@ -152,3 +158,4 @@
             <!-- Breadcrumbs -->
             <ul id="breadcrumbs" style="display:none;"><li><a href="/consumer-home.aspx">Home</a></li><li><a href="/colour" title="Dulux Colour">Dulux Colour</a></li><li>About Colour</li></ul>
             <!-- End Breadcrumbs -->
+        </div>

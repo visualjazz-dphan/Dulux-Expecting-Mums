@@ -1,5 +1,11 @@
 <!--#include file="includes/page-before.shtml" -->
 
+<!-- VJI DEV: This page fits within the existing Dulux template structure
+			  Only refer to markup within CONTENT area
+			  //-->
+
+<div class="wrapper">
+
 <!--/////////////////////////// START CONTENT //////////////////////////////////////////////////////////////////////////-->
 <div id="content" class="main-wide" style="padding-top: 14px;">
 	<!--#include file="includes/sidebar-sub-nav.shtml" -->
@@ -129,4 +135,5 @@
 
 	</div>
 
+</div>
 <!--#include file="includes/page-after.shtml" -->

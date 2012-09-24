@@ -1,0 +1,24 @@
+
+/* -----------------------------------
+STYLES DEVELOPED BY Visual Jazz Isobar
+-------------------------------------- */
+
+
+
+
+
+
+/* Template structure modification */
+
+.wrapper {
+	width: 972px;
+	margin: 0 auto;
+}
+
+.wrapper-screen {
+	width: 100%;
+}
+.wrapper-screen .inner {
+	width: 972px;
+	margin: 0 auto;
+}
