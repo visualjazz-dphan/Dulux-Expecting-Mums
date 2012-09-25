@@ -9,7 +9,7 @@
 	<div class="wrapper-screen section-intro">
 		<div class="inner">
 			<div class="youtube">
-
+				<iframe width="521" height="293" src="http://www.youtube.com/embed/SvWoniSg2_U?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<h2 class="ir">Whatever Barry can't protect, Barrier Technology can.</h2>
 			<h4 class="ir">Dulux Wash &amp; Wear&reg; is Australia's number 1 paint, protecting your walls so you don't have to.</h4>
@@ -20,7 +20,7 @@
 		<div class="inner">
 			<h3>Dulux Wash &amp; Wear comes with harder wearing, stain and scuff resistant Barrier Technology&trade;. It's not only the most washable paint available, it's specially formulated to not leave shiny marks after wiping, so your walls will always look their best.</h3>
 			<p>Wash &amp; Wear is available in a range of sheen levels from low sheen to matt to semi gloss or gloss. It is available in the following sizes: 1L, 2L, 4L, 10L, 15L</p>
-			<a href="#" class="ir find-out-more">Find out more</a>
+			<a href="http://www.dulux.com.au/products/dulux-interior-products/walls/product-detail?product=2252" class="ir find-out-more">Find out more</a>
 		</div>
 	</div>
 
@@ -28,10 +28,10 @@
 		<div class="inner">
 			<h2 class="ir">Barrier Technology&trade;</h2>
 			<p>Our latest polymer technology combined with high performance pigments forms a tough, harder wearing barrier that most water or oil based stains cannot penetrate. This makes cleaning remarkably easy and free of shiny marks. Which means your walls are protected against even the toughest wear and tear.</p>
-			<figure class="polymer">
+			<div class="figure-polymer">
 				<img src="images/landing-barriertech/img-tech-polymer.jpg" width="600" height="412" />
-				<figcaption class="hidden">Polymer technology forms a barrier that protects against most oil and water based stains. Large and small pigment particles embedded in the polymer reinforce the barrier.</figcaption>
-			</figure>
+				<span class="hidden">Polymer technology forms a barrier that protects against most oil and water based stains. Large and small pigment particles embedded in the polymer reinforce the barrier.</span>
+			</div>
 		</div>
 	</div>
 
@@ -59,13 +59,13 @@
 		</div>
 	</div>
 
-	<div class="wrapper-screen section-colourtrends prelaunch"><!-- REMOVE CLASS PRELAUNCH TO USE COLOURTREND DESIGN //-->
+	<div class="wrapper-screen section-colourtrends"><!-- REMOVE CLASS PRELAUNCH TO USE COLOURTREND DESIGN //-->
 		<div class="inner clearfix">
 			<img src="images/landing-barriertech/img-colour-trends.jpg" width="603" height="320" />
 			<h2>Latest Colour Trends</h2>
 			<h3>Reds, pinks, blues, greens, we have any colour to suit your mood.</h3>
 			<p>Click the link below to see the latest colour trends.</p>
-			<a href="#" class="ir find-out-more">Find out more</a>
+			<a href="http://www.dulux.com.au/colour/colour-forecast" class="ir find-out-more">Find out more</a>
 		</div>
 	</div>
 
