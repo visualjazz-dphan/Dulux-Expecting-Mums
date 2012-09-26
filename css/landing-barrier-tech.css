@@ -41,9 +41,9 @@ a:hover { opacity: 0.85; }
 .section-3col h2.technology { background: url(../images/landing-barriertech/text-heading-technology.png) no-repeat; }
 .section-3col h2.safer { background: url(../images/landing-barriertech/text-heading-safer.png) no-repeat; }
 
-.section-colourtrends { margin-bottom: 40px; background: ; }
+.section-colourtrends { margin-bottom: 40px; background: url(../images/landing-barriertech/bg-colourtrends.jpg) repeat-x 50% 0; }
 .section-colourtrends.prelaunch { background: url(../images/landing-barriertech/bg-repeat-temp.png) repeat-x 0 0; }
 .section-colourtrends img { float: left; margin-top: 10px; margin-right: 40px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
-.section-colourtrends h2 { float: left; width: 300px; height: 124px; margin-bottom: 35px; background: url(../images/landing-barriertech/text-heading-latestcolourtrends.png) no-repeat; }
+.section-colourtrends h2 { float: left; width: 300px; height: 124px; margin-bottom: 35px;  margin-top: -5px; background: url(../images/landing-barriertech/text-heading-latestcolourtrends.png) no-repeat; }
 .section-colourtrends h3 { margin-bottom: 1.5em; font-size: 16px; }
 .section-colourtrends a.find-out-more { float: left; background-color: #304f6f; }
