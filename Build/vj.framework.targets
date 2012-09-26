@@ -1,0 +1,456 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <!-- Import Community Tasks-->
+  <Import Project="$(RootFolder)\build\lib\MSBuild.Community.Tasks.targets"/>
+  <UsingTask TaskName="TransformXml"
+               AssemblyFile="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\Web\Microsoft.Web.Publishing.Tasks.dll"/>
+  <UsingTask AssemblyFile="$(RootFolder)\build\lib\Extensions\MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.Compression.Zip"/>
+  <UsingTask AssemblyFile="$(RootFolder)\build\lib\Extensions\MSBuild.ExtensionPack.dll" TaskName="MSBuild.ExtensionPack.FileSystem.Folder"/>
+  <UsingTask AssemblyFile="$(RootFolder)\build\lib\Extensions\VJBuildTasks.dll" TaskName="VJBuildTasks.GetProjectSettings"/>
+  
+  <!-- Folder Paths -->
+  <PropertyGroup>
+    <RootFolder>$([System.IO.Path]::GetFullPath($(MSBuildProjectDirectory)))\..</RootFolder>
+    <BuildPath>$(RootFolder)\build</BuildPath>
+	<TempPublishFolder>$(BuildPath)\Deployable</TempPublishFolder>
+	<TempProjectFilesTransformed>$(TempPublishFolder)\TransformedConfig</TempProjectFilesTransformed>
+    <TempProjectFilesPublish>$(TempPublishFolder)\ProjectFiles</TempProjectFilesPublish>
+	<TempCMSFilesPublish>$(TempPublishFolder)\CMS</TempCMSFilesPublish>
+	<CleanDeployShareFolder>True</CleanDeployShareFolder>
+    <MSBuildCommunityTasksPath>$(RootFolder)\lib</MSBuildCommunityTasksPath>
+	<ProtectedTransformsPath>$(RootFolder)\ConfigTransforms\General</ProtectedTransformsPath>
+	<Compress>False</Compress>
+	<DeployCMS>True</DeployCMS>
+	<DeployFolder></DeployFolder>
+  </PropertyGroup>
+  <!-- Build Properties -->
+  <PropertyGroup>
+    <Version Condition="'$(Version)' == ''">0.0.1.0</Version>
+    <Configuration Condition="'$(Configuration)' == ''">Debug</Configuration>
+	<!-- Handle both .sln and .csproj files. Bug in MSBuild requires this -->
+    <Platform Condition="'$(Platform)' == '' And $(BuildProject.Contains('sln'))">Any CPU</Platform>
+    <Platform Condition="'$(Platform)' == '' And $(BuildProject.Contains('csproj'))">AnyCPU</Platform>
+    <CICompileAndPublishDependsOn>
+	  CleanDeploy;
+      CompileDeploy;
+      PublishFiles;
+	  ContinuousIntegrationDeploy;
+	</CICompileAndPublishDependsOn>
+	<PackageFilesDependsOn>
+	  CleanDeploy;
+      CompileDeploy;
+      PublishFiles;
+	  PackageFiles;
+	</PackageFilesDependsOn>
+	<TestDependsOn>
+	  Compile;
+	</TestDependsOn>
+  </PropertyGroup>
+  <!-- FXCop Properties -->
+  <PropertyGroup>
+    <FXCopToolPath>C:\Program Files (x86)\Microsoft Fxcop 10.0</FXCopToolPath>
+    <FxCopCriticalErrors>0</FxCopCriticalErrors>
+    <FxCopErrors>0</FxCopErrors>
+    <FxCopCriticalWarnings>0</FxCopCriticalWarnings>
+    <FxCopReportFile>FxCopReport.html</FxCopReportFile>
+    <FxCopExcludeRules>
+      -Microsoft.Design#CA2210;
+      -Microsoft.Design#CA1014
+    </FxCopExcludeRules>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <AssemblyInfoFiles Include="$(RootFolder)\**\AssemblyInfo.*"/>
+	<!-- Get the build project from the main.proj file set by the user -->
+    <Projects Include="$(BuildProject)" Exclude="$(RootFolder)\**\*scproj" />
+	<!-- If there is no build project, assume static site, copy all -->
+    <ProjectSourceFiles Condition="'$(BuildProject)' == ''" Include="$(WebFolder)\**\*.*" Exclude="$(WebFolder)\**\build\**" />
+  </ItemGroup>
+
+  <!-- Import Version number task for Assembly Info updates-->
+  <Import Project="$(MSBuildExtensionPath)\MSBuild.ExtensionPack.VersionNumber.targets" Condition="Exists('$(MSBuildExtensionPath)\MSBuild.ExtensionPack.VersionNumber.targets')" />
+  <Import Project="$(BuildPath)\lib\Extensions\MSBuild.ExtensionPack.VersionNumber.targets" Condition="Exists('$(BuildPath)\lib\Extensions\MSBuild.ExtensionPack.VersionNumber.targets')" />
+  
+  <!-- Core Targets that will be called from MSBuild in Teamcity -->
+  <Target Name="Test" DependsOnTargets="$(TestDependsOn)" />
+  <Target Name="Release" DependsOnTargets="$(PackageFilesDependsOn)" />
+  <Target Name="Continuous-Integration">
+	<CallTarget Targets="BeforeContinuous-Integration" />
+	<CallTarget Targets="DoContinuous-Integration" />
+	<CallTarget Targets="AfterContinuous-Integration" />
+  </Target>
+
+  <Target Name="DoContinuous-Integration" DependsOnTargets="$(CICompileAndPublishDependsOn)" />
+  
+  <Target Name="Compile">
+	<CallTarget Targets="BeforeCompile" />
+    <Message Text="Building Solution Projects: %(Projects.FullPath)" />
+    <MSBuild Projects="@(Projects)"
+             Properties="Platform=$(Platform);Configuration=$(Configuration);"
+             Targets="Build"
+             ContinueOnError="false">
+      <Output TaskParameter="TargetOutputs" ItemName="TargetDllOutputs"/>
+    </MSBuild>
+    <ItemGroup>
+      <TestAssemblies Include="@(TargetDllOutputs)" />
+    </ItemGroup>
+	<CallTarget Targets="AfterCompile" />
+  </Target>
+  
+  <Target Name="CompileDeploy">
+    <CallTarget Targets="BeforeCompile" />
+    <Message Text="Building Solution Projects: %(Projects.FullPath)" />
+    <MSBuild Condition="'$(BuildProject)' != ''" Projects="@(Projects)"
+             Properties="Platform=$(Platform);Configuration=$(Configuration);OutDir=$(TempProjectFilesPublish)\bin\;WebProjectOutputDir=$(TempProjectFilesPublish)"
+             Targets="Build"
+             ContinueOnError="false">
+      <Output TaskParameter="TargetOutputs" ItemName="TargetDllOutputs"/>
+    </MSBuild>
+    <ItemGroup>
+      <TestAssemblies Include="@(TargetDllOutputs)" />
+    </ItemGroup>
+    <CallTarget Targets="AfterCompile" />
+  </Target>
+  
+  <Target Name="PublishFiles">
+	<CallTarget Targets="DoConfigTransforms" />
+    <CallTarget Targets="BeforePublishFiles" />
+    <CallTarget Targets="CopySourceProjectFiles" />
+    <CallTarget Targets="AfterPublishFiles" />
+  </Target>
+  
+  <Target Name="CopySourceProjectFiles">
+    <Error Condition="'$(WebFolder)' == ''" Text="WebFolder path has not been set. Cannot publish project files" />
+  	
+	<Copy Condition="'@(ProjectSourceFiles)' != ''" 
+		  SourceFiles="@(ProjectSourceFiles)" 
+		  DestinationFiles="@(ProjectSourceFiles->'$(TempProjectFilesPublish)\%(RecursiveDir)%(Filename)%(Extension)')" 
+		  SkipUnchangedFiles="true">
+		<Output TaskParameter="CopiedFiles" ItemName="SourceCopiedFiles" />
+	</Copy>
+	
+	<Copy Condition="'@(TransformedFiles)' != ''"
+          SourceFiles="@(TransformedFiles)"
+          DestinationFiles="@(TransformedFiles -> '$(TempProjectFilesPublish)\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="True" />
+	
+    <Copy Condition="'@(SitecoreSourceFiles)' != '' AND '$(DeployCMS)' == 'True'"
+          SourceFiles="@(SitecoreSourceFiles)"
+          DestinationFiles="@(SitecoreSourceFiles->'$(TempCMSFilesPublish)\%(RecursiveDir)%(Filename)%(Extension)')"
+          SkipUnchangedFiles="true">
+		<Output TaskParameter="CopiedFiles" ItemName="SourceCopiedFiles" />
+    </Copy>
+		  
+	<Copy Condition="'@(UmbracoSourceFiles)' != '' AND $(DeployCMS) == 'True'"
+		  SourceFiles="@(UmbracoSourceFiles)"
+		  DestinationFiles="@(UmbracoSourceFiles->'$(TempCMSFilesPublish)\%(RecursiveDir)%(Filename)%(Extension)')"
+		  SkipUnchangedFiles="true">
+		<Output TaskParameter="CopiedFiles" ItemName="SourceCopiedFiles" />
+	</Copy>
+
+  </Target>
+  
+  <Target Name="DoConfigTransforms">
+  
+	<Message Text="Deleting any existing temp config files in output folder" />
+    <MSBuild.ExtensionPack.FileSystem.Folder TaskAction="RemoveContent" Path="$(TempProjectFilesTransformed)" Condition="Exists('$(TempProjectFilesTransformed)')"/>
+
+    <Message Text="WebFolder Transforms" Importance="high" />
+    <MSBuild Projects="$(MSBuildProjectFile)" Targets="DoConfigTransformsForPath" ContinueOnError="false"
+             StopOnFirstFailure="true" RunEachTargetSeparately="true"
+             Properties="NodeReuse=false; Suffix=1; ConfigFilesPath=$(WebFolder); TransformConfiguration=$(Configuration); TransformsPath=$([System.IO.Path]::GetFullPath($(WebFolder))); TransformOutputFolder=$([System.IO.Path]::GetFullPath($(TempProjectFilesTransformed)));" />
+
+    <Message Text="Protected Transforms" Importance="high" />
+    <MSBuild Projects="$(MSBuildProjectFile)" Targets="DoConfigTransformsForPath" ContinueOnError="false"
+             StopOnFirstFailure="true" RunEachTargetSeparately="true"
+             Properties="NodeReuse=false; Suffix=2; ConfigFilesPath=$(WebFolder); TransformConfiguration=$(Configuration); TransformsPath=$([System.IO.Path]::GetFullPath($(ProtectedTransformsPath))); TransformOutputFolder=$([System.IO.Path]::GetFullPath($(TempProjectFilesTransformed)));" />
+
+    <Message Text="Personal WebFolder Transforms" Importance="high" />
+    <Message Text="~Not Debug mode- don't do personal transforms" Condition="'$(Configuration)' != 'Debug'" />
+    <MSBuild Projects="$(MSBuildProjectFile)" Targets="DoConfigTransformsForPath" Condition="$(Configuration) == 'Debug'" ContinueOnError="false"
+             StopOnFirstFailure="true" RunEachTargetSeparately="true"
+             Properties="NodeReuse=false; Suffix=3; ConfigFilesPath=$(WebFolder); TransformConfiguration=$(COMPUTERNAME); TransformsPath=$([System.IO.Path]::GetFullPath($(WebFolder))); TransformOutputFolder=$([System.IO.Path]::GetFullPath($(TempProjectFilesTransformed)));" />
+
+    <Message Text="Personal Protected Transforms" Importance="high" />
+    <Message Text="~Not Debug mode- don't do personal transforms" Condition="'$(Configuration)' != 'Debug'" />
+    <MSBuild Projects="$(MSBuildProjectFile)" Targets="DoConfigTransformsForPath" Condition="$(Configuration) == 'Debug'" ContinueOnError="false"
+             StopOnFirstFailure="true" RunEachTargetSeparately="true"
+             Properties="NodeReuse=false; Suffix=4; ConfigFilesPath=$(WebFolder); TransformConfiguration=$(COMPUTERNAME); TransformsPath=$([System.IO.Path]::GetFullPath($(ProtectedTransformsPath))); TransformOutputFolder=$([System.IO.Path]::GetFullPath($(TempProjectFilesTransformed)));" />
+
+    <Message Text="Delete temp files in transform output folder" />
+    <ItemGroup>
+      <ConfigTransformedFiles Include="$(TempProjectFilesTransformed)\**\*.config.transformed" />
+      <ConfigTempFiles Include="$(TempProjectFilesTransformed)\**\*.config.temp1;$(TempProjectFilesTransformed)\**\*.config.temp2;$(TempProjectFilesTransformed)\**\*.config.temp3;$(TempProjectFilesTransformed)\**\*.config.temp4;" />
+    </ItemGroup>
+    <Copy Condition="'@(ConfigTransformedFiles)' != ''"
+          SourceFiles="@(ConfigTransformedFiles)"
+          DestinationFiles="@(ConfigTransformedFiles -> '$(TempProjectFilesTransformed)\%(RecursiveDir)%(Filename)')"
+          SkipUnchangedFiles="True" />
+    <Delete Files="%(ConfigTransformedFiles.Identity)" ContinueOnError="true" />
+    <Delete Files="%(ConfigTempFiles.Identity)" ContinueOnError="true" />
+
+    <ItemGroup>
+      <TransformedFiles Include="$(TempProjectFilesTransformed)\**\*.config" />
+    </ItemGroup>
+  
+  
+	<Message Importance="high" Condition="!Exists('$(WebFolder)\Web.$(Configuration).config')" Text="No config transform exists for configuration '$(Configuration)'." />
+	
+	<ItemGroup>
+      <ConfigsToDel Include="$(TempProjectFilesPublish)\web.*.config" />
+    </ItemGroup>
+
+    <Delete Files="@(ConfigsToDel)" />
+  </Target>
+
+  <Target Name="ContinuousIntegrationDeploy">
+	<ItemGroup>
+		<ProjectFilesDeploy Include="$(TempProjectFilesPublish)\**\*.*" />
+		<ProjectCMSDeploy Include="$(TempCMSFilesPublish)\**\*.*" />
+	</ItemGroup>
+	<VJBuildTasks.GetProjectSettings BuildPath="$(BuildPath)"
+									 ServerShare="$(DeployShareFolder)" 
+									 SiteIteration="$(DeployIteration)">
+		<Output TaskParameter="DeployFolder" PropertyName="DeployFolder" />
+	</VJBuildTasks.GetProjectSettings>
+	
+	<Warning Condition="'$(DeployFolder)' == ''" Text="Deploy folder is not set. Cannot deploy to release environment." />
+	<Copy Condition="'$(DeployFolder)' != ''"
+		SourceFiles="@(ProjectFilesDeploy)"
+		DestinationFiles="@(ProjectFilesDeploy->'$(DeployFolder)\%(RecursiveDir)%(Filename)%(Extension)')"
+		SkipUnchangedFiles="True" />
+		
+	<Copy Condition="'$(DeployFolder)' != '' And '$(DeployCMS)' == 'True'"
+		SourceFiles="@(ProjectCMSDeploy)"
+		DestinationFiles="@(ProjectCMSDeploy->'$(DeployFolder)\%(RecursiveDir)%(Filename)%(Extension)')"
+		SkipUnchangedFiles="True" />
+		
+	<CallTarget Targets="DisableAppOffline" />
+  </Target> 
+
+  <Target Name="EnableAppOffline">
+	<ItemGroup>
+		<AppOfflineContent Include="&lt;html&gt;" />
+		<AppOfflineContent Include="&lt;body&gt;" />
+		<AppOfflineContent Include="&lt;h1&gt;Just a minute! Site is temporarily unavailable&lt;/h1&gt;" />
+		<AppOfflineContent Include="&lt;p&gt;So sorry, but this site is currently being updated. Try refreshing in a minute or two.&lt;/p&gt;" />
+		<AppOfflineContent Include="&lt;body&gt;" />
+		<AppOfflineContent Include="&lt;/html&gt;" />
+	</ItemGroup>
+	
+	<VJBuildTasks.GetProjectSettings BuildPath="$(BuildPath)"
+									 ServerShare="$(DeployShareFolder)" 
+									 SiteIteration="$(DeployIteration)">
+		<Output TaskParameter="DeployFolder" PropertyName="DeployFolder" />
+	</VJBuildTasks.GetProjectSettings>
+	
+	<Message Text="Taking App Offline"/>
+    <Message Text="Generating $(DeployFolder)\app_offline.htm"/>
+    <WriteLinesToFile File="$(DeployFolder)\app_offline.htm" Lines="@(AppOfflineContent)" Overwrite="true" Encoding="Unicode" />
+	
+  </Target>
+  
+  <Target Name="DisableAppOffline">
+	<VJBuildTasks.GetProjectSettings BuildPath="$(BuildPath)"
+									 ServerShare="$(DeployShareFolder)" 
+									 SiteIteration="$(DeployIteration)">
+		<Output TaskParameter="DeployFolder" PropertyName="DeployFolder" />
+	</VJBuildTasks.GetProjectSettings>
+  
+	<Message Text="Bringing App Back Online"/>
+    <Delete Files="$(DeployFolder)\app_offline.htm"/>
+  </Target>
+  
+  <Target Name="PackageFiles">
+	<CallTarget Targets="DoPackageFiles" Condition="'$(Compress)' == 'True'" />
+  </Target>
+  
+  <Target Name="DoPackageFiles">
+	<MSBuild.ExtensionPack.Compression.Zip 
+		TaskAction="Create" 
+		RemoveRoot="$(TempProjectFilesPublish)" 
+		CompressPath="$(TempProjectFilesPublish)" 
+		ZipFileName="$(TempPublishFolder)\ProjectFiles.zip" />
+  
+	<MSBuild.ExtensionPack.Compression.Zip 
+		TaskAction="Create" 
+		RemoveRoot="$(TempCMSFilesPublish)" 
+		CompressPath="$(TempCMSFilesPublish)" 
+		ZipFileName="$(TempPublishFolder)\CMS.zip" />
+  </Target>
+  
+  <Target Name="FXCopReport">
+    <Message Text="FXCop assemblies to test: @(TestAssemblies)" />
+    <FxCop
+      ToolPath="$(FXCopToolPath)"
+      RuleLibraries="@(FxCopRuleAssemblies)"
+      AnalysisReportFileName="$(BuildPath)\$(FxCopReportFile)"
+      TargetAssemblies="@(TestAssemblies)"
+      OutputXslFileName="$(FXCopToolPath)\Xml\FxCopReport.xsl"
+      Rules="$(FxCopExcludeRules)"
+      ApplyOutXsl="True"
+      FailOnError="True" />
+    <Message Text="##teamcity[importData id='FxCop' file='$(BuildPath)\$(FxCopReportFile)']" Condition="'$(TEAMCITY_BUILD_PROPERTIES_FILE)' != ''" />
+  </Target>
+
+  <Target Name="CleanDeploy">
+  
+	<!-- Temp Project Files Folder -->
+    <Message Text="Empty ProjectFiles Folder" Condition="'$(CleanDeployShareFolder)' == 'True'" />
+    <Message Text="ProjectFiles Folder does not exist" Condition="'$(CleanDeployShareFolder)' == 'True' And !Exists('$(TempProjectFilesPublish)')" />
+    <MSBuild.ExtensionPack.FileSystem.Folder TaskAction="RemoveContent" Path="$(TempProjectFilesPublish)" Condition="'$(CleanDeployShareFolder)' == 'True' And Exists('$(TempProjectFilesPublish)')"/>
+
+    <!-- Temp CMS Files Folder -->
+    <Message Text="Empty ProjectFiles Folder" Condition="'$(CleanDeployShareFolder)' == 'True'" />
+    <Message Text="TempCMSFilesPublish Folder does not exist" Condition="'$(CleanDeployShareFolder)' == 'True' And !Exists('$(TempCMSFilesPublish)')" />
+    <MSBuild.ExtensionPack.FileSystem.Folder TaskAction="RemoveContent" Path="$(TempCMSFilesPublish)" Condition="'$(CleanDeployShareFolder)' == 'True' And Exists('$(TempCMSFilesPublish)')"/>
+	
+	<CallTarget Targets="EnableAppOffline" />
+	
+  </Target>
+  
+  <Target Name="DoConfigTransformsForPath" Condition="Exists('$(TransformsPath)') And Exists('$(ConfigFilesPath)')">
+
+    <Error Text="TransformConfiguration Not Provided" Condition="'$(TransformConfiguration)' == ''" />
+    <Error Text="TransformOutputFolder Not Provided" Condition="'$(TransformOutputFolder)' == ''" />
+
+    <PropertyGroup>
+      <TemplatesOnly>False</TemplatesOnly>
+      <Suffix Condition="'$(Suffix)' == ''"></Suffix>
+    </PropertyGroup>
+    <PropertyGroup Condition="'$(ConfigFilesPath)' == '$(TransformOutputFolder)'">
+      <TemplatesOnly>True</TemplatesOnly>
+    </PropertyGroup>
+
+    <Message Text="Suffix:             $(Suffix)" />
+    <Message Text="TransformConfiguration: $(TransformConfiguration)" />
+    <Message Text="TransformsPath:         $(TransformsPath)" />
+
+    <Message Text="TemplatesOnly:          $(TemplatesOnly)" />
+    <Message Text="ConfigFilesPath:        $(ConfigFilesPath)" />
+    <Message Text="TransformOutputFolder:  $(TransformOutputFolder)" />
+
+    <ItemGroup>
+      <ConfigTempFiles Include="$(TransformOutputFolder)\**\*.config.temp$(Suffix)" />
+    </ItemGroup>
+    <Delete Files="@(ConfigTempFiles)" ContinueOnError="true" />
+    
+    <ItemGroup>
+      <ConfigFiles Include="$(ConfigFilesPath)\**\*.config;$(ConfigFilesPath)\**\*.template;" />
+      <TransformedFiles Include="$(TransformOutputFolder)\**\*.config.transformed" />
+    </ItemGroup>
+
+    <Message Text="# CREATE TEMP CONFIG SOURCE FILES" />
+    <Message Text="..ConfigFiles" />
+    <!--<Message Text="~~: %(ConfigFiles.Identity)" Condition="Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt') Or Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).transform')" />-->
+    <Message Text="~~: $(ConfigFilesPath)\..\%(ConfigFiles.Filename).config ---> $(TransformsPath)\..\%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt"      Condition="'$(TemplatesOnly)' != 'True' And %(ConfigFiles.Extension) == '.config' And !Exists('$(ConfigFilesPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).template') And !Exists('$(TransformOutputFolder)\%(RecursiveDir)%(Filename)%(Extension).transformed') And (Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt') Or Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).transform'))" />
+    <Copy SourceFiles="$(ConfigFilesPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config"
+          DestinationFiles="$(TransformOutputFolder)\%(RecursiveDir)%(Filename)%(Extension).temp$(Suffix)"
+          Condition="'$(TemplatesOnly)' != 'True' And %(ConfigFiles.Extension) == '.config' And Exists('$(ConfigFilesPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config') And !Exists('$(ConfigFilesPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).template') And !Exists('$(TransformOutputFolder)\%(RecursiveDir)%(Filename)%(Extension).transformed') And (Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt') Or Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).transform'))"
+          SkipUnchangedFiles="False" OverwriteReadOnlyFiles="true" />
+
+    <Message Text="..TemplateFiles" />
+    <Message Text="~~: $(ConfigFilesPath)\..\%(ConfigFiles.Filename).template ---> $(TransformsPath)\..\%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt"      Condition="%(ConfigFiles.Extension) == '.template' And !Exists('$(TransformOutputFolder)\%(RecursiveDir)%(Filename)%(Extension).transformed') And (Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt') Or Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).transform'))" />
+    <Copy SourceFiles="$(ConfigFilesPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).template"
+          DestinationFiles="$(TransformOutputFolder)\%(RecursiveDir)%(Filename).config.temp$(Suffix)"
+          Condition="%(ConfigFiles.Extension) == '.template' And !Exists('$(TransformOutputFolder)\%(RecursiveDir)%(Filename)%(Extension).transformed') And (Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).xslt') Or Exists('$(TransformsPath)\%(ConfigFiles.RecursiveDir)%(ConfigFiles.Filename).config.$(TransformConfiguration).transform'))"
+          SkipUnchangedFiles="False" OverwriteReadOnlyFiles="true" />
+
+    <Message Text="..TransformedFiles" />
+    <!--<Message Text="~~: %(TransformedFiles.Identity)"/>-->
+    <Message Text="~~: %(TransformedFiles.Identity) ---> $(TransformsPath)\%(TransformedFiles.RecursiveDir)%(TransformedFiles.Filename).$(TransformConfiguration).xslt" Condition="Exists('%(TransformedFiles.Identity)') And Exists('$(TransformsPath)\%(TransformedFiles.RecursiveDir)%(TransformedFiles.Filename).$(TransformConfiguration).xslt')" />
+    <Message Text="~~: %(TransformedFiles.Identity) ---> $(TransformsPath)\%(TransformedFiles.RecursiveDir)%(TransformedFiles.Filename).$(TransformConfiguration).transform" Condition="Exists('%(TransformedFiles.Identity)') And Exists('$(TransformsPath)\%(TransformedFiles.RecursiveDir)%(TransformedFiles.Filename).$(TransformConfiguration).transform')" />
+    <Copy SourceFiles="%(TransformedFiles.FullPath)"
+          DestinationFiles="$(TransformOutputFolder)\%(RecursiveDir)%(Filename).temp$(Suffix)"
+          Condition="Exists('%(TransformedFiles.FullPath)') And (Exists('$(TransformsPath)\%(TransformedFiles.RecursiveDir)%(TransformedFiles.Filename).$(TransformConfiguration).xslt') Or Exists('$(TransformsPath)\%(TransformedFiles.RecursiveDir)%(TransformedFiles.Filename).$(TransformConfiguration).transform'))"
+          SkipUnchangedFiles="False" OverwriteReadOnlyFiles="true" />
+
+    <Message Text="# TEMP FILES CREATED" />
+
+    <ItemGroup>
+      <ConfigTempFiles Include="$(TransformOutputFolder)\**\*.config.temp$(Suffix)" />
+    </ItemGroup>
+
+    <!--<Message Text="XSLT Transform: $([System.String]::Replace(asdf,'x','y'))$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).xslt" Condition="Exists('$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).xslt')" />-->
+    <XslTransformation XmlInputPaths="%(ConfigTempFiles.FullPath)"
+                       OutputPaths="$(TransformOutputFolder)\%(RecursiveDir)%(Filename).transformed"
+                       XslInputPath="$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).xslt"
+                       Condition="Exists('$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).xslt')" />
+
+    <!--<Message Text="Config Transform: $(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).transform" Condition="Exists('$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).transform')" />-->
+    <TransformXml Source="%(ConfigTempFiles.FullPath)"
+                  Destination="$(TransformOutputFolder)\%(RecursiveDir)%(Filename).transformed"
+                  Transform="$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).transform"
+                  Condition="Exists('$(TransformsPath)\%(ConfigTempFiles.RecursiveDir)%(ConfigTempFiles.Filename).$(TransformConfiguration).transform')" />
+    
+    <Delete Files="@(ConfigTempFiles)" ContinueOnError="true" />
+    
+  </Target>
+  
+  
+  <!-- Empty Targets for override in parent project file -->
+  <Target Name="BeforeContinuous-Integration" />
+  <Target Name="AfterContinuous-Integration" />
+  <Target Name="BeforeCompile" />
+  <Target Name="AfterCompile" />
+  <Target Name="BeforePublishFiles" />
+  <Target Name="AfterPublishFiles" />
+  
+  <!-- Not used as TeamCity has builtin AssemblyInfo patcher 
+  <Target Name="UpdateProjectVersions">
+    <Message Text="Updating project versions from TeamCity build number" Importance="low" />
+    <Message Text="AssemblyFiles to update: @(AssemblyInfoFiles)" />
+    <PropertyGroup>
+      <AssemblyMajorVersion>1</AssemblyMajorVersion>
+      <AssemblyMinorVersion>0</AssemblyMinorVersion>
+      <AssemblyBuildNumber>0</AssemblyBuildNumber>
+      <AssemblyRevision></AssemblyRevision>
+      <AssemblyRevisionType>AutoIncrement</AssemblyRevisionType>
+      <AssemblyRevisionFormat>00</AssemblyRevisionFormat>
+    </PropertyGroup>
+    <PropertyGroup>
+      <AssemblyFileMajorVersion>1</AssemblyFileMajorVersion>
+      <AssemblyFileMinorVersion>0</AssemblyFileMinorVersion>
+      <AssemblyFileBuildNumber>0</AssemblyFileBuildNumber>
+      <AssemblyFileRevision></AssemblyFileRevision>
+      <AssemblyFileRevisionType>AutoIncrement</AssemblyFileRevisionType>
+      <AssemblyFileRevisionFormat>00</AssemblyFileRevisionFormat>
+    </PropertyGroup>
+    <PropertyGroup>
+      <AssemblyCompany>Visual Jazz</AssemblyCompany>
+    </PropertyGroup>
+    <MSBuild.ExtensionPack.Framework.AssemblyInfo AssemblyInfoFiles="@(AssemblyInfoFiles)"
+                      AssemblyMajorVersion="$(AssemblyMajorVersion)"
+                      AssemblyMinorVersion="$(AssemblyMinorVersion)"
+                      AssemblyBuildNumber="$(AssemblyBuildNumber)"
+                      AssemblyRevision="$(AssemblyRevision)"
+                      AssemblyBuildNumberType="$(AssemblyBuildNumberType)"
+                      AssemblyBuildNumberFormat="$(AssemblyBuildNumberFormat)"
+                      AssemblyRevisionType="$(AssemblyRevisionType)"
+                      AssemblyRevisionFormat="$(AssemblyRevisionFormat)"
+                      AssemblyFileMajorVersion="$(AssemblyFileMajorVersion)"
+                      AssemblyFileMinorVersion="$(AssemblyFileMinorVersion)"
+                      AssemblyFileBuildNumber="$(AssemblyFileBuildNumber)"
+                      AssemblyFileRevision="$(AssemblyFileRevision)"
+                      AssemblyFileBuildNumberType="$(AssemblyFileBuildNumberType)"
+                      AssemblyFileBuildNumberFormat="$(AssemblyFileBuildNumberFormat)"
+                      AssemblyFileRevisionType="$(AssemblyFileRevisionType)"
+                      AssemblyFileRevisionFormat="$(AssemblyFileRevisionFormat)"
+                      ComVisible="$(AssemblyComVisible)"
+                      AssemblyGuid="$(AssemblyGuid)"
+                      AssemblyCompany="$(AssemblyCompany)"
+                      AssemblyConfiguration="$(AssemblyConfiguration)"
+                      AssemblyCopyright="$(AssemblyCopyright)"
+                      AssemblyCulture="$(AssemblyCulture)"
+                      AssemblyDescription="$(AssemblyDescription)"
+                      AssemblyProduct="$(AssemblyProduct)"
+                      AssemblyTitle="$(AssemblyTitle)"
+                      AssemblyIncludeSigningInformation="$(AssemblyIncludeSigningInformation)"
+                      AssemblyDelaySign="$(AssemblyDelaySign)"
+                      AssemblyKeyFile="$(AssemblyKeyFile)"
+                      AssemblyKeyName="$(AssemblyKeyName)">
+      <Output TaskParameter="MaxAssemblyVersion" PropertyName="MaxAssemblyVersion"/>
+      <Output TaskParameter="MaxAssemblyFileVersion" PropertyName="MaxAssemblyFileVersion"/>
+    </MSBuild.ExtensionPack.Framework.AssemblyInfo>
+  </Target>-->
+</Project>
