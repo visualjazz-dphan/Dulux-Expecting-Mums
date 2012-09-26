@@ -100,12 +100,6 @@
 
 </form>
 
-    <script type="text/javascript" src="includes/ct13.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            DULUX.ct13.init();
-        });
-    </script>
 
     </body>
 </html>
