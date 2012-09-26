@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Project DefaultTargets="Deploy" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+
+	<PropertyGroup>
+		<!-- DO NOT CHANGE - Global Build Properties -->
+		<RootFolder>$([System.IO.Path]::GetFullPath($(MSBuildProjectDirectory)))\..</RootFolder>
+		<!-- Project Build Properties -->
+		<ProjectName></ProjectName>
+		<WebFolder>$(RootFolder)</WebFolder>
+		<BuildProject></BuildProject>
+	</PropertyGroup>
+  
+	<!-- DO NOT CHANGE - Import VJ Common Targets -->
+	<Import Project="$(RootFolder)\build\vj.framework.targets" />
+	<Import Project="$(RootFolder)\build\vj.sitecore.targets" Condition="Exists('$(RootFolder)\build\vj.sitecore.targets')" />
+	<Import Project="$(RootFolder)\build\vj.episerver.targets" Condition="Exists('$(RootFolder)\build\vj.episerver.targets')" />
+
+	<!-- Custom Target Overrides from VJ.Framework (vj.framework.targets) -->
+	<!--
+	<Target Name="BeforePublishFiles">
+	</Target>
+	<Target Name="CopyProjectFiles">
+	</Target>
+	<Target Name="BeforeContinuous-Integration" />
+	<Target Name="AfterContinuous-Integration" />
+	<Target Name="BeforeCompile" />
+	<Target Name="AfterCompile" />
+	<Target Name="AfterPublishFiles" />
+	-->
+    
+</Project>

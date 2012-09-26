@@ -7,9 +7,9 @@
 .landing-barriertech .wrapper-screen { padding: 20px 0; }
 .landing-barriertech h2 { clear: none; }
 
-.landing-barriertech .section-intro { height: 265px; padding-top: 125px; background: url(../images/landing-barriertech/bg-repeat-brown.png) repeat-x; }
+.landing-barriertech .section-intro { height: 260px; padding-top: 130px; background: url(../images/landing-barriertech/bg-repeat-brown.png) repeat-x; }
 .landing-barriertech .section-description { height: 300px; padding-top: 55px; color: #00275d; background: #fbfbfb url(../images/landing-barriertech/bg-tinwashwear.jpg) no-repeat 50% 0; }
-.landing-barriertech .section-tech { height: 305px; padding-top: 80px; background: url(../images/landing-barriertech/bg-repeat-brown.png) repeat-x 0 -2px; }
+.landing-barriertech .section-tech { height: 348px; padding-top: 40px; background: url(../images/landing-barriertech/bg-repeat-brown.png) repeat-x 0 -2px; }
 .landing-barriertech .section-3col { padding-top: 40px; }
 
 a.find-out-more { display: block; width: 170px; height: 35px; margin-top: 40px; background: #00275d url(../images/landing-barriertech/btn-findoutmore.png) no-repeat 50% 50%; }
@@ -18,30 +18,32 @@ a:hover { opacity: 0.85; }
 .section-intro .inner { width: 420px; padding-left: 552px; }
 .section-intro h2 { width: 405px; height: 78px; margin: 0 0 30px; background: url(../images/landing-barriertech/text-intro-heading.png) no-repeat; }
 .section-intro h4 { width: 380px; height: 44px; background: url(../images/landing-barriertech/text-intro-subhead.png) no-repeat; }
-.section-intro .youtube { width:595px; height: 310px; position: absolute; top: -85px; left: -38px; background: url(../images/landing-barriertech/feature-drop-shadow.png) no-repeat; }
+.section-intro .youtube { width:595px; height: 312px; position: absolute; top: -75px; left: -45px; background: url(../images/landing-barriertech/feature-drop-shadow.png) no-repeat 0 2px; }
+.section-intro .youtube iframe { margin-left: 37px; border: 3px solid #fff; }
 
 .section-description .inner { width: 620px; padding-right: 352px; }
 .section-description h3 { margin-bottom: 1em; font-size: 18px; font-weight: normal; }
 .section-description p { margin-bottom: 1em; }
 
-.section-tech .inner { width: 470px; padding-right: 502px; }
+.section-tech .inner { width: 520px; padding-right: 452px; }
 .section-tech h2 { width: 429px; height: 56px; margin: 0 0 25px; background: url(../images/landing-barriertech/text-tech-heading.png) no-repeat; }
-.section-tech p { line-height: 2.5; }
-.section-tech figure.polymer { position: absolute; right: -140px; top: -80px; height: 405px; overflow: hidden; }
+.section-tech p { line-height: ; margin-bottom: 1em; }
+.section-tech small { z-index: 10; position: relative; display: block; width: 600px;  margin-top: 40px; font-size: 11px; }
+.section-tech .figure-polymer { z-index: 1; position: absolute; right: -170px; top: -34px; height: 405px; overflow: hidden; }
 
 .section-3col ul.columns { margin: 0; padding: 0; list-style-type: none; }
 .section-3col .columns li { width: 319px; margin-right: 7px; float: left;  }
 .section-3col .columns li.last { margin-right: 0; }
-.section-3col .columns img { margin-bottom: 20px; -webkit-box-shadow:  4px 4px 12px 0px rgba(0, 0, 0, .2); box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, .2); }
+.section-3col .columns img { margin-bottom: 20px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
 .section-3col .columns p { padding-right: 30px; margin-bottom: 1em; }
 .section-3col h2 { height: 49px; margin-bottom: 25px; }
 .section-3col h2.trusted { background: url(../images/landing-barriertech/text-heading-trusted.png) no-repeat; }
 .section-3col h2.technology { background: url(../images/landing-barriertech/text-heading-technology.png) no-repeat; }
-.section-3col h2.protecting { background: url(../images/landing-barriertech/text-heading-protecting.png) no-repeat; }
+.section-3col h2.safer { background: url(../images/landing-barriertech/text-heading-safer.png) no-repeat; }
 
 .section-colourtrends { margin-bottom: 40px; background: ; }
 .section-colourtrends.prelaunch { background: url(../images/landing-barriertech/bg-repeat-temp.png) repeat-x 0 0; }
-.section-colourtrends img { float:left; margin-top: 10px; margin-right: 40px; -webkit-box-shadow:  4px 4px 12px 0px rgba(0, 0, 0, .2); box-shadow: 4px 4px 12px 0px rgba(0, 0, 0, .2); }
-.section-colourtrends h2 { height: 124px; margin-bottom: 35px; }
+.section-colourtrends img { float: left; margin-top: 10px; margin-right: 40px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
+.section-colourtrends h2 { float: left; width: 300px; height: 124px; margin-bottom: 35px; background: url(../images/landing-barriertech/text-heading-latestcolourtrends.png) no-repeat; }
 .section-colourtrends h3 { margin-bottom: 1.5em; font-size: 16px; }
 .section-colourtrends a.find-out-more { float: left; background-color: #304f6f; }

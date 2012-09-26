@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<Project client="Dulux" name="www" />
+	<IIS> 
+		<NETFramework>v4.0</NETFramework>
+		<PipelineMode>Integrated</PipelineMode>
+		<HostHeaders>
+		</HostHeaders>
+		<!--<SSL>
+            <HostHeader name="">
+                <Certificate></Certificate>
+            </HostHeader>
+		</SSL>-->
+		<!--<FolderPermissions>
+			<Permission></Permission>
+		</FolderPermissions>-->
+	</IIS>
+	<SQL required="False" version="2008">
+	</SQL>
+	<CMS>
+		<!--<Sitecore>
+			<Version>6.5.0 rev. 111230</Version>
+			<Oms>DMS 2.0.0 rev. 111230</Oms>
+		</Sitecore>-->
+		<!--<Umbraco>
+			<Version>4.15</Version>
+		</Umbraco>-->
+	</CMS>
+	<!--<OutgoingRequests>
+		<OutgoingRequest type="url" port="80">bob.com/asdad/*</OutgoingRequest>
+		<OutgoingRequest type="domain" port="80">.bob.com</OutgoingRequest>
+	</OutgoingRequests>-->
+</Settings>
