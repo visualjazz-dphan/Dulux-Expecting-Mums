@@ -1,0 +1,151 @@
+<!--#include file="includes/page-before.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div id="content" class="colour-trends-2013 ct13-empower">
+
+	<div class="wrapper-screen ct13-head">
+		<div class="inner">
+			<h1>Empower</h1>
+			<h2>Dulux Colour Forecast 2013</h2>
+			<iframe width="510" height="288" src="http://www.youtube.com/embed/9bZkp7q19f0?rel=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div class="wrapper-screen">
+		<div class="inner ct13-description">
+			<p class="emphasis">Empowered by communication literally at our fingertips, our voice is heard as a collectivegroup capable of creating positive change & responding quickly to anything warranting our attention.</p>
+			<p>Our voice is acknowledged as brands become transparent in what they do and who they are, while design responds with customisation. Local change impacts globally so our community is the place to start. A positive trend, the Empower palette is a range of blues inspiring optimism, openness and communication while emphasising the power of colour on mass.</p>
+		</div>
+	</div>
+
+	<div class="wrapper-screen ct13-colour-list">
+		<div class="inner">
+
+			<ul class="ct13-colours">
+
+				<li class="ct13-box ct13-small ct13-col1 ct13-row1">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_03.png" alt="Celuce"></div>
+					<div class="ct13-bottom">
+						<h5>P34G3 Liberty</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col1 ct13-row2">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_10.png" alt="Tee Off"></div>
+					<div class="ct13-bottom"><h5>P28F3 Surf Wash</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-big ct13-col2 ct13-row1">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_05.png" alt="Day Glow"></div>
+					<div class="ct13-bottom"><h5>P39H6 Mykonos</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-big ct13-col4 ct13-row1">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_07.jpg" alt="Styled image featuring Dulux colours"></div>
+					<div class="ct13-bottom"><p class="long-desc">Image styled by Ella Leoncio featuring Dulux colours Hyssop &amp; Natural White with details in Scandelicious, Bright Delight, King’s Canyon, Befitting &amp; Pink Parrakeet</p></div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col1 ct13-row3">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_13.png" alt="Black Japan 2 Coats"></div>
+					<div class="ct13-bottom">
+						<h5>URBAN PEARL Design Pearl</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col2 ct13-row3">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_14.png" alt="Milpa"></div>
+					<div class="ct13-bottom"><h5>P31E5 Sea Bed</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col3 ct13-row3">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_16.png" alt="Gold Deposit"></div>
+					<div class="ct13-bottom"><h5>P32D7 Esplanade</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-big ct13-col1 ct13-row4">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_21.jpg" alt="Styled image 2 featuring Dulux colours"></div>
+					<div class="ct13-bottom"><p class="long-desc short">Image styled by Ella Leoncio featuring Dulux colours Hyssop &amp; Natural White with details in Scandelicious, Bright Delight, 
+		King’s Canyon, Befitting &amp; Pink Parrakeet</p></div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col3 ct13-row4">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_22.png" alt="Antique"></div>
+					<div class="ct13-bottom"><h5>P18G5 Species</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-big ct13-col4 ct13-row5">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_23.png" alt="Rodham"></div>
+					<div class="ct13-bottom">
+						<h5>P30H5 Green Buoy</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col2 ct13-row6">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_28.png" alt="Camel Cord"></div>
+					<div class="ct13-bottom"><h5>PW1G9 Lexicon</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col3 ct13-row6">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_29.png" alt="Ginger Crunch"></div>
+					<div class="ct13-bottom">
+						<h5>P40H8 Blue Sail</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col4 ct13-row6">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_30.png" alt="Carnivali Sun"></div>
+					<div class="ct13-bottom">
+						<h5>P34E5 Mitchell Blue</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-big ct13-col1 ct13-row7">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_36.png" alt="Terra Rose"></div>
+					<div class="ct13-bottom"><h5>P28F6 Bahaman Bliss</h5></div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col3 ct13-row7">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_37.png" alt="Green Paw Paw"></div>
+					<div class="ct13-bottom">
+						<h5>P40F8 Misty Blue</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col4 ct13-row7">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_38.png" alt="Crazy"></div>
+					<div class="ct13-bottom">
+						<h5>P41G8 Mystification</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col3 ct13-row8">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_41.png" alt="Belly Fire"></div>
+					<div class="ct13-bottom">
+						<h5>P35D7 Sea Hunter</h5>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col4 ct13-row8">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_42.png" alt="Noble Brown"></div>
+					<div class="ct13-bottom">
+						<h5>971-57127 Steel Pearl Satin</h5>
+						<p class="description">Precious&reg; Powder</p>
+					</div>
+				</li>
+
+				<li class="ct13-box ct13-small ct13-col5 ct13-row6">
+					<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_32.jpg" alt="Styled image 3 featuring Dulux colours"></div>
+					<div class="ct13-bottom"><p class="long-desc right">Image styled by Ella Leoncio featuring Dulux colours Hyssop &amp; Natural White with details in Scandelicious, Bright Delight, King’s Canyon, Befitting &amp; Pink Parrakeet</p></div>
+				</li>
+
+			</ul>
+
+		</div>
+	</div>
+
+	</div>
+
+<!--#include file="includes/page-after.shtml" -->

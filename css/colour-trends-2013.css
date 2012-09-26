@@ -45,6 +45,7 @@
 
 	.ct13-colours 				{ color: #333333; }
 	.ct13-colours h5 			{ font: 12px/1.2em Tahoma, Geneva, sans-serif; text-transform: uppercase; padding: 6px 0 0; }
+	.ct13-colours h5.small		{ font-size: 11px; }
 	.ct13-colours .description 	{ font-size: 10px; line-height: 1em; }
 	.ct13-colours .long-desc	{ font-size: 11px; line-height: 1.4em; font-style: italic; color: #777777; padding: 0 61px 21px 10px; border-left: 1px solid #e5e5e5; margin: 7px 0 0; }
 	.ct13-colours .short		{ padding-right: 215px; }
@@ -92,3 +93,33 @@
 	.ct13-rise .ct13-head 						{ background: #d2e7e7 url(../images/rise/bg-header.jpg) center top no-repeat; }
 	.ct13-rise .ct13-colour-list				{ background: url(../images/rise/bg-footer-left.png) bottom left no-repeat,
 															  url(../images/rise/bg-footer-right.png) bottom right no-repeat; }
+/* merge */
+	.ct13-merge .ct13-description p.emphasis 	{ color: #ce7066; }
+	.ct13-merge .ct13-colours .long-desc,
+	.ct13-merge .ct13-colours .right 			{ border-color: #afa695; }
+	.ct13-merge .ct13-footer h3					{ background-color: #ce7066; }
+	.ct13-merge .ct13-footer p a,
+	.ct13-merge .ct13-footer ul 				{ color: #ce7066; }
+	.ct13-merge .ct13-head 						{ background: #b9ad9a url(../images/merge/bg-header.jpg) center top no-repeat; }
+	.ct13-merge .ct13-colour-list				{ background: url(../images/merge/bg-footer-left.jpg) bottom left no-repeat,
+															  url(../images/merge/bg-footer-right.jpg) bottom right no-repeat; }
+/* blur */
+	.ct13-blur .ct13-description p.emphasis 	{ color: #704573; }
+	.ct13-blur .ct13-colours .long-desc,
+	.ct13-blur .ct13-colours .right 			{ border-color: #9e3550; }
+	.ct13-blur .ct13-footer h3					{ background-color: #704573; }
+	.ct13-blur .ct13-footer p a,
+	.ct13-blur .ct13-footer ul 					{ color: #704573; }
+	.ct13-blur .ct13-head 						{ background: #a53243 url(../images/blur/bg-header.jpg) center top no-repeat; }
+	.ct13-blur .ct13-colour-list				{ background: url(../images/blur/bg-footer-left.jpg) bottom left no-repeat,
+															  url(../images/blur/bg-footer-right.jpg) bottom right no-repeat; }
+/* empower */
+	.ct13-empower .ct13-description p.emphasis 	{ color: #2baccf; }
+	.ct13-empower .ct13-colours .long-desc,
+	.ct13-empower .ct13-colours .right 			{ border-color: #387ebe; }
+	.ct13-empower .ct13-footer h3				{ background-color: #48c3d1; }
+	.ct13-empower .ct13-footer p a,
+	.ct13-empower .ct13-footer ul 				{ color: #2baccf; }
+	.ct13-empower .ct13-head 					{ background: #387fbd url(../images/empower/bg-header.jpg) center top no-repeat; }
+	.ct13-empower .ct13-colour-list				{ background: url(../images/empower/bg-footer-left.png) bottom left no-repeat,
+															  url(../images/empower/bg-footer-right.png) bottom right no-repeat; }
