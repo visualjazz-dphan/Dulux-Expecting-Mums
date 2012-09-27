@@ -28,7 +28,7 @@ a:hover { opacity: 0.85; }
 .section-tech .inner { width: 520px; padding-right: 452px; }
 .section-tech h2 { width: 429px; height: 56px; margin: 0 0 25px; background: url(../images/text-tech-heading.png) no-repeat; }
 .section-tech p { line-height: ; margin-bottom: 1em; }
-.section-tech small { z-index: 10; position: relative; display: block; width: 600px;  margin-top: 40px; font-size: 11px; }
+.section-tech small { z-index: 10; position: relative; display: block; width: 575px;  margin-top: 40px; font-size: 10px; color: #7e7e7e; }
 .section-tech .figure-polymer { z-index: 1; position: absolute; right: -170px; top: -34px; height: 405px; overflow: hidden; }
 
 .section-3col ul.columns { margin: 0; padding: 0; list-style-type: none; }
