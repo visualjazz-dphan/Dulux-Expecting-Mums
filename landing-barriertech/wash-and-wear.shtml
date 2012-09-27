@@ -9,7 +9,7 @@
 	<div class="wrapper-screen section-intro">
 		<div class="inner">
 			<div class="youtube">
-				<iframe width="521" height="293" src="http://www.youtube.com/watch?v=SvWoniSg2_U?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+				<iframe width="521" height="293" src="http://www.youtube.com/embed/SvWoniSg2_U?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<h2 class="ir">Whatever Barry can't protect, Barrier Technology can.</h2>
 			<h4 class="ir">Dulux Wash &amp; Wear&reg; is Australia's number 1 paint, protecting your walls so you don't have to.</h4>
