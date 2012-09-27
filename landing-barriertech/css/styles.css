@@ -9,14 +9,14 @@
 
 .landing-barriertech .section-intro { height: 260px; padding-top: 130px; background: url(../images/bg-repeat-brown.png) repeat-x; }
 .landing-barriertech .section-description { height: 300px; padding-top: 55px; color: #00275d; background: #fbfbfb url(../images/bg-tinwashwear.jpg) no-repeat 50% 0; }
-.landing-barriertech .section-tech { height: 348px; padding-top: 40px; background: url(../images/bg-repeat-brown.png) repeat-x 0 -2px; }
+.landing-barriertech .section-tech { height: 300px; padding-top: 90px; background: url(../images/bg-repeat-brown.png) repeat-x 0 -2px; }
 .landing-barriertech .section-3col { padding-top: 40px; }
 
 a.find-out-more { display: block; width: 170px; height: 35px; margin-top: 40px; background: #00275d url(../images/btn-findoutmore.png) no-repeat 50% 50%; }
 a:hover { opacity: 0.85; }
 
 .section-intro .inner { width: 420px; padding-left: 552px; }
-.section-intro h2 { width: 405px; height: 78px; margin: 0 0 30px; background: url(../images/text-intro-heading.png) no-repeat; }
+.section-intro h2 { width: 422px; height: 78px; margin: 0 0 30px; background: url(../images/text-intro-heading.png) no-repeat; }
 .section-intro h4 { width: 380px; height: 44px; background: url(../images/text-intro-subhead.png) no-repeat; }
 .section-intro .youtube { width:595px; height: 312px; position: absolute; top: -75px; left: -45px; background: url(../images/feature-drop-shadow.png) no-repeat 0 2px; }
 .section-intro .youtube iframe { margin-left: 37px; border: 3px solid #fff; }
@@ -27,15 +27,15 @@ a:hover { opacity: 0.85; }
 
 .section-tech .inner { width: 520px; padding-right: 452px; }
 .section-tech h2 { width: 429px; height: 56px; margin: 0 0 25px; background: url(../images/text-tech-heading.png) no-repeat; }
-.section-tech p { line-height: ; margin-bottom: 1em; }
-.section-tech small { z-index: 10; position: relative; display: block; width: 575px;  margin-top: 40px; font-size: 10px; color: #7e7e7e; }
-.section-tech .figure-polymer { z-index: 1; position: absolute; right: -170px; top: -34px; height: 405px; overflow: hidden; }
+.section-tech p { line-height: 2.2; margin-bottom: 1em; }
+.section-tech .figure-polymer { z-index: 1; position: absolute; right: -170px; top: -84px; height: 405px; overflow: hidden; }
 
 .section-3col ul.columns { margin: 0; padding: 0; list-style-type: none; }
 .section-3col .columns li { width: 319px; margin-right: 7px; float: left;  }
 .section-3col .columns li.last { margin-right: 0; }
 .section-3col .columns img { margin-bottom: 20px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
 .section-3col .columns p { padding-right: 30px; margin-bottom: 1em; }
+.section-3col .columns small { display:block; margin-top: 20px; font-size: 10px; line-height: 1.4; color: #7e7e7e; }
 .section-3col h2 { height: 49px; margin-bottom: 25px; }
 .section-3col h2.trusted { background: url(../images/text-heading-trusted.png) no-repeat; }
 .section-3col h2.technology { background: url(../images/text-heading-technology.png) no-repeat; }
