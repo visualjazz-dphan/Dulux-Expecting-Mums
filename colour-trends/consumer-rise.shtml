@@ -1,4 +1,4 @@
-<!--#include file="includes/page-before.shtml" -->
+<!--#include file="/includes/page-before.shtml" -->
 
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
@@ -36,12 +36,12 @@
 
 				<li class="ct13-box ct13-small ct13-col1 ct13-row2">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_10.png" alt="Tee Off"></div>
-					<div class="ct13-bottom"><h5>Slip Cast PW1A5</h5></div>
+					<div class="ct13-bottom"><h5>Slip Cast</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-big ct13-col2 ct13-row1">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_05.png" alt="Day Glow"></div>
-					<div class="ct13-bottom"><h5>Winnow PW1A4</h5></div>
+					<div class="ct13-bottom"><h5>Winnow</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-big ct13-col4 ct13-row1">
@@ -52,18 +52,18 @@
 				<li class="ct13-box ct13-small ct13-col1 ct13-row3">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_13.png" alt="Black Japan 2 Coats"></div>
 					<div class="ct13-bottom">
-						<h5>Self-Destruct P14D3</h5>
+						<h5>Self-Destruct</h5>
 					</div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col2 ct13-row3">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_14.png" alt="Milpa"></div>
-					<div class="ct13-bottom"><h5>Focus Point P27D3</h5></div>
+					<div class="ct13-bottom"><h5>Focus Point</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row3">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_16.png" alt="Gold Deposit"></div>
-					<div class="ct13-bottom"><h5>Equanimity P32A3</h5></div>
+					<div class="ct13-bottom"><h5>Equanimity</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-big ct13-col1 ct13-row4">
@@ -74,62 +74,62 @@
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row4">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_22.png" alt="Antique"></div>
-					<div class="ct13-bottom"><h5>Hog Bristle Half P14D1H</h5></div>
+					<div class="ct13-bottom"><h5>Hog Bristle Half</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-big ct13-col4 ct13-row5">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_23.png" alt="Rodham"></div>
-					<div class="ct13-bottom"><h5>Blind Date P11B3</h5></div>
+					<div class="ct13-bottom"><h5>Blind Date</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col2 ct13-row6">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_28.png" alt="Camel Cord"></div>
-					<div class="ct13-bottom"><h5>Limed White P13B1</h5></div>
+					<div class="ct13-bottom"><h5>Limed White</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row6">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_29.png" alt="Ginger Crunch"></div>
 					<div class="ct13-bottom">
-						<h5>Celery Satin P19D1</h5>
+						<h5>Celery Satin</h5>
 					</div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col4 ct13-row6">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_30.png" alt="Carnivali Sun"></div>
 					<div class="ct13-bottom">
-						<h5>Clunies PG2E2</h5>
+						<h5>Clunies</h5>
 					</div>
 				</li>
 
 				<li class="ct13-box ct13-big ct13-col1 ct13-row7">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_36.png" alt="Terra Rose"></div>
-					<div class="ct13-bottom"><h5>Christobel Quarter P09D1Q</h5></div>
+					<div class="ct13-bottom"><h5>Christobel Quarter</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row7">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_37.png" alt="Green Paw Paw"></div>
 					<div class="ct13-bottom">
-						<h5>Unbleached Calico Quarter P10F1Q</h5>
+						<h5>Unbleached Calico Quarter</h5>
 					</div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col4 ct13-row7">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_38.png" alt="Crazy"></div>
 					<div class="ct13-bottom">
-						<h5>Carnelian P25A2</h5>
+						<h5>Carnelian</h5>
 					</div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row8">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_41.png" alt="Belly Fire"></div>
 					<div class="ct13-bottom">
-						<h5>Dewpoint Quarter P32A1Q</h5>
+						<h5>Dewpoint Quarter</h5>
 					</div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col4 ct13-row8">
 					<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_42.png" alt="Noble Brown"></div>
-					<div class="ct13-bottom"><h5>Blue Alps P33A3</h5></div>
+					<div class="ct13-bottom"><h5>Blue Alps</h5></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col5 ct13-row6">
@@ -158,4 +158,4 @@
 		</div>
 	</div>
 
-<!--#include file="includes/page-after.shtml" -->
+<!--#include file="/includes/page-after.shtml" -->

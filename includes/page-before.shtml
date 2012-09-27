@@ -4,31 +4,32 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="description" content="All about colour, how it can be used inside and out to transform your home and your mood." /><meta name="keywords" content="paint colours,colour schemes, bright, reflect, furnishing, accessories, inspiration, get started, pictures, style, lighting, yellow, yellows, blue, blues, red, reds, neutral, neutrals, white, whites, warm, warmer, greys, grey, beiges, beige, tans, tan, creams, cream, coffees, coffee" />
         <title>	About Colour</title>
 
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="includes/dulux-styles.css" />
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="includes/dulux-styles-consultants.css" />
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="/includes/dulux-styles.css" />
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="/includes/dulux-styles-consultants.css" />
         <!-- link rel="stylesheet" type="text/css" media="print" href="/css/print.css" /-->
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="includes/sifr.css" />
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="/includes/sifr.css" />
         <!--link rel="stylesheet" type="text/css" href="/scripts/shadowbox/dulux.css" /-->
 
         <!-- VJI CSS INCLUDE //-->
-        <link rel="stylesheet" type="text/css" media="screen,projection" href="css/vji-dev.css" />
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="/includes/vji-dev.css" />
+        <link rel="stylesheet" type="text/css" media="screen,projection" href="css/styles.css" />
         <!-- END VJI CSS INCLUDE //-->
 
 
-        <script type="text/javascript" src="includes/jquery-1.3.2.min.js"></script>
-        <script type="text/javascript" src="includes/sifr.js"></script>
-        <script type="text/javascript" src="includes/sifr-config.js"></script>
+        <script type="text/javascript" src="/includes/jquery-1.3.2.min.js"></script>
+        <script type="text/javascript" src="/includes/sifr.js"></script>
+        <script type="text/javascript" src="/includes/sifr-config.js"></script>
         <!--script type="text/javascript" src="/swf/mediaplayer/swfobject/swfobject.js"></script//-->
         <!--script type="text/javascript" src="/scripts/shadowbox/shadowbox.js"></script//-->
-        <script type="text/javascript" src="includes/constants.js"></script>
-        <!--script type="text/javascript" src="includes/js-functions.js"></script//-->
+        <script type="text/javascript" src="/includes/constants.js"></script>
+        <!--script type="text/javascript" src="/includes/js-functions.js"></script//-->
         <!--script type="text/javascript" src="/scripts/dulux.consultants.js"></script//-->
         <script type="text/javascript">var sessionID = "e3qata3m1fjm22ydznudryii";</script>
         <script type="text/javascript">var IsLoggedIn = "False";</script>
 
     </head>
     <body>
-        <form method="post" action="/colour/about-colour?" id="aspnetForm">
+        <form method="post" action="" id="aspnetForm">
         <div>
         <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
         <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
@@ -50,7 +51,7 @@
         <div class="wrapper">
 
             <!-- PLACEHOLDING FOOTER FOR TEMPLATE //-->
-            <img src="includes/header.png" width="969" height="160" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
+            <img src="/includes/header.png" width="969" height="160" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
             <!-- END PLACEHOLDING FOOTER FOR TEMPLATE //-->
 
             <!-- Header -->
@@ -75,7 +76,7 @@
                     <!-- search box -->
                     <div class="search-box">
                         <fieldset>
-                            <input type="image" id="btnSearch" class="searchButton" text="Search" src="/css/imgs/btn-search.jpg" style="border-width:0px;">
+                            <input type="image" id="btnSearch" class="searchButton" text="Search" src="/includes/imgs/btn-search.jpg" style="border-width:0px;">
                             <input name="ctl00$ctl00$ctl00$ContentPlaceHolderDefault$SearchControl_6$txtSearchQuery" type="text" id="ctl00_ctl00_ctl00_ContentPlaceHolderDefault_SearchControl_6_txtSearchQuery" class="search-query" placeholder="Search" />
                             <p>Search our site</p>
                         </fieldset>

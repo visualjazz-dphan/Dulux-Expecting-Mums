@@ -1,4 +1,4 @@
-<!--#include file="includes/page-before.shtml" -->
+<!--#include file="/includes/page-before.shtml" -->
 
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
@@ -31,7 +31,7 @@
 			<p>Dulux Wash &amp; Wear<sup>&reg;</sup> is Australian made and owned, plus it is a Dulux Eco Choice<sup>&reg;</sup> paint^ </p>
 			<small>^Wash &amp; Wear<sup>&reg;</sup> Semi Gloss, Low Sheen and Flat bases are Eco Choice paints (tinted and untinted). Dulux Eco Choice paints conform to the relevant Green Building Council of Australia standards for VOC content. Note that Wash &amp; Wear<sup>&reg;</sup> Gloss meets the Green Building Council standard in the trim category at &lt; 75g per litre of VOCs.</small>
 			<div class="figure-polymer">
-				<img src="images/landing-barriertech/img-tech-polymer.jpg" width="580" height="402" />
+				<img src="images/img-tech-polymer.jpg" width="580" height="402" />
 				<span class="hidden">Polymer technology forms a barrier that protects against most oil and water based stains. Large and small pigment particles embedded in the polymer reinforce the barrier.</span>
 			</div>
 		</div>
@@ -41,18 +41,18 @@
 		<div class="inner">
 			<ul class="columns clearfix">
 				<li>
-					<img src="images/landing-barriertech/img-trusted.jpg" width="318" height="203" alt="Dulux Wash and Wear paint tins" />
+					<img src="images/img-trusted.jpg" width="318" height="203" alt="Dulux Wash and Wear paint tins" />
 					<h2 class="trusted ir">Trusted since 1975</h2>
 					<p>Since 1975 Dulux Wash &amp; Wear<sup>&reg;</sup> has been used by generations of Australian families to protect and enhance their homes.</p>
 				</li>
 				<li>
-					<img src="images/landing-barriertech/img-tech.jpg" width="318" height="203" alt="Dulux technology" />
+					<img src="images/img-tech.jpg" width="318" height="203" alt="Dulux technology" />
 					<h2 class="technology ir">Technology Drivien Innovation</h2>
 					<p>Constant innovation in product technology conducted at Dulux' world class research and development facilities, is just one reason why Dulux Wash &amp; Wear<sup>&reg;</sup> is the best interior paint in Australia.</p>
 					<p>100's of scientific tests are conducted all year, every year to ensure innovation and quality remain at the core of Dulux product development.</p>
 				</li>
 				<li class="last">
-					<img src="images/landing-barriertech/img-protecting.jpg" width="319" height="203" alt="Australian family" />
+					<img src="images/img-protecting.jpg" width="319" height="203" alt="Australian family" />
 					<h2 class="safer ir">Safer for Australian Families</h2>
 					<p>Dulux Wash &amp; Wear<sup>&reg;</sup> is Australian made and owned, plus it is an Eco Choice paint.</p>
 					<p>This means it has less than 5gm of VOC's (volatile organic compounds) with almost no paint smells and less air pollution compared to paints with higher VOC's. So it is better for the environment and your family.</p>
@@ -63,7 +63,7 @@
 
 	<div class="wrapper-screen section-colourtrends prelaunch"><!-- REMOVE CLASS PRELAUNCH TO USE COLOURTREND DESIGN //-->
 		<div class="inner clearfix">
-			<img src="images/landing-barriertech/img-colour-trends.jpg" width="603" height="320" />
+			<img src="images/img-colour-trends.jpg" width="603" height="320" />
 			<h2 class="ir">Latest Colour Trends</h2>
 			<h3>Reds, pinks, blues, greens, we have any colour to suit your mood.</h3>
 			<p>Click the link below to see the latest colour trends.</p>
@@ -71,4 +71,4 @@
 		</div>
 	</div>
 
-<!--#include file="includes/page-after.shtml" -->
+<!--#include file="/includes/page-after.shtml" -->
