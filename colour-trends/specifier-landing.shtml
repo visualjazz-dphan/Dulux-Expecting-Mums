@@ -1,0 +1,97 @@
+<!--#include file="/includes/page-before.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div id="content" class="colour-trends-2013 ct13-landing">
+
+	<div class="wrapper-screen ct13-head">
+		<div class="inner">
+			<h1>Colour Movement</h1>
+			<h2>Dulux Colour Forecast 2013</h2>
+			<iframe width="510" height="288" src="http://www.youtube.com/embed/gzKYCg93-sM?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+
+	<div class="wrapper-screen">
+		<div class="inner ct13-description">
+			<p class="emphasis"><strong class="green">We are in motion, movement is all around us</strong> - a blur of colour, a subtle shift of light, a merge of shadows. Movement is social change, the rise of a nation, the protest of people, the progress of the digital age. The Dulux Colour Forecast - Colour Movement, explores how colour is moving around us, shifting and changing along with our world and all that is in it. <strong>Choose from a colour trend below...</strong></p>
+			<ul class="ct13-colour-links">
+				<li><a href="#"><img src="images/landing/link-merge.jpg" alt="Merge" /></a></li>
+				<li><a href="#"><img src="images/landing/link-seek.jpg" alt="Seek" /></a></li>
+				<li><a href="#"><img src="images/landing/link-empower.jpg" alt="Empower" /></a></li>
+				<li><a href="#"><img src="images/landing/link-rise.jpg" alt="Rise" /></a></li>
+				<li><a href="#"><img src="images/landing/link-share.jpg" alt="Share" /></a></li>
+				<li><a href="#"><img src="images/landing/link-blur.jpg" alt="Blur" /></a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="wrapper-screen ct13-stylists">
+		<div class="inner">
+
+			<div class="ct13-section-header">
+				<h3>Stylists</h3>
+				<h4>Lorem ipsum dolor sit amet, consectetur elit. adipiscing Curabitur vel justo elit, ut mattis nibh.</h4>
+			</div>
+
+			<ul class="ct13-stylist-list">
+
+				<li class="ct13-box">
+					<div class="ct13-top"><img src="images/landing/woman1.jpg" alt="person 1"></div>
+					<div class="ct13-bottom">
+						<h5 class="yellow">Susan Somebody</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesqtue tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</p>
+					</div>
+				</li>
+
+				<li class="ct13-box">
+					<div class="ct13-top"><img src="images/landing/man.jpg" alt="person 2"></div>
+					<div class="ct13-bottom">
+						<h5 class="blue">John Somebody</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesqtue tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</p>
+					</div>
+				</li>
+
+				<li class="ct13-box">
+					<div class="ct13-top"><img src="images/landing/woman2.jpg" alt="person 3"></div>
+					<div class="ct13-bottom">
+						<h5 class="red">Susan Somebody</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesqtue tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</p>
+					</div>
+				</li>
+
+			</ul>
+
+		</div>
+	</div>
+
+	<div class="wrapper-screen ct13-suppliers">
+		<div class="inner">
+
+			<h3>Suppliers</h3>
+
+			<ul>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+			</ul>
+
+		</div>
+	</div>
+
+<!--#include file="/includes/page-after.shtml" -->

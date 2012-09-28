@@ -10,7 +10,7 @@
 		<div class="inner">
 			<h1>Seek</h1>
 			<h2>Dulux Colour Forecast 2013</h2>
-			<iframe width="510" height="288" src="http://www.youtube.com/embed/uPpMWaSPt-s?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe>
+			<iframe width="510" height="288" src="http://www.youtube.com/embed/ispgVuXkRz0?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
@@ -43,7 +43,7 @@
 
 				<li class="ct13-box ct13-big ct13-col4 ct13-row1">
 					<div class="ct13-top"><img src="images/seek/dulux-ct13-seek_07.jpg" alt="Styled image featuring Dulux colours"></div>
-					<div class="ct13-bottom"><p class="long-desc">Image styled by Ella Leoncio featuring Dulux colours Hyssop &amp; Natural White with details in Scandelicious, Bright Delight, King’s Canyon, Befitting &amp; Pink Parrakeet</p></div>
+					<div class="ct13-bottom"><p class="long-desc">Image styled by Ella Leoncio featuring Dulux colours Day Glow with details in Tee Off, Celuce, Milpa and Rodham</p></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col1 ct13-row3">
@@ -66,8 +66,7 @@
 
 				<li class="ct13-box ct13-big ct13-col1 ct13-row4">
 					<div class="ct13-top"><img src="images/seek/dulux-ct13-seek_21.jpg" alt="Styled image 2 featuring Dulux colours"></div>
-					<div class="ct13-bottom"><p class="long-desc short">Image styled by Ella Leoncio featuring Dulux colours Hyssop &amp; Natural White with details in Scandelicious, Bright Delight, 
-		King’s Canyon, Befitting &amp; Pink Parrakeet</p></div>
+					<div class="ct13-bottom"><p class="long-desc short">Image styled by Ella Leoncio featuring Dulux Antique</p></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row4">
@@ -133,26 +132,10 @@
 
 				<li class="ct13-box ct13-small ct13-col5 ct13-row6">
 					<div class="ct13-top"><img src="images/seek/dulux-ct13-seek_32.jpg" alt="Styled image 3 featuring Dulux colours"></div>
-					<div class="ct13-bottom"><p class="long-desc right">Image styled by Ella Leoncio featuring Dulux colours Hyssop &amp; Natural White with details in Scandelicious, Bright Delight, King’s Canyon, Befitting &amp; Pink Parrakeet</p></div>
+					<div class="ct13-bottom"><p class="long-desc right">Image styled by Bree Leech featuring Dulux colours Rodham with details in Noble Brown, Green Paw Paw, Terra Rose, Belly Fire, Tee Off, Crazy and Ginger Crunch</p></div>
 				</li>
 
 			</ul>
-
-		</div>
-	</div>
-
-	<div class="wrapper-screen ct13-footer">
-		<div class="inner">
-
-			<h3>Get the Look</h3>
-
-			<ul>
-				<li><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</span></li>
-				<li><span>Aliquam condimentum mattis pretium. Nullam euismod dignissim justo, in iaculis ipsum posuere sit amet. Nullam a leo felis, eu congue orci. Aliquam tempus, mi at fermentum elementum, erat magna elementum tortor, vel rhoncus erat tellus ac tellus. Sed suscipit elementum sollicitudin.</span></li>
-				<li><span>Phasellus eleifend nisi fermentum sapien auctor dignissim. Quisque id porta sem. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc sed augue a enim posuere dictum. Duis nunc lacus, luctus eget ultricies sed, ornare at purus.</span></li>
-			</ul>
-
-			<p><a href="#">View list of suppliers</a></p>
 
 		</div>
 	</div>
