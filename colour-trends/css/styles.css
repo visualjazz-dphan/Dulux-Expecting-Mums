@@ -63,14 +63,6 @@
 	.ct13-footer p a:hover 			{ text-decoration: none; }
 
 /* LANDING PAGE */
-/*	.ct13-empower .ct13-description p.emphasis 	{ color: #2baccf; }
-	.ct13-empower .ct13-colours .long-desc,
-	.ct13-empower .ct13-colours .right 			{ border-color: #387ebe; }
-	.ct13-empower .ct13-footer h3				{ background-color: #48c3d1; }
-	.ct13-empower .ct13-footer p a,
-	.ct13-empower .ct13-footer ul 				{ color: #2baccf; }
-	.ct13-empower .ct13-colour-list				{ background: url(../images/empower/bg-footer-left.png) bottom left no-repeat,
-															  url(../images/empower/bg-footer-right.png) bottom right no-repeat; }*/
 .ct13-landing .ct13-head 	{ background: #8d1f1a url(../images/landing/bg-header-landing.jpg) center top no-repeat; }
 p strong 					{ font-weight: bold; }
 p strong.green 				{ color: #84a12b;}
@@ -84,13 +76,14 @@ p strong.green 				{ color: #84a12b;}
 .ct13-landing .ct13-description p.emphasis 			{ padding: 0 9px 49px; }
 .ct13-landing .wrapper-screen .ct13-description 	{ padding: 43px 0 0; }
 /* stylists */
-.ct13-stylists { overflow: hidden; background: #fafafa; border-bottom: 5px solid #fafafa; }
+.ct13-stylists 						{ overflow: hidden; background: #fafafa; border-bottom: 5px solid #fafafa; }
 .ct13-stylists .ct13-section-header { float: left; width: 245px; padding: 39px 0 0; }
-	.ct13-stylists h3 { text-indent: -9999px; background: #48c3d1 url(../images/landing/stylists-heading.png) no-repeat; width: 219px; height: 77px; }
+	.ct13-stylists h3 				{ text-indent: -9999px; background: #48c3d1 url(../images/landing/stylists-heading.png) no-repeat; width: 219px; height: 77px; }
 	.ct13-stylists h4,
-	.ct13-stylists h5 { font-size: 22px; letter-spacing: -0.75px; font-weight: normal; }
-	.ct13-stylists h4 { color: #6b6b6b; line-height: 1.4em; border-left: 1px solid #48c3d1; padding: 7px 0 0 25px;  }
-.ct13-stylists .ct13-stylist-list { float: right; width: 669px; list-style: none; padding: 50px 0 0; }
+	.ct13-stylists h5 				{ font-size: 22px; letter-spacing: -0.75px; font-weight: normal; }
+	.ct13-stylists h4 				{ color: #6b6b6b; line-height: 1.4em; border-left: 1px solid #48c3d1; padding: 7px 0 0 25px; }
+	.ct13-stylists p.padme 			{ padding: 0 0 21px; }
+.ct13-stylists .ct13-stylist-list 	{ float: right; width: 669px; list-style: none; padding: 50px 0 0; }
 	.ct13-stylists .ct13-stylist-list .ct13-box { float: left; width: 669px; padding: 0 0 40px; }
 	.ct13-stylists .ct13-stylist-list .ct13-top { float: left; width: 210px; }
 	.ct13-stylists .ct13-stylist-list .ct13-bottom { float: right; width: 436px; }
@@ -102,7 +95,9 @@ p strong.green 				{ color: #84a12b;}
 .ct13-suppliers 			{ padding: 35px 0 57px; }
 .ct13-suppliers h3 			{ text-indent: -9999px; background: #a5204d url(../images/landing/suppliers-heading.png) no-repeat; width: 292px; height: 77px; }
 .ct13-suppliers ul 			{ list-style: none; overflow: hidden; padding: 12px 0 0 25px; border-left: 1px solid #a5204d; }
-.ct13-suppliers li 			{ float: left; display: block; width: 236px; padding: 17px 0 0; font-weight: bold; text-transform: uppercase; }
+.ct13-suppliers li 			{ float: left; display: block; width: 236px; height: 45px; overflow: hidden; padding: 17px 0 0; font-weight: bold; text-transform: uppercase; }
+.ct13-suppliers li.small	{ font-size: 12px; }
+.ct13-suppliers li.small a	{ font-size: 14px; }
 .ct13-suppliers li a 		{ font-weight: normal; text-transform: none; text-decoration: none; }
 .ct13-suppliers li a:hover 	{ color: #a5204d; }
 
@@ -115,8 +110,8 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-share .ct13-footer p a,
 	.ct13-share .ct13-footer ul 				{ color: #a9a9a7; }
 	.ct13-share .ct13-head 						{ background: #ebe8e3 url(../images/share/bg-header.jpg) center top no-repeat; }
-	.ct13-share .ct13-colour-list				{ background: url(../images/share/bg-footer-left.png) bottom left no-repeat,
-											  				  url(../images/share/bg-footer-right.png) bottom right no-repeat; }
+	.ct13-share .ct13-colour-list				{ background: url(../images/share/bg-footer-left.png) bottom left no-repeat; }
+	.ct13-share 								{ background: #fff url(../images/share/bg-footer-right.png) bottom right no-repeat; }
 /* seek */
 	.ct13-seek .ct13-description p.emphasis 	{ color: #bcb566; }
 	.ct13-seek .ct13-colours .long-desc,
@@ -125,8 +120,8 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-seek .ct13-footer p a,
 	.ct13-seek .ct13-footer ul 					{ color: #bcb566; }
 	.ct13-seek .ct13-head 						{ background: #f1df80 url(../images/seek/bg-header.jpg) center top no-repeat; }
-	.ct13-seek .ct13-colour-list				{ background: url(../images/seek/bg-footer-left.jpg) bottom left no-repeat,
-															  url(../images/seek/bg-footer-right.jpg) bottom right no-repeat; }
+	.ct13-seek .ct13-colour-list				{ background: url(../images/seek/bg-footer-left.jpg) bottom left no-repeat; }
+	.ct13-seek 									{ background: #fff url(../images/seek/bg-footer-right.jpg) bottom right no-repeat; }
 /* rise */
 	.ct13-rise .ct13-description p.emphasis 	{ color: #7ea69f; }
 	.ct13-rise .ct13-colours .long-desc,
@@ -135,8 +130,8 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-rise .ct13-footer p a,
 	.ct13-rise .ct13-footer ul 					{ color: #93c4ba; }
 	.ct13-rise .ct13-head 						{ background: #d2e7e7 url(../images/rise/bg-header.jpg) center top no-repeat; }
-	.ct13-rise .ct13-colour-list				{ background: url(../images/rise/bg-footer-left.png) bottom left no-repeat,
-															  url(../images/rise/bg-footer-right.png) bottom right no-repeat; }
+	.ct13-rise .ct13-colour-list				{ background: url(../images/rise/bg-footer-left.png) bottom left no-repeat; }
+	.ct13-rise 									{ background: #fff url(../images/rise/bg-footer-right.png) bottom right no-repeat; }
 /* merge */
 	.ct13-merge .ct13-description p.emphasis 	{ color: #ce7066; }
 	.ct13-merge .ct13-colours .long-desc,
@@ -145,8 +140,9 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-merge .ct13-footer p a,
 	.ct13-merge .ct13-footer ul 				{ color: #ce7066; }
 	.ct13-merge .ct13-head 						{ background: #b9ad9a url(../images/merge/bg-header.jpg) center top no-repeat; }
-	.ct13-merge .ct13-colour-list				{ background: url(../images/merge/bg-footer-left.jpg) bottom left no-repeat,
-															  url(../images/merge/bg-footer-right.jpg) bottom right no-repeat; }
+	.ct13-merge .ct13-colour-list				{ background: url(../images/merge/bg-footer-left.jpg) bottom left no-repeat; }
+	.ct13-merge									{ background: #fff url(../images/merge/bg-footer-right.jpg) bottom right no-repeat; }
+
 /* blur */
 	.ct13-blur .ct13-description p.emphasis 	{ color: #704573; }
 	.ct13-blur .ct13-colours .long-desc,
@@ -155,8 +151,8 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-blur .ct13-footer p a,
 	.ct13-blur .ct13-footer ul 					{ color: #704573; }
 	.ct13-blur .ct13-head 						{ background: #a53243 url(../images/blur/bg-header.jpg) center top no-repeat; }
-	.ct13-blur .ct13-colour-list				{ background: url(../images/blur/bg-footer-left.jpg) bottom left no-repeat,
-															  url(../images/blur/bg-footer-right.jpg) bottom right no-repeat; }
+	.ct13-blur .ct13-colour-list				{ background: url(../images/blur/bg-footer-left.jpg) bottom left no-repeat; }
+	.ct13-blur	 								{ background: #fff url(../images/blur/bg-footer-right.jpg) bottom right no-repeat; }
 /* empower */
 	.ct13-empower .ct13-description p.emphasis 	{ color: #2baccf; }
 	.ct13-empower .ct13-colours .long-desc,
@@ -164,6 +160,6 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-empower .ct13-footer h3				{ background-color: #48c3d1; }
 	.ct13-empower .ct13-footer p a,
 	.ct13-empower .ct13-footer ul 				{ color: #2baccf; }
-	.ct13-empower .ct13-head 					{ background: #387fbd url(../images/empower/bg-header.jpg) center top no-repeat; }
-	.ct13-empower .ct13-colour-list				{ background: url(../images/empower/bg-footer-left.png) bottom left no-repeat,
-															  url(../images/empower/bg-footer-right.png) bottom right no-repeat; }
+	.ct13-empower .ct13-head 					{ background: #2baccf url(../images/empower/bg-header.jpg) center top no-repeat; }
+	.ct13-empower .ct13-colour-list				{ background: url(../images/empower/bg-footer-left.png) bottom left no-repeat; }
+	.ct13-empower 								{ background: #fff url(../images/empower/bg-footer-right.png) bottom right no-repeat; }

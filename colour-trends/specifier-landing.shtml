@@ -18,12 +18,12 @@
 		<div class="inner ct13-description">
 			<p class="emphasis"><strong class="green">We are in motion, movement is all around us</strong> - a blur of colour, a subtle shift of light, a merge of shadows. Movement is social change, the rise of a nation, the protest of people, the progress of the digital age. The Dulux Colour Forecast - Colour Movement, explores how colour is moving around us, shifting and changing along with our world and all that is in it. <strong>Choose from a colour trend below...</strong></p>
 			<ul class="ct13-colour-links">
-				<li><a href="#"><img src="images/landing/link-merge.jpg" alt="Merge" /></a></li>
-				<li><a href="#"><img src="images/landing/link-seek.jpg" alt="Seek" /></a></li>
-				<li><a href="#"><img src="images/landing/link-empower.jpg" alt="Empower" /></a></li>
-				<li><a href="#"><img src="images/landing/link-rise.jpg" alt="Rise" /></a></li>
-				<li><a href="#"><img src="images/landing/link-share.jpg" alt="Share" /></a></li>
-				<li><a href="#"><img src="images/landing/link-blur.jpg" alt="Blur" /></a></li>
+				<li><a href="specifier-merge.shtml"><img src="images/landing/link-merge.jpg" alt="Merge" /></a></li>
+				<li><a href="specifier-seek.shtml"><img src="images/landing/link-seek.jpg" alt="Seek" /></a></li>
+				<li><a href="specifier-empower.shtml"><img src="images/landing/link-empower.jpg" alt="Empower" /></a></li>
+				<li><a href="specifier-rise.shtml"><img src="images/landing/link-rise.jpg" alt="Rise" /></a></li>
+				<li><a href="specifier-share.shtml"><img src="images/landing/link-share.jpg" alt="Share" /></a></li>
+				<li><a href="specifier-blur.shtml"><img src="images/landing/link-blur.jpg" alt="Blur" /></a></li>
 			</ul>
 		</div>
 	</div>
@@ -39,26 +39,28 @@
 			<ul class="ct13-stylist-list">
 
 				<li class="ct13-box">
-					<div class="ct13-top"><img src="images/landing/woman1.jpg" alt="person 1"></div>
+					<div class="ct13-top"><img src="images/landing/ella-leoncio.jpg" alt="Ella Leoncio"></div>
 					<div class="ct13-bottom">
-						<h5 class="yellow">Susan Somebody</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesqtue tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</p>
+						<h5 class="blue">Ella Leoncio</h5>
+						<p class="padme">Ella Leoncio is an architect working in a senior design role at a small, boutique practice in Melbourne.</p>
+						<p>Ella specializes in residential design, with a particular focus on how design can frame an experience. She is also the author of the blog, pages from my moleskine and a regular contributor at yellowtrace.</p>
 					</div>
 				</li>
 
 				<li class="ct13-box">
-					<div class="ct13-top"><img src="images/landing/man.jpg" alt="person 2"></div>
+					<div class="ct13-top"><img src="images/landing/bree-leech.jpg" alt="Bree Leech"></div>
 					<div class="ct13-bottom">
-						<h5 class="blue">John Somebody</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesqtue tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</p>
+						<h5 class="yellow">Bree Leech</h5>
+						<p>A multi-disciplined designer with over 17 years working in the design industry, Bree has extensive experience in colour and trend forecasting. Bree is the director of Texture, a creative consultancy through which she provides key colour and trend information as well as services such as prop styling and interior design. Regularly researching international and local design trends enables Bree to provide creative direction for various marketing projects in the interior industry.</p>
 					</div>
 				</li>
 
 				<li class="ct13-box">
-					<div class="ct13-top"><img src="images/landing/woman2.jpg" alt="person 3"></div>
+					<div class="ct13-top"><img src="images/landing/miriam-fanning.jpg" alt="Miriam Fanning, Mim Design"></div>
 					<div class="ct13-bottom">
-						<h5 class="red">Susan Somebody</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesqtue tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tristique, ligula eu egestas porta, lorem felis rhoncus risus, quis elementum diam neque in sem.</p>
+						<h5 class="red">Miriam Fanning, Mim Design</h5>
+						<p class="padme">Mim Design is a diverse, creative practice that specialises in the design of interior environments.</p>
+						<p>With considerable experience delivering projects within residential, retail, hospitality and corporate Mim Design has become a company that equates itself to the customisation of interior design to suit each individual project and client.</p>
 					</div>
 				</li>
 
@@ -73,22 +75,33 @@
 			<h3>Suppliers</h3>
 
 			<ul>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
-				<li>Hardware Express (QV)<br /><a href="#">www.dulux.com.au</a></li>
+				<li class="small">Apache Aus - Prestige Painting<br /><a href="http://www.apacheaustralia.com" target="_blank">www.apacheaustralia.com</a></li>
+				<li>Behruz Studio<br /><a href="http://www.behruzstudio.com" target="_blank">www.behruzstudio.com</a></li>
+				<li>Cavit &amp; Co<br /><a href="http://www.cavitco.com.au" target="_blank">www.cavitco.com.au</a></li>
+				<li>De De Ce<br /><a href="http://www.dedece.com" target="_blank">www.dedece.com</a></li>
+				<li>Design Dilemmas<br /><a href="http://www.designdilemmas.com.au" target="_blank">www.designdilemmas.com.au</a></li>
+				<li>Fenton &amp; Fenton<br /><a href="http://www.fentonandfenton.com.au" target="_blank">www.fentonandfenton.com.au</a></li>
+				<li>Freedom<br /><a href="http://www.freedom.com.au" target="_blank">www.freedom.com.au</a></li>
+				<li>Great Dane<br /><a href="http://www.greatdanefurniture.com" target="_blank">www.greatdanefurniture.com</a></li>
+				<li>Habbot Studios<br /><a href="http://www.habbotstudios.com" target="_blank">www.habbotstudios.com</a></li>
+				<li>Hub Furniture<br /><a href="http://www.hubfurniture.com.au" target="_blank">www.hubfurniture.com.au</a></li>
+				<li>IndustriaX<br /><a href="http://www.industriax.com.au" target="_blank">www.industriax.com.au</a></li>
+				<li>Jardan<br /><a href="http://www.jardan.com.au" target="_blank">www.jardan.com.au</a></li>
+				<li>Linda Vapp<br /><a href="http://www.lindavapp.com.au" target="_blank">www.lindavapp.com.au</a></li>
+				<li>Linen House<br /><a href="http://www.linenhouse.com.au" target="_blank">www.linenhouse.com.au</a></li>
+				<li>Luke Furniture<br /><a href="http://www.luke.com.au" target="_blank">www.luke.com.au</a></li>
+				<li>Meizai<br /><a href="http://www.meizai.com.au" target="_blank">www.meizai.com.au</a></li>
+				<li>Miss Molly<br /><a href="http://www.missmolly.com.au" target="_blank">www.missmolly.com.au</a></li>
+				<li>Noddy Boffin<br /><a href="http://www.noddyboffin.com" target="_blank">www.noddyboffin.com</a></li>
+				<li>Oly<br /><a href="http://www.olystudio.com" target="_blank">www.olystudio.com</a></li>
+				<li>Patchyrugs<br /><a href="http://www.patchyrugs.com.au" target="_blank">www.patchyrugs.com.au</a></li>
+				<li>RC&amp;D<br /><a href="http://www.rc-d.com.au" target="_blank">www.rc-d.com.au</a></li>
+				<li>Space<br /><a href="http://www.spacefurniture.com.au" target="_blank">www.spacefurniture.com.au</a></li>
+				<li class="small">Surface by Belinda Christie<br /><a href="http://www.surfacebbc.com" target="_blank">www.surfacebbc.com</a></li>
+				<li>Surround Interiors<br /><a href="http://www.surround.com.au" target="_blank">www.surround.com.au</a></li>
+				<li>Temperature Design<br /><a href="http://www.temperaturedesign.com.au" target="_blank">www.temperaturedesign.com.au</a></li>
+				<li>Thread Architecture<br /><a href="http://www.threadarchitecture.com.au" target="_blank">www.threadarchitecture.com.au</a></li>
+				<li>Unique Fabrics<br /><a href="http://www.uniquefabrics.com" target="_blank">www.uniquefabrics.com</a></li>
 			</ul>
 
 		</div>

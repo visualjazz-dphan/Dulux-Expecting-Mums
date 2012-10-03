@@ -68,7 +68,7 @@
 
 				<li class="ct13-box ct13-big ct13-col1 ct13-row4">
 					<div class="ct13-top"><img src="images/merge/dulux-ct13-merge_21.jpg" alt="Styled image 2 featuring Dulux colours"></div>
-					<div class="ct13-bottom"><p class="long-desc short">Image styled by Ella Leoncio featuring Dulux Linseed</p></div>
+					<div class="ct13-bottom"><p class="long-desc short">Image styled by Ella Leoncio</p></div>
 				</li>
 
 				<li class="ct13-box ct13-small ct13-col3 ct13-row4">
@@ -79,7 +79,8 @@
 				<li class="ct13-box ct13-big ct13-col4 ct13-row5">
 					<div class="ct13-top"><img src="images/merge/dulux-ct13-merge_23.jpg" alt="Rodham"></div>
 					<div class="ct13-bottom">
-						<h5>THATCHED GRASS Design Suede</h5>
+						<h5>Thatched Grass</h5>
+						<p class="description">Design Suede</p>
 					</div>
 				</li>
 
