@@ -1,51 +1,57 @@
-<!--#include file="/includes/page-before-new.shtml" -->
+<!--#include file="/includes/page-before.shtml" -->
 
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
 			  //-->
 
-<div class="wrapper">
-	<div id="content" class="landing-barriertech">
+<div id="content" class="landing-barriertech">
 
-		<div class="inner section-intro">
+	<div class="wrapper-screen section-intro">
+		<div class="inner">
 			<div class="youtube">
-				<iframe width="520" height="290" src="http://www.youtube.com/embed/SvWoniSg2_U?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+				<iframe width="521" height="293" src="http://www.youtube.com/embed/SvWoniSg2_U?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
 			</div>
 			<h2 class="ir">Whatever Barry can't protect, Barrier Technology can.</h2>
 			<h4 class="ir">Dulux Wash &amp; Wear&reg; is Australia's number 1 paint, protecting your walls so you don't have to.</h4>
 		</div>
+	</div>
 
-		<div class="inner section-description">
+	<div class="wrapper-screen section-description">
+		<div class="inner">
 			<h3>Dulux Wash &amp; Wear<sup>&reg;</sup> comes with harder wearing, stain and scuff resistant Barrier Technology&trade;. It's not only the most washable paint available, it's specially formulated to not leave shiny marks after wiping, so your walls will always look their best.</h3>
-			<p>Wash &amp; Wear<sup>&reg;</sup> is available in a range of sheen levels from matt to low sheen to semi gloss or gloss. It is available in the following sizes: 1L, 2L, 4L, 10L, 15L</p>
+			<p>Wash &amp; Wear<sup>&reg;</sup> is available in a range of sheen levels from low sheen to matt to semi gloss or gloss. It is available in the following sizes: 1L, 2L, 4L, 10L, 15L</p>
 			<a href="http://www.dulux.com.au/products/dulux-interior-products/walls/product-detail?product=2252" class="ir find-out-more">Find out more</a>
 		</div>
+	</div>
 
-		<div class="inner section-tech">
+	<div class="wrapper-screen section-tech">
+		<div class="inner">
 			<h2 class="ir">Barrier Technology&trade;</h2>
 			<p>Our latest polymer technology combined with high performance pigments forms a tough, harder wearing barrier that most water or oil based stains cannot penetrate. This makes cleaning remarkably easy and free of shiny marks. Which means your walls are protected against even the toughest wear and tear.</p>
 
 			<div class="figure-polymer">
-				<img src="images/img-tech-polymer.jpg" width="498" height="410" />
+				<img src="images/img-tech-polymer.jpg" width="580" height="402" />
 				<span class="hidden">Polymer technology forms a barrier that protects against most oil and water based stains. Large and small pigment particles embedded in the polymer reinforce the barrier.</span>
 			</div>
 		</div>
+	</div>
 
-		<div class="inner section-3col">
+	<div class="wrapper-screen section-3col">
+		<div class="inner">
 			<ul class="columns clearfix">
-				<li class="first-col">
-					<img src="images/img-trusted.jpg" width="285" height="202" alt="Dulux Wash and Wear paint tins" />
+				<li>
+					<img src="images/img-trusted.jpg" width="318" height="203" alt="Dulux Wash and Wear paint tins" />
 					<h2 class="trusted ir">Trusted since 1975</h2>
 					<p>Since 1975 Dulux Wash &amp; Wear<sup>&reg;</sup> has been used by generations of Australian families to protect and enhance their homes.</p>
 				</li>
-				<li class="second-col">
-					<img src="images/img-tech.jpg" width="285" height="202" alt="Dulux technology" />
+				<li>
+					<img src="images/img-tech.jpg" width="318" height="203" alt="Dulux technology" />
 					<h2 class="technology ir">Technology Drivien Innovation</h2>
 					<p>Constant innovation in product technology conducted at Dulux' world class research and development facilities, is just one reason why Dulux Wash &amp; Wear<sup>&reg;</sup> is the best interior paint in Australia.</p>
 					<p>100's of scientific tests are conducted all year, every year to ensure innovation and quality remain at the core of Dulux product development.</p>
 				</li>
-				<li>
-					<img src="images/img-protecting.jpg" width="285" height="202" alt="Australian family" />
+				<li class="last">
+					<img src="images/img-protecting.jpg" width="319" height="203" alt="Australian family" />
 					<h2 class="safer ir">Safer for Australian Families</h2>
 					<p>Dulux Wash &amp; Wear<sup>&reg;</sup> is Australian made and owned, plus it is a Dulux Eco Choice<sup>&reg;</sup> paint.^</p>
 					<p>This means it has less than 5gm of VOC's (volatile organic compounds) with almost no paint smells and less air pollution compared to paints with higher VOC's. So it is better for the environment and your family.</p>
@@ -53,14 +59,16 @@
 				</li>
 			</ul>
 		</div>
+	</div>
 
-		<!-- REMOVE CLASS PRELAUNCH TO USE COLOURTREND DESIGN //-->
-		<div class="inner clearfix section-colourtrends prelaunch">
-			<img src="images/img-colour-trends.jpg" width="528" height="336" />
+	<div class="wrapper-screen section-colourtrends prelaunch"><!-- REMOVE CLASS PRELAUNCH TO USE COLOURTREND DESIGN //-->
+		<div class="inner clearfix">
+			<img src="images/img-colour-trends.jpg" width="603" height="320" />
 			<h2 class="ir">Latest Colour Trends</h2>
 			<h3>Reds, pinks, blues, greens, we have any colour to suit your mood.</h3>
 			<p>Click the link below to see the latest colour trends.</p>
-			<a href="http://www.dulux.com.au/colour/love-your-winter-blues" class="ir find-out-more">Find out more</a>
+			<a href="http://www.dulux.com.au/colour/colour-forecast" class="ir find-out-more">Find out more</a>
 		</div>
+	</div>
 
-<!--#include file="/includes/page-after-new.shtml" -->
+<!--#include file="/includes/page-after.shtml" -->

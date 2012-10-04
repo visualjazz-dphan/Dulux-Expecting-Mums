@@ -1,0 +1,105 @@
+
+        <!-- Promo Panel -->
+
+        <!-- End Promo Panel -->
+
+    	<div class="clear"></div>
+
+    </div>
+</div>
+<!--/////////////////////////// END CONTENT //////////////////////////////////////////////////////////////////////////-->
+
+    <div class="wrapper">
+
+        <!-- PLACEHOLDING FOOTER FOR TEMPLATE //-->
+        <img src="images/temp/dulux-new-footer.jpg" width="972" height="207" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
+        <!-- END PLACEHOLDING FOOTER FOR TEMPLATE //-->
+    </div>
+    <!-- End Wrapper -->
+
+
+
+    <div id="footer" style="display:none;">
+        <ul id="btm-nav">
+            <li><a href="/media" title="Media">Media</a></li>
+            <li><a href="/recommended-sites" title="Recommended Sites">Recommended Sites</a></li>
+            <li><a href="/colour-accuracy" title="Colour Accuracy">Colour Accuracy</a></li>
+            <li><a href="http://duluxsustainability.com.au/" title="Sustainability">Sustainability</a></li>
+        </ul>
+        <ul id="copy-nav"><li />
+            <li><a href="/privacy-policy" title="Privacy Policy">Privacy Policy</a></li>
+            <li><a href="/corporate-info" title="Corporate Info">Corporate Info</a></li>
+            <li><a href="http://www.duluxgroup.com.au/" target="_blank" title="Investor Info">Investor Info</a></li>
+            <li><a href="/site-terms-" title="Site Terms">Site Terms</a></li>
+            <li><a href="/site-map" title="Site Map">Site Map</a></li>
+        </ul>
+        <ul id="promo-nav">
+            <li><a class="pnav-pro-coat" href="/specifier/our-brands/dulux-protective-coatings" title="Protective Coatings">Protective Coatings</a></li>
+            <li><a class="pnav-pow-coat" href="/specifier/our-brands/dulux-powder-coatings" title="Powder Coatings">Powder Coatings</a></li>
+            <li><a class="pnav-acratex" href="/specifier/our-brands/dulux-acratex" title="Acratex">Acratex</a></li>
+            <li><a class="pnav-auto-refin" href="http://www.duluxrefinish.com.au" title="Auto Refinish">Auto Refinish</a></li>
+            <li><a class="pnav-intergrain" href="/specifier/our-brands/intergrain-timber-finishes" title="Intergrain">Intergrain</a></li>
+            <li><a class="pnav-envirosolutions" href="/specifier/our-brands/dulux-envirosolutions" title="Envirosolutions">Envirosolutions</a></li>
+        </ul>
+        <img class="aus-made" src="/includes/imgs/aus-made.png" alt="Australian Made" />
+    </div>
+
+<!-- Dock -->
+<!--
+<div id="dock-wrap">
+    <div id="dock">
+        <div id="project">
+            <a class="my-project" href="/my-project">loading</a>
+            <p>loading</p>
+            <div class="dockDropzones">
+                <div id="dockProjectColoursWrapper">
+                    <div id="dockZoneProjectColour1"></div>
+                    <div id="dockZoneProjectColour2"></div>
+                    <div id="dockZoneProjectColour3"></div>
+                </div>
+                <div id="dockZoneProjectColourCollection"></div>
+                <div id="dockZoneProjectScheme"></div>
+                <div id="dockZoneProjectProduct"></div>
+                <div id="dockZoneProjectCalculation"></div>
+                <div id="dockZoneProjectRetailer"></div>
+            </div>
+        </div>
+        <div id="scrapbook">
+            <a class="my-scrapbook" href="/my-project">My Scrapbook</a>
+            <p>loading</p>
+            <div class="dockDropzones">
+                <div id="dockZoneScrapbookColour"></div>
+                <div id="dockZoneScrapbookScheme"></div>
+                <div id="dockZoneScrapbookProduct"></div>
+                <div id="dockZoneScrapbookPicture"></div>
+                <div id="dockZoneScrapbookVideo"></div>
+            </div>
+        </div>
+    </div>
+</div>
+//-->
+<!-- End Dock Wrap -->
+
+
+            <!--[if IE 6]>
+                <script type="text/javascript">
+                    sfHover = function() {
+                        var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                        for (var i=0; i<sfEls.length; i++) {
+                            sfEls[i].onmouseover=function() {
+                                this.className+=" sfhover";
+                            }
+                            sfEls[i].onmouseout=function() {
+                                this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                            }
+                        }
+                    }
+                    if (window.attachEvent) window.attachEvent("onload", sfHover);
+                </script>
+            <![endif]-->
+
+</form>
+
+
+    </body>
+</html>
