@@ -95,9 +95,9 @@ p strong.green 				{ color: #84a12b;}
 .ct13-suppliers 			{ padding: 35px 0 57px; }
 .ct13-suppliers h3 			{ text-indent: -9999px; background: #a5204d url(../images/landing/suppliers-heading.png) no-repeat; width: 292px; height: 77px; }
 .ct13-suppliers ul 			{ list-style: none; overflow: hidden; padding: 12px 0 0 25px; border-left: 1px solid #a5204d; }
-.ct13-suppliers li 			{ float: left; display: block; width: 236px; height: 45px; overflow: hidden; padding: 17px 0 0; font-weight: bold; text-transform: uppercase; }
-.ct13-suppliers li.small	{ font-size: 12px; }
-.ct13-suppliers li.small a	{ font-size: 14px; }
+.ct13-suppliers li,
+.ct13-suppliers li a 		{ font-size: 11px; line-height: 13px; }
+.ct13-suppliers li 			{ float: left; display: block; width: 236px; height: 28px; overflow: hidden; padding: 12px 0 0; font-weight: bold; text-transform: uppercase; }
 .ct13-suppliers li a 		{ font-weight: normal; text-transform: none; text-decoration: none; }
 .ct13-suppliers li a:hover 	{ color: #a5204d; }
 

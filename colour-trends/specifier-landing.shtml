@@ -33,7 +33,7 @@
 
 			<div class="ct13-section-header">
 				<h3>Stylists</h3>
-				<!-- <h4>Lorem ipsum dolor sit amet, consectetur elit. adipiscing Curabitur vel justo elit, ut mattis nibh.</h4> -->
+				<h4>Dulux collaborated with three inspiring design experts to bring the vision of Colour Movement to life</h4>
 			</div>
 
 			<ul class="ct13-stylist-list">
@@ -51,7 +51,7 @@
 					<div class="ct13-top"><img src="images/landing/bree-leech.jpg" alt="Bree Leech"></div>
 					<div class="ct13-bottom">
 						<h5 class="yellow">Bree Leech</h5>
-						<p>A multi-disciplined designer with over 17 years working in the design industry, Bree has extensive experience in colour and trend forecasting. Bree is the director of Texture, a creative consultancy through which she provides key colour and trend information as well as services such as prop styling and interior design. Regularly researching international and local design trends enables Bree to provide creative direction for various marketing projects in the interior industry.</p>
+						<p>A multi-disciplined designer with over 17 years working in the design industry, Bree has extensive experience in colour and trend forecasting. Bree is the director of Texture, a creative consultancy through which she provides key colour and trend information as well as services such as prop styling and interior design.</p>
 					</div>
 				</li>
 
@@ -75,7 +75,7 @@
 			<h3>Suppliers</h3>
 
 			<ul>
-				<li class="small">Apache Aus - Prestige Painting<br /><a href="http://www.apacheaustralia.com" target="_blank">www.apacheaustralia.com</a></li>
+				<li>Apache Aus - Prestige Painting<br /><a href="http://www.apacheaustralia.com" target="_blank">www.apacheaustralia.com</a></li>
 				<li>Behruz Studio<br /><a href="http://www.behruzstudio.com" target="_blank">www.behruzstudio.com</a></li>
 				<li>Cavit &amp; Co<br /><a href="http://www.cavitco.com.au" target="_blank">www.cavitco.com.au</a></li>
 				<li>De De Ce<br /><a href="http://www.dedece.com" target="_blank">www.dedece.com</a></li>
@@ -97,7 +97,7 @@
 				<li>Patchyrugs<br /><a href="http://www.patchyrugs.com.au" target="_blank">www.patchyrugs.com.au</a></li>
 				<li>RC&amp;D<br /><a href="http://www.rc-d.com.au" target="_blank">www.rc-d.com.au</a></li>
 				<li>Space<br /><a href="http://www.spacefurniture.com.au" target="_blank">www.spacefurniture.com.au</a></li>
-				<li class="small">Surface by Belinda Christie<br /><a href="http://www.surfacebbc.com" target="_blank">www.surfacebbc.com</a></li>
+				<li>Surface by Belinda Christie<br /><a href="http://www.surfacebbc.com" target="_blank">www.surfacebbc.com</a></li>
 				<li>Surround Interiors<br /><a href="http://www.surround.com.au" target="_blank">www.surround.com.au</a></li>
 				<li>Temperature Design<br /><a href="http://www.temperaturedesign.com.au" target="_blank">www.temperaturedesign.com.au</a></li>
 				<li>Thread Architecture<br /><a href="http://www.threadarchitecture.com.au" target="_blank">www.threadarchitecture.com.au</a></li>
