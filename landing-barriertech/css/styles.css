@@ -13,7 +13,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 .landing-barriertech .inner { padding: 20px 0; }
 .landing-barriertech h2 	{ clear: none; }
 
-.landing-barriertech .section-intro 		{ height: 311px; padding-top: 79px; background: url(../images/bg-repeat-brown.png) repeat-x; }
+.landing-barriertech .section-intro 		{ height: 257px; padding-top: 133px; background: url(../images/bg-repeat-brown.png) repeat-x; }
 .landing-barriertech .section-description 	{ height: 310px; padding-top: 80px; color: #00275d; background: #fbfbfb url(../images/bg-tinwashwear.jpg) no-repeat right top; }
 .landing-barriertech .section-tech 			{ height: 300px; padding-top: 90px; background: url(../images/bg-barrier-tech.jpg) top left no-repeat; }
 .landing-barriertech .section-3col 			{ padding-top: 58px; padding-bottom: 70px; }
@@ -21,9 +21,9 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 a.find-out-more { display: block; width: 170px; height: 35px; margin-top: 40px; background: #00275d url(../images/btn-findoutmore.png) no-repeat 50% 50%; }
 a:hover 		{ opacity: 0.85; }
 
-.landing-barriertech .section-intro { width: 374px; padding-left: 586px; }
-	.section-intro h2 				{ width: 322px; height: 177px; margin: 0 0 33px; background: url(../images/text-intro-heading.png) no-repeat; }
-	.section-intro h4 				{ width: 338px; height: 43px; background: url(../images/text-intro-subhead.png) no-repeat; }
+.landing-barriertech .section-intro { width: 379px; padding-left: 581px; }
+	.section-intro h2 				{ width: 353px; height: 68px; margin: 0 0 38px; background: url(../images/text-intro-heading.png) no-repeat; }
+	.section-intro h4 				{ width: 337px; height: 40px; background: url(../images/text-intro-subhead.png) no-repeat; }
 	.section-intro .youtube 		{ width: 586px; height: 312px; position: absolute; top: 55px; left: 0; background: url(../images/feature-drop-shadow.png) no-repeat 0 2px; }
 	.section-intro .youtube iframe 	{ margin-left: 30px; border: 3px solid #fff; }
 
