@@ -1,0 +1,30 @@
+<!--#include file="/includes/page-before-new.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div class="wrapper">
+	<div id="content" class="mini-makeover">
+
+		<div class="inner section-intro novid">
+			<!-- remove class novid & uncomment the div below to see video version -->
+			<!-- <div class="youtube">
+				<iframe width="520" height="290" src="http://www.youtube.com/embed/SvWoniSg2_U?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=1" frameborder="0" allowfullscreen></iframe>
+			</div> -->
+			<h2 class="ir">Mini Makeover</h2>
+			<h4 class="ir">Reinvigorate your space with colour.</h4>
+		</div>
+
+		<div class="inner section-description">
+			<h3>With the latest on trend colours, Dulux presents the <strong>Mini Makeover</strong>. A change as simple as a focal feature wall can achieve a dramatic and refreshing transformation to any room.</h3>
+			<p>Add a handful of select fashion furnishings, and your place will quickly become the envy of friends and family.</p>
+
+			<div class="guarantee">
+				<h3 class="ir">We Guarantee you'll love your dulux colour</h3>
+				<p class="border">To guarantee you’ll absolutely love your colour, use a Dulux Sample Pot to trial on your wall at home. That way, you know, you’ll get it right the first time.</p>
+				<p class="disclaimer">*Using a sample pot to trial a colour is a recommendation only and Dulux accepts no liability for colour choice.</p>
+			</div>
+		</div>
+
+<!--#include file="/includes/page-after-new.shtml" -->

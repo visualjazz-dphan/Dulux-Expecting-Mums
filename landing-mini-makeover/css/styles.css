@@ -1,0 +1,65 @@
+
+/* ------------------------------------------
+   STYLES for Mini Makeover Landing page
+   ------------------------------------------ */
+
+/* temp */
+.wrapper	 	{ background: #fbfbfb; }
+.wrapper img 	{ display: block; }
+#content 		{ width: 960px; margin: 0 6px; padding: 0; }
+body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
+
+.mini-makeover 			{ font: 14px/1.5 Calibri, Arial, sans-serif; color: #595959; }
+.mini-makeover .inner 	{ width: 960px; }
+.mini-makeover h2 		{ clear: none; }
+
+.mini-makeover .section-intro 		{ height: 380px; background: url(../images/bg-mini-makeover.jpg) left top no-repeat; }
+.mini-makeover .section-description { height: 385px; color: #666666; background: #fbfbfb url(../images/bg-description.png) no-repeat left bottom; }
+.mini-makeover .section-tech 		{ height: 300px; padding-top: 90px; background: url(../images/bg-barrier-tech.jpg) top left no-repeat; }
+.mini-makeover .section-3col 		{ padding-top: 58px; padding-bottom: 70px; }
+
+/*a.find-out-more { display: block; width: 170px; height: 35px; margin-top: 40px; background: #00275d url(../images/btn-findoutmore.png) no-repeat 50% 50%; }
+a:hover 		{ opacity: 0.85; }*/
+
+.mini-makeover .section-intro 		{ width: 379px; padding-left: 581px; }
+	.mini-makeover .novid			{ background: url(../images/bg-mini-makeover-novid.jpg) left top no-repeat; }
+	.section-intro .youtube 		{ width: 586px; height: 312px; position: absolute; top: 39px; left: 0; background: url(../images/feature-drop-shadow.png) no-repeat 0 2px; }
+	.section-intro .youtube iframe 	{ margin-left: 30px; border: 3px solid #fff; }
+
+.mini-makeover .section-description { position: relative; }
+	.section-description h3 		{ padding: 90px 0 0 30px; font-size: 24px; line-height: 27px; font-weight: normal; width: 525px; }
+	.section-description h3 strong	{ color: #b1b135; }
+	.section-description p 			{ padding: 29px 0 0 30px; font-size: 20px; line-height: 26px; width: 525px; }
+	.section-description .guarantee 			{ position: absolute; right: 45px; top: 20px; width: 275px; border-top: 4px solid #e7e7e7; padding: 18px 0 0; }
+	.section-description .guarantee h3,
+	.section-description .guarantee p			{ width: auto; padding: 0; }
+	.section-description .guarantee h3.ir 		{ font: 0px/0 a; }
+	.section-description .guarantee h3			{ background: url(../images/heading-love-your-dulux-colour.jpg) left top no-repeat; width: 275px; height: 140px; }
+	.section-description .guarantee p 		 	{ color: #00245d; font-size: 18px; width: 275px;  }
+	.section-description .guarantee .border 	{ line-height: 23px; padding: 15px 0; border-bottom: 4px solid #e7e7e7; }
+	.section-description .guarantee .disclaimer { line-height: 12px; font-size: 11px; padding: 6px 0 0; text-align: center; }
+
+/*.mini-makeover .section-tech 		{ width: 432px; padding-right: 498px; padding-left: 30px; position: relative; }
+	.section-tech h2 				{ width: 429px; height: 56px; margin: 0 0 25px; background: url(../images/text-tech-heading.png) no-repeat; }
+	.section-tech p 				{ line-height: 2.2; margin-bottom: 1em; }
+	.section-tech .figure-polymer 	{ z-index: 1; position: absolute; right: 0; top: 0; height: 410px; overflow: hidden; }
+
+.mini-makeover .section-3col 				{ width: 960px; }
+	.section-3col ul.columns 				{ width: 900px; margin: 0; padding: 0 30px; list-style-type: none; }
+	.section-3col .columns li 				{ width: 285px; float: left;  }
+	.section-3col .columns li.first-col 	{ margin-right: 23px; }
+	.section-3col .columns li.second-col 	{ margin-right: 22px; }
+	.section-3col .columns img 				{ margin-bottom: 20px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
+	.section-3col .columns p 				{ padding-right: 30px; margin-bottom: 1em; }
+	.section-3col .columns small 			{ display:block; margin-top: 20px; font-size: 10px; line-height: 1.4; color: #7e7e7e; }
+	.section-3col h2 						{ height: 49px; margin-bottom: 25px; }
+	.section-3col h2.trusted 				{ background: url(../images/text-heading-trusted.png) no-repeat; }
+	.section-3col h2.technology 			{ background: url(../images/text-heading-technology.png) no-repeat; }
+	.section-3col h2.safer 					{ background: url(../images/text-heading-safer.png) no-repeat; }
+
+.mini-makeover .section-colourtrends 		{ background: url(../images/bg-colourtrends.jpg) repeat-x 50% 0; position: relative; padding: 16px 30px 0 588px; width: 342px; height: 403px; }
+	.section-colourtrends.prelaunch 		{ background: url(../images/bg-repeat-temp.png) repeat-x 0 0; }
+	.section-colourtrends img 				{ position: absolute; top: 16px; left: 30px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
+	.section-colourtrends h2 				{ width: 300px; height: 124px; margin-bottom: 39px; background: url(../images/text-heading-latestcolourtrends.png) no-repeat; }
+	.section-colourtrends h3 				{ margin-bottom: 22px; font-size: 16px; }
+	.section-colourtrends a.find-out-more 	{ background-color: #304f6f; margin-top: 45px; }*/
