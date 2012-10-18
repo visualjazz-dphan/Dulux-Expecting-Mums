@@ -39,27 +39,24 @@ a:hover 		{ opacity: 0.85; }*/
 	.section-description .guarantee .border 	{ line-height: 23px; padding: 15px 0; border-bottom: 4px solid #e7e7e7; }
 	.section-description .guarantee .disclaimer { line-height: 12px; font-size: 11px; padding: 6px 0 0; text-align: center; }
 
-/*.mini-makeover .section-tech 		{ width: 432px; padding-right: 498px; padding-left: 30px; position: relative; }
-	.section-tech h2 				{ width: 429px; height: 56px; margin: 0 0 25px; background: url(../images/text-tech-heading.png) no-repeat; }
-	.section-tech p 				{ line-height: 2.2; margin-bottom: 1em; }
-	.section-tech .figure-polymer 	{ z-index: 1; position: absolute; right: 0; top: 0; height: 410px; overflow: hidden; }
-
-.mini-makeover .section-3col 				{ width: 960px; }
-	.section-3col ul.columns 				{ width: 900px; margin: 0; padding: 0 30px; list-style-type: none; }
-	.section-3col .columns li 				{ width: 285px; float: left;  }
-	.section-3col .columns li.first-col 	{ margin-right: 23px; }
-	.section-3col .columns li.second-col 	{ margin-right: 22px; }
-	.section-3col .columns img 				{ margin-bottom: 20px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
-	.section-3col .columns p 				{ padding-right: 30px; margin-bottom: 1em; }
-	.section-3col .columns small 			{ display:block; margin-top: 20px; font-size: 10px; line-height: 1.4; color: #7e7e7e; }
-	.section-3col h2 						{ height: 49px; margin-bottom: 25px; }
-	.section-3col h2.trusted 				{ background: url(../images/text-heading-trusted.png) no-repeat; }
-	.section-3col h2.technology 			{ background: url(../images/text-heading-technology.png) no-repeat; }
-	.section-3col h2.safer 					{ background: url(../images/text-heading-safer.png) no-repeat; }
-
-.mini-makeover .section-colourtrends 		{ background: url(../images/bg-colourtrends.jpg) repeat-x 50% 0; position: relative; padding: 16px 30px 0 588px; width: 342px; height: 403px; }
-	.section-colourtrends.prelaunch 		{ background: url(../images/bg-repeat-temp.png) repeat-x 0 0; }
-	.section-colourtrends img 				{ position: absolute; top: 16px; left: 30px; -webkit-box-shadow:  3px 3px 12px 0px rgba(0, 0, 0, .25); box-shadow: 3px 3px 12px 0px rgba(0, 0, 0, .25); }
-	.section-colourtrends h2 				{ width: 300px; height: 124px; margin-bottom: 39px; background: url(../images/text-heading-latestcolourtrends.png) no-repeat; }
-	.section-colourtrends h3 				{ margin-bottom: 22px; font-size: 16px; }
-	.section-colourtrends a.find-out-more 	{ background-color: #304f6f; margin-top: 45px; }*/
+	
+	.dulux-color-section { width:960px; margin-bottom:6px; }
+		.dulux-color-section ul { margin:0; padding:0; list-style:none; }
+		.dulux-color-section li { display:block; position:relative; float:left; }
+		.dulux-color-section a { color:#FFFFFF; font-size:22px; position:absolute; right:20px; bottom:22px; text-decoration:none; font-weight:bold; background:url(../images/bgd_sprite.png) left 2px no-repeat; display:block; padding:0 0 0 30px; height:24px; line-height:normal; }
+		.dulux-color-section a.active { background-position:left -22px; }
+		
+		.tapioca-theme { background:url(../images/bg-tapioca.jpg) no-repeat; width:576px; height:931px; }
+		.corolblossom-theme { background:url(../images/bg-blossom.jpg) no-repeat; width:384px; height:931px; }
+		.species-theme { background:url(../images/bg-species.jpg) no-repeat; width:437px; height:945px; }
+		.babytone-theme { background:url(../images/bg-babytone.jpg) no-repeat; width:523px; height:945px; }
+	
+	
+	.results { width:960px; height:174px; background:url(../images/bd_results.jpg) no-repeat; }
+		.results ul { float:right; margin-right:30px; list-style:none; padding:0; }
+		.results li { float:left; width:123px; padding:90px 0 0 0; text-align:center; font-size:30px; font-weight:bold; font-style:italic; color:#FFFFFF; }
+		
+		.disabled { cursor:default; }
+	
+	.help-tip { width:960px; text-align:center; padding:45px 0; font-size:32px; color:#444444; font-weight:bold; font-style:italic; }	
+		.help-tip p a { width:530px; height:53px; background:url(../images/btn_book-consultion.gif) no-repeat; text-indent:-99999px; display:block; margin:10px auto 0 auto; }
