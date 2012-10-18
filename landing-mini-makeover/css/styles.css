@@ -58,5 +58,6 @@ a:hover 		{ opacity: 0.85; }*/
 		
 		.disabled { cursor:default; }
 	
-	.help-tip { width:960px; text-align:center; padding:45px 0; font-size:32px; color:#444444; font-weight:bold; font-style:italic; }	
-		.help-tip p a { width:530px; height:53px; background:url(../images/btn_book-consultion.gif) no-repeat; text-indent:-99999px; display:block; margin:10px auto 0 auto; }
+	.help-tip { width:960px; text-align:center; padding:45px 0; font-size:30px; font-weight:bold; font-style:italic; }	
+		.help-tip p a { width:478px; height:50px; background:url(../images/btn_book-consultion.gif) no-repeat; display:block; margin:10px auto 0 auto; text-decoration:none; color:#FFFFFF; text-align:left; padding:3px 0 0 25px; }
+		.help-tip p a:hover { text-decoration:underline; } 

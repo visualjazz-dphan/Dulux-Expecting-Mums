@@ -50,7 +50,7 @@
         </div>
         <div class="help-tip">
         	<p>Need help choosing the right colours?</p>
-            <p><a href="#" title="Book a Dulux COLOUR Consultation">Book a Dulux COLOUR Consultation</a></p>
+            <p><a href="http://www.dulux.com.au/services/colour-consultants" title="Book a Dulux Colour Consultation" target="_blank">Book a Dulux Colour Consultation</a></p>
         </div>
 
 <!--#include file="/includes/page-after-new.shtml" -->
