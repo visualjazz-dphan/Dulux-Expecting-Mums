@@ -145,8 +145,8 @@
 	</div>
 
 	<div class="wrapper-screen ct13-trends-nav">
-		<a href="consumer-seek.shtml" class="next-trend">View next trend</a>
-		<a href="consumer-rise.shtml" class="prev-trend">View previous trend</a>
+		<a href="consumer-rise.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-seek.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

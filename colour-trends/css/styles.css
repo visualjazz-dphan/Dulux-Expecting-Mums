@@ -6,7 +6,7 @@
 .wrapper img,
 .colour-trends-2013 img 	{ display: block; }
 .colour-trends-2013 a 		{ color: #777777; }
-.ct13-colours			 	{ width: 960px; } /* edit */
+.ct13-colours			 	{ width: 960px; }
 .colour-trends-2013 		{ background: #fff; font: 14px/1.6em Tahoma, Verdana, Segoe, sans-serif; color: #777777; }
 .wrapper-screen				{ width: 960px; padding: 0 6px; }
 #wrapper 					{ margin: 0 auto; min-height: 0; } /* remove on implementation - this to simulate .push in build */
@@ -25,7 +25,6 @@
 
 /* CT13 COLOURS LIST SECTION */
 .ct13-colours 					{ list-style: none; height: 1254px; position: relative; }
-.ct13-consumer .ct13-colours 	{ height: 1285px; }
 	.ct13-colours .ct13-box 	{ position: absolute; }
 	.ct13-colours .ct13-small 	{ width: 182px; }
 	.ct13-colours .ct13-big 	{ width: 376px; }
@@ -55,16 +54,16 @@
 	.ct13-colours .ct13-disclaimer 	{ left: 10px; top: 1130px; font: 12px/1.2em Tahoma,Geneva,sans-serif; color: #777777; font-style: italic; }
 
 /* CT13 FOOTER */
-.ct13-footer						{ background: #fafafa; margin: 6px 6px 0; padding: 0 0 0 323px; width: 635px; position: relative; }
+.ct13-footer						{ background: #fafafa; margin: 6px 6px 0; padding: 0 0 0 323px; width: 635px; height: 376px; position: relative;}
 	.ct13-footer h3,
-	.ct13-footer .cc-link 			{ position: absolute; left: 18px; text-indent: -9999px; display: block; }
+	.ct13-footer .cc-link 			{ position: absolute; top: 50px; left: 18px; text-indent: -9999px; display: block; }
 	.ct13-footer ul 				{ padding: 30px 0 0 15px; color: #777777; width: 585px; }
 	.ct13-footer li 				{ padding: 0 0 22px; }
 	.ct13-footer li span			{ color: #777777; }
 	.ct13-footer p  				{ text-indent: 15px; }
 	.ct13-footer p a 				{ font-size: 16px; color: #777777; }
 	.ct13-footer p a:hover 			{ text-decoration: none; }
-	.ct13-footer .cc-link			{ width: 276px; height: 137px; }
+	.ct13-footer .cc-link			{ width: 276px; height: 137px; top: 202px; }
 	.ct13-footer a.cc-link:hover	{ opacity:0.75; filter:alpha(opacity=75); }
 	.ct13-footer .ct13-tips			{ font: bold 16px/22px Tahoma, Verdana, Segoe, sans-serif; color: #777777; text-indent: 0; width: 575px; padding: 44px 0 0; }
 
@@ -170,9 +169,17 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-empower .ct13-head 					{ background: #fff url(../images/empower/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-empower .ct13-colour-list				{ background: url(../images/empower/bg-footer.png) 6px bottom no-repeat; }
 /* consumer pages footer changes */
-	.ct13-blur .ct13-footer						{ height: 376px; }
-	.ct13-blur .ct13-footer h3					{ top: 50px; width: 231px; height: 122px; background: url(../images/blur/heading_get-the-look.png) no-repeat; }
-	.ct13-blur .ct13-footer .cc-link			{ top: 202px; background: url(../images/blur/link_colour-consultation.png); }
+	.ct13-blur .ct13-footer h3					{ width: 231px; height: 122px; background: url(../images/blur/heading_get-the-look.png) no-repeat; }
+	.ct13-blur .ct13-footer .cc-link			{ background: url(../images/blur/link_colour-consultation.png); }
+.ct13-empower.ct13-consumer .ct13-colours 		{ height: 1285px; }
 	.ct13-empower .ct13-footer					{ height: 402px; }
 	.ct13-empower .ct13-footer h3				{ top: 47px; width: 246px; height: 147px; background: url(../images/empower/heading_get-the-look.png) no-repeat; }
 	.ct13-empower .ct13-footer .cc-link			{ top: 222px; background: url(../images/empower/link_colour-consultation.png); }
+.ct13-merge.ct13-consumer .ct13-colours 		{ height: 1350px; }
+	.ct13-merge .ct13-footer					{ height: 402px; }
+	.ct13-merge .ct13-footer h3					{ top: 48px; width: 190px; height: 146px; background: url(../images/merge/heading_get-the-look.png) no-repeat; }
+	.ct13-merge .ct13-footer .cc-link			{ top: 222px; background: url(../images/merge/link_colour-consultation.png); }
+.ct13-rise.ct13-consumer .ct13-colours 			{ height: 1295px; }
+	.ct13-rise .ct13-footer						{ height: 415px; }
+	.ct13-rise .ct13-footer h3					{ width: 243px; height: 122px; background: url(../images/rise/heading_get-the-look.png) no-repeat; }
+	.ct13-rise .ct13-footer .cc-link			{ background: url(../images/rise/link_colour-consultation.png); }
