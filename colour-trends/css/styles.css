@@ -6,14 +6,14 @@
 .wrapper img,
 .colour-trends-2013 img 	{ display: block; }
 .colour-trends-2013 a 		{ color: #777777; }
-.ct13-colours			 	{ width: 972px; } /* edit */
+.ct13-colours			 	{ width: 960px; } /* edit */
 .colour-trends-2013 		{ background: #fff; font: 14px/1.6em Tahoma, Verdana, Segoe, sans-serif; color: #777777; }
 .wrapper-screen				{ width: 960px; padding: 0 6px; }
 #wrapper 					{ margin: 0 auto; min-height: 0; } /* remove on implementation - this to simulate .push in build */
 
 /* CT13 HEAD */
 .ct13-head 				{ background: #e2e1df; height: 409px; position: relative; }
-	.ct13-head iframe 	{ position: absolute; top: 59px; left: 26px; }
+	.ct13-head iframe 	{ position: absolute; top: 59px; left: 26px; } /* was top: 59px; with iframe height="288", top: 62px; for height="284" */
 	.sIFR-active h1 	{ visibility: visible; }
 	.ct13-head h1,
 	.ct13-head h2 		{ text-indent: -9999px; }
@@ -25,6 +25,7 @@
 
 /* CT13 COLOURS LIST SECTION */
 .ct13-colours 					{ list-style: none; height: 1254px; position: relative; }
+.ct13-consumer .ct13-colours 	{ height: 1285px; }
 	.ct13-colours .ct13-box 	{ position: absolute; }
 	.ct13-colours .ct13-small 	{ width: 182px; }
 	.ct13-colours .ct13-big 	{ width: 376px; }
@@ -51,20 +52,31 @@
 	.ct13-colours .long-desc	{ font-size: 11px; line-height: 1.4em; font-style: italic; color: #777777; padding: 0 61px 21px 10px; border-left: 1px solid #e5e5e5; margin: 7px 0 0; }
 	.ct13-colours .short		{ padding-right: 215px; }
 	.ct13-colours .right		{ padding: 0 10px 21px 4px; border-right: 1px solid #e5e5e5; border-left: none; text-align: right; }
+	.ct13-colours .ct13-disclaimer 	{ left: 10px; top: 1130px; font: 12px/1.2em Tahoma,Geneva,sans-serif; color: #777777; font-style: italic; }
 
 /* CT13 FOOTER */
-.wrapper-screen.ct13-footer			{ background: #fafafa; border-bottom: 8px solid #fff; }
-.wrapper-screen.ct13-footer .inner	{ padding: 0 0 0 294px; width: 678px; height: 369px; position: relative; }
-	.ct13-footer h3 				{ position: absolute; top: 45px; left: 0; text-indent: -9999px; display: block; width: 253px; height: 127px; background: #777777 url(../images/get-the-look.png) no-repeat; }
-	.ct13-footer ul 				{ padding: 55px 0 6px 15px; color: #777777; }
+.ct13-footer						{ background: #fafafa; margin: 6px 6px 0; padding: 0 0 0 323px; width: 635px; position: relative; }
+	.ct13-footer h3,
+	.ct13-footer .cc-link 			{ position: absolute; left: 18px; text-indent: -9999px; display: block; }
+	.ct13-footer ul 				{ padding: 30px 0 0 15px; color: #777777; width: 585px; }
 	.ct13-footer li 				{ padding: 0 0 22px; }
 	.ct13-footer li span			{ color: #777777; }
 	.ct13-footer p  				{ text-indent: 15px; }
 	.ct13-footer p a 				{ font-size: 16px; color: #777777; }
 	.ct13-footer p a:hover 			{ text-decoration: none; }
+	.ct13-footer .cc-link			{ width: 276px; height: 137px; }
+	.ct13-footer a.cc-link:hover	{ opacity:0.75; filter:alpha(opacity=75); }
+	.ct13-footer .ct13-tips			{ font: bold 16px/22px Tahoma, Verdana, Segoe, sans-serif; color: #777777; text-indent: 0; width: 575px; padding: 44px 0 0; }
+
+/* CT13 TRENDS NAV */
+.ct13-trends-nav				{ height: 124px; position: relative; }
+.ct13-trends-nav a				{ display: block; height: 23px; padding: 11px 0 0 0; background: #444444 url(../images/bg_prev-arrow.png) 10px 11px no-repeat; color: #fff; font: bold 12px/1 Tahoma, Verdana, Segoe, sans-serif; text-decoration: none; position: absolute; top: 45px; }
+.ct13-trends-nav .next-trend	{ padding-left: 15px; padding-right: 32px; right: 30px; background: #444444 url(../images/bg_next-arrow.png) 126px 11px no-repeat; }
+.ct13-trends-nav .prev-trend	{ padding-left: 32px; padding-right: 15px; right: 181px; }
+.ct13-trends-nav a:hover		{ opacity:0.75; filter:alpha(opacity=75); }
 
 /* LANDING PAGE */
-.ct13-landing .ct13-head 	{ background: #fff url(../images/landing/bg-header-landing.jpg) 6px top no-repeat; }
+.ct13-landing .ct13-head 	{ background: #fff url(../images/landing/bg-header-landing.jpg) left top no-repeat; }
 p strong 					{ font-weight: bold; }
 p strong.green 				{ color: #84a12b;}
 /* colour links */
@@ -110,7 +122,7 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-share .ct13-footer h3					{ background-color: #a9a9a7; }
 	.ct13-share .ct13-footer p a,
 	.ct13-share .ct13-footer ul 				{ color: #a9a9a7; }
-	.ct13-share .ct13-head 						{ background: #fff url(../images/share/bg-header.jpg) 6px top no-repeat; }
+	.ct13-share .ct13-head 						{ background: #fff url(../images/share/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-share .ct13-colour-list				{ background: url(../images/share/bg-footer.png) 6px bottom no-repeat; }
 /* seek */
 	.ct13-seek .ct13-description p.emphasis 	{ color: #bcb566; }
@@ -119,7 +131,7 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-seek .ct13-footer h3					{ background-color: #bcb566; }
 	.ct13-seek .ct13-footer p a,
 	.ct13-seek .ct13-footer ul 					{ color: #bcb566; }
-	.ct13-seek .ct13-head 						{ background: #fff url(../images/seek/bg-header.jpg) 6px top no-repeat; }
+	.ct13-seek .ct13-head 						{ background: #fff url(../images/seek/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-seek .ct13-colour-list				{ background: url(../images/seek/bg-footer.jpg) 6px bottom no-repeat; }
 /* rise */
 	.ct13-rise .ct13-description p.emphasis 	{ color: #7ea69f; }
@@ -128,7 +140,7 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-rise .ct13-footer h3					{ background-color: #93c4ba; }
 	.ct13-rise .ct13-footer p a,
 	.ct13-rise .ct13-footer ul 					{ color: #93c4ba; }
-	.ct13-rise .ct13-head 						{ background: #fff url(../images/rise/bg-header.jpg) 6px top no-repeat; }
+	.ct13-rise .ct13-head 						{ background: #fff url(../images/rise/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-rise .ct13-colour-list				{ background: url(../images/rise/bg-footer.png) 6px bottom no-repeat; }
 /* merge */
 	.ct13-merge .ct13-description p.emphasis 	{ color: #ce7066; }
@@ -137,7 +149,7 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-merge .ct13-footer h3					{ background-color: #ce7066; }
 	.ct13-merge .ct13-footer p a,
 	.ct13-merge .ct13-footer ul 				{ color: #ce7066; }
-	.ct13-merge .ct13-head 						{ background: #fff url(../images/merge/bg-header.jpg) 6px top no-repeat; }
+	.ct13-merge .ct13-head 						{ background: #fff url(../images/merge/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-merge .ct13-colour-list				{ background: url(../images/merge/bg-footer.png) 6px bottom no-repeat; }
 /* blur */
 	.ct13-blur .ct13-description p.emphasis 	{ color: #704573; }
@@ -146,7 +158,7 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-blur .ct13-footer h3					{ background-color: #704573; }
 	.ct13-blur .ct13-footer p a,
 	.ct13-blur .ct13-footer ul 					{ color: #704573; }
-	.ct13-blur .ct13-head 						{ background: #fff url(../images/blur/bg-header.jpg) 6px top no-repeat; }
+	.ct13-blur .ct13-head 						{ background: #fff url(../images/blur/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-blur .ct13-colour-list				{ background: url(../images/blur/bg-footer.jpg) 6px bottom no-repeat; }
 /* empower */
 	.ct13-empower .ct13-description p.emphasis 	{ color: #2baccf; }
@@ -155,5 +167,12 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-empower .ct13-footer h3				{ background-color: #48c3d1; }
 	.ct13-empower .ct13-footer p a,
 	.ct13-empower .ct13-footer ul 				{ color: #2baccf; }
-	.ct13-empower .ct13-head 					{ background: #fff url(../images/empower/bg-header.jpg) 6px top no-repeat; }
+	.ct13-empower .ct13-head 					{ background: #fff url(../images/empower/bg-header.jpg) 0 0 no-repeat; }
 	.ct13-empower .ct13-colour-list				{ background: url(../images/empower/bg-footer.png) 6px bottom no-repeat; }
+/* consumer pages footer changes */
+	.ct13-blur .ct13-footer						{ height: 376px; }
+	.ct13-blur .ct13-footer h3					{ top: 50px; width: 231px; height: 122px; background: url(../images/blur/heading_get-the-look.png) no-repeat; }
+	.ct13-blur .ct13-footer .cc-link			{ top: 202px; background: url(../images/blur/link_colour-consultation.png); }
+	.ct13-empower .ct13-footer					{ height: 402px; }
+	.ct13-empower .ct13-footer h3				{ top: 47px; width: 246px; height: 147px; background: url(../images/empower/heading_get-the-look.png) no-repeat; }
+	.ct13-empower .ct13-footer .cc-link			{ top: 222px; background: url(../images/empower/link_colour-consultation.png); }
