@@ -13,7 +13,9 @@
 
 /* CT13 HEAD */
 .ct13-head 				{ background: #e2e1df; height: 409px; position: relative; }
-	.ct13-head iframe 	{ position: absolute; top: 59px; left: 26px; } /* was top: 59px; with iframe height="288", top: 62px; for height="284" */
+	.ct13-head .iframe-container
+						{ position: absolute; top: 59px; left: 26px; width: 510px; height: 288px; overflow: hidden; /*border: 1px solid blue;*/ } /* was top: 59px; with iframe height="288", top: 62px; for height="284" */
+	.ct13-head iframe 	{ margin: -4px -7px; }
 	.sIFR-active h1 	{ visibility: visible; }
 	.ct13-head h1,
 	.ct13-head h2 		{ text-indent: -9999px; }
