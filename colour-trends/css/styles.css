@@ -183,3 +183,9 @@ p strong.green 				{ color: #84a12b;}
 	.ct13-rise .ct13-footer						{ height: 415px; }
 	.ct13-rise .ct13-footer h3					{ width: 243px; height: 122px; background: url(../images/rise/heading_get-the-look.png) no-repeat; }
 	.ct13-rise .ct13-footer .cc-link			{ background: url(../images/rise/link_colour-consultation.png); }
+.ct13-seek.ct13-consumer .ct13-colours 			{ height: 1295px; }
+	.ct13-seek .ct13-footer h3					{ width: 259px; height: 122px; background: url(../images/seek/heading_get-the-look.png) no-repeat; }
+	.ct13-seek .ct13-footer .cc-link			{ background: url(../images/seek/link_colour-consultation.png); }
+/* consumer share */
+	.ct13-share .ct13-footer h3					{ width: 271px; height: 122px; background: url(../images/share/heading_get-the-look.png) no-repeat; }
+	.ct13-share .ct13-footer .cc-link			{ background: url(../images/share/link_colour-consultation.png); }

@@ -134,4 +134,9 @@
 
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-empower.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-merge.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 <!--#include file="/includes/page-after.shtml" -->

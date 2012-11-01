@@ -141,4 +141,9 @@
 
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-blur.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-rise.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 <!--#include file="/includes/page-after.shtml" -->
