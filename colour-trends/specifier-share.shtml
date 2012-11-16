@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/oOkvxrpHXdo?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-blur.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-rise.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">While many are finding a need for a reprieve from the overwhelming digital onslaught, there is also a generation embracing it, in fact it’s second nature to them, not adopted technology.</p>
 		<p>Share delves to explore the impact from the world of social media and how a new generation of sharing and digital innovation informs the design process. A monochromatic palette with metallic highlights allows digital pattern, positive and negative space, tonal shadows and texture to create the mood.</p>
@@ -139,11 +144,6 @@
 
 		</ul>
 
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="specifier-blur.shtml" class="next-trend">View next trend</a>
-		<a href="specifier-rise.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

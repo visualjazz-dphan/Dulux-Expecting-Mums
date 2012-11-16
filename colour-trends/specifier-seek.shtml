@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/ispgVuXkRz0?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-empower.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-merge.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Curators of our era, we seek out items precious to us; a bargain we can brag about, an addition to our collection or that handcrafted item we can't find anywhere else.</p>
 		<p>Thrift encourages our ingenuity to repurpose and transform, making imagination the most valuable currency. In the process new heirlooms are created as we pass down that which we have come to love. The Seek palette has a vintage feel although colours appear current through their use.</p>
@@ -132,11 +137,6 @@
 
 		</ul>
 
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="specifier-empower.shtml" class="next-trend">View next trend</a>
-		<a href="specifier-merge.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

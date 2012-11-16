@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/wjoZkZZZLGs?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-rise.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-seek.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Empowered by communication literally at our fingertips, our voice is heard as a collective group capable of creating positive change and responding quickly to anything warranting our attention.</p>
 		<p>Our voice is acknowledged as brands become transparent in what they do and who they are, while design responds with customisation. Local change impacts globally so our community is the place to start. A positive trend, the Empower palette is a range of blues inspiring optimism, openness and communication while emphasising the power of colour on mass.</p>
@@ -138,11 +143,6 @@
 
 		</ul>
 
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="specifier-rise.shtml" class="next-trend">View next trend</a>
-		<a href="specifier-seek.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

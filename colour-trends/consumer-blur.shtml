@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/ScBZGy1siuQ?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="consumer-merge.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-share.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">We live in a world of pop-up culture where retail environments need to excite and enthrall, innovation is a constant blur and an online generation craves unique experiences. The Blur palette is shocking and unexpected with reds, pinks, purples and oranges that combine to grab your attention while being fun and lighthearted.</p>
 		<p>Be bold and adventurous using the Blur palette to create an exciting interior space. Try using these colour combinations in entry spaces, living areas or bedrooms for an on trend look that’s designed to energise. See our ‘get the look’ tips below for easy ways to bring the Blur trend into your home.</p>
@@ -142,12 +147,7 @@
 			<li><span>Painted geometric shapes act like artwork, choose three simple shapes such as triangles or polygons and paint them as a feature on your wall</span></li>
 			<li><span>Want to add just a little bit of Blur to your interior? Try using a white base like Dulux Lexicon and add colour to one wall, doors or timber furniture</span></li>
 		</ul>
-		<p><a href="#">View list of suppliers</a></p>
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="consumer-merge.shtml" class="next-trend">View next trend</a>
-		<a href="consumer-share.shtml" class="prev-trend">View previous trend</a>
+		<p><a href="/colour-trends/consumer-landing.shtml#suppliers">View list of suppliers</a></p>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

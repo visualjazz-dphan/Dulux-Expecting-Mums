@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/wjoZkZZZLGs?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="consumer-rise.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-seek.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Empowered by communication literally at our fingertips, ‘people power’ is reinvented through digital connections and social media. Empower is a palette that captures this movement and its spirit with a range of blues inspiring optimism, openness and communication.</p>
 		<p>Layering Blues demonstrates the power of colour en masse while creating a vibrant refreshing space. Colour blocking is key to make a powerful on-trend statement in an entry, living area or bedroom. See our ‘get the look’ tips below for easy ways to bring the Empower trend into your home.</p>
@@ -141,12 +146,7 @@
 			<li><span>Dip dye or ombre looks are hot in 2013, why not have a go at creating them with paint using your three favourite Empower colours</span></li>
 			<li><span>Add elements of the Empower trend to a neutral interior by painting a feature wall or door, completing the look with layers of blue in other décor</span></li>
 		</ul>
-		<p><a href="#">View list of suppliers</a></p>
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="consumer-rise.shtml" class="next-trend">View next trend</a>
-		<a href="consumer-seek.shtml" class="prev-trend">View previous trend</a>
+		<p><a href="/colour-trends/consumer-landing.shtml#suppliers">View list of suppliers</a></p>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

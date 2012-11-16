@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/e8gff9Vipus?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-seek.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-blur.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Nostalgic themes emerge when global turbulence creates uncertainty – Merge evokes nostalgia by merging past, present and future styles for something entirely new but familiar.</p>
 		<p>Craftsmanship, reconciling analogue with digital and simple processes with innovative solutions inform the Merge trend. Tradition is reflected in the palette where materials associated with craftsmanship are represented in hues of stone, timber and leather while natural dying processes inspire red hues.</p>
@@ -137,11 +142,6 @@
 
 		</ul>
 
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="specifier-seek.shtml" class="next-trend">View next trend</a>
-		<a href="specifier-blur.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

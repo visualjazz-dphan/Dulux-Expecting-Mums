@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/QqIBzdrztZQ?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-share.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-empower.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Collaborations between Japanese and Western designers and manufacturers are creating products that are innovative, whilst reinterpreting forms and styles that are quintessentially Japanese.</p>
 		<p>Somewhat austere, the Japanese design aesthetic is calm, quiet, considered and above all functional – a design style that is fitting with today’s need for a cocooning, composed environment and a space for contemplation. A palette of sophisticated pastels allows otherwise bulky forms to appear light and even soft</p>
@@ -133,11 +138,6 @@
 
 		</ul>
 
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="specifier-share.shtml" class="next-trend">View next trend</a>
-		<a href="specifier-empower.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

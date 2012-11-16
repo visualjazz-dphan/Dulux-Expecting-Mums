@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/ispgVuXkRz0?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="consumer-empower.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-merge.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Curators of our era, we seek out items precious to us; collecting and gathering, fossicking in our past for something treasurable to re-use and reinvent. Collections of objects posses past histories from different times and places, having been inherited, salvaged or hand made.</p>
 		<p>The Seek trend has a distinctly vintage feel, modernised with saturated gold, green and rose hues. Move on as you look back, recalling various eras while creating your own Seek inspired space, see our ‘get the look’ tips below for easy ways to bring the Seek trend into your home.</p>
@@ -135,12 +140,7 @@
 			<li><span>Reinvigorate timber furniture with a coat of paint in one of Seeks saturated hues to create a quirky focus point in your room</span></li>
 			<li><span>Feature yellow on your wall or in décor details, from soft and buttery to sharp and citrus, it punctuates your colour scheme adding a slice of modernity</span></li>
 		</ul>
-		<p><a href="#">View list of suppliers</a></p>
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="consumer-empower.shtml" class="next-trend">View next trend</a>
-		<a href="consumer-merge.shtml" class="prev-trend">View previous trend</a>
+		<p><a href="/colour-trends/consumer-landing.shtml#suppliers">View list of suppliers</a></p>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

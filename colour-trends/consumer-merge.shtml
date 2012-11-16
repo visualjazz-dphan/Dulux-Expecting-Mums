@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/e8gff9Vipus?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="consumer-seek.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-blur.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">Merge evokes nostalgia by merging past, present &amp; future styles for something entirely new but familiar. Craftsmanship, reconciling analogue with digital &amp; simple processes with innovative solutions inform the Merge trend.</p>
 		<p>Tradition is reflected in the palette where materials associated with craftsmanship are represented in hues of stone, timber &amp; leather while natural dying processes inspire red hues and orange based pinks. See our ‘get the look’ tips below for easy ways to bring the Merge trend into your home.</p>
@@ -132,12 +137,7 @@
 			<li><span>A stoney coloured neutral like Dulux Linseed is a great start in creating the Merge look. To add warmth utilise other colours in décor details</span></li>
 			<li><span>Give a nod to traditional and introduce mid century inspired furniture pieces in warm mid toned timber finishes</span></li>
 		</ul>
-		<p><a href="#">View list of suppliers</a></p>
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="consumer-seek.shtml" class="next-trend">View next trend</a>
-		<a href="consumer-blur.shtml" class="prev-trend">View previous trend</a>
+		<p><a href="/colour-trends/consumer-landing.shtml#suppliers">View list of suppliers</a></p>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

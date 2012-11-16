@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/ScBZGy1siuQ?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-merge.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-share.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description">
 		<p class="emphasis">In a transient reality Blur explores our need to be excited and enticed with our everyday interactions. The traditional retailer is challenged to offer unique new in-store experiences addressing the needs of an online generation.</p>
 		<p>All the while innovation is a constant blur as design strives to improve existing solutions with genuinely new ones. The Blur palette is shocking and unexpected with combinations of reds, pinks, purples and oranges that enthrall, excite and grab your attention.</p>
@@ -132,11 +137,6 @@
 			</li>
 
 		</ul>
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="specifier-merge.shtml" class="next-trend">View next trend</a>
-		<a href="specifier-share.shtml" class="prev-trend">View previous trend</a>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->

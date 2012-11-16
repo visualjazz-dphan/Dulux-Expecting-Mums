@@ -12,6 +12,11 @@
 		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/QqIBzdrztZQ?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
 	</div>
 
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="consumer-share.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-empower.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
 	<div class="wrapper-screen ct13-description ">
 		<p class="emphasis">Somewhat austere, the Japanese design aesthetic is calm, quiet, considered and above all functional – a design style that is fitting with today’s need for a cocooning, composed environment and a space for contemplation.</p>
 		<p>Sooth your senses with the almost ethereal soft shades of Rise, a palette of sophisticated pastels that allows otherwise bulky forms to appear light and even soft. The perfect palette for any interior space, see our ‘get the look’ tips below for easy ways to bring the Rise trend into your home.</p>
@@ -137,12 +142,7 @@
 			<li><span>Rise celebrates simple beauty - keep furniture finishes natural or matt, timber finishes are washed out, naturally pale or limed</span></li>
 			<li><span>Patterns in the Rise trend are created by textures such as folds, pleats and laser cuts</span></li>
 		</ul>
-		<p><a href="#">View list of suppliers</a></p>
-	</div>
-
-	<div class="wrapper-screen ct13-trends-nav">
-		<a href="consumer-share.shtml" class="next-trend">View next trend</a>
-		<a href="consumer-empower.shtml" class="prev-trend">View previous trend</a>
+		<p><a href="/colour-trends/consumer-landing.shtml#suppliers">View list of suppliers</a></p>
 	</div>
 
 <!--#include file="/includes/page-after.shtml" -->
