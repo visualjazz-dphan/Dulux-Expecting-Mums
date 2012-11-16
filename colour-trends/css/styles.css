@@ -21,7 +21,7 @@
 	.ct13-head h2 		{ text-indent: -9999px; }
 
 /* CT13 DESCRIPTION  */
-.ct13-description 					{ padding: 15px 0 0; width: 922px; margin: 0 25px 42px; border-bottom: 1px solid #e5e5e5; overflow: hidden; }
+.ct13-description 					{ /*padding: 15px 0 0;*/ padding: 7px 0 0; width: 922px; margin: 0 25px 42px; border-bottom: 1px solid #e5e5e5; overflow: hidden; }
 	.ct13-description p 			{ padding: 0 0 35px; }
 	.ct13-description p.emphasis 	{ padding: 0 0 18px; font-size: 22px; line-height: 1.4em; letter-spacing: -0.75px; }
 
@@ -71,11 +71,16 @@
 	.ct13-consumer .ct13-footer 	{ border-bottom: 6px solid #fff; }
 
 /* CT13 TRENDS NAV */
-.ct13-trends-nav				{ height: 50px; position: relative; }
+/*.ct13-trends-nav				{ height: 50px; position: relative; }
 .ct13-trends-nav a				{ display: block; height: 23px; padding: 0; background: #777777 url(../images/bg_prev-arrow.png) left 0 no-repeat; color: #777777; text-decoration: none; position: absolute; top: 27px; text-transform: uppercase; font-size: 12px; }
 .ct13-trends-nav .next-trend	{ padding-left: 10px; padding-right: 21px; right: 18px; background: #777777 url(../images/bg_next-arrow.png) right 0 no-repeat; }
 .ct13-trends-nav .prev-trend	{ padding-left: 21px; padding-right: 10px; left: 18px; }
-.ct13-trends-nav a:hover		{ opacity:0.33; filter:alpha(opacity=33); }
+.ct13-trends-nav a:hover		{ opacity:0.33; filter:alpha(opacity=33); }*/
+.ct13-trends-nav				{ height: 38px; position: relative; }
+.ct13-trends-nav a				{ display: block; height: 23px; padding: 0; background: #777777 url(../images/bg_prev-arrow.png) left 0 no-repeat; color: #777777; text-decoration: none; position: absolute; top: 15px; text-transform: uppercase; font-size: 10px; opacity:0.33; filter:alpha(opacity=33); }
+.ct13-trends-nav .next-trend	{ padding-left: 10px; padding-right: 21px; right: 18px; background: #777777 url(../images/bg_next-arrow.png) right 0 no-repeat; }
+.ct13-trends-nav .prev-trend	{ padding-left: 21px; padding-right: 10px; left: 18px; }
+.ct13-trends-nav a:hover		{ opacity:1; filter:alpha(opacity=100); }
 
 /* LANDING PAGE */
 .ct13-landing .ct13-head 	{ background: #fff url(../images/landing/bg-header-landing.jpg) left top no-repeat; }
