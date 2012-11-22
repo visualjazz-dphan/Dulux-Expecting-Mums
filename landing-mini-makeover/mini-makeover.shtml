@@ -43,10 +43,10 @@
         </div>
         <div class="results clearfix">
         	<ul>
-            	<li id="tapioca">0 %</li>
-                <li id="corolblossom">0 %</li>
-                <li id="species">0 %</li>
-                <li id="babytone">0 %</li>
+            	<li id="tapioca"><input type="hidden" value="0" class="price" /><span>0 %</span></li>
+                <li id="corolblossom"><input type="hidden" value="0" class="price" /><span>0 %</span></li>
+                <li id="species"><input type="hidden" value="0" class="price" /><span>0 %</span></li>
+                <li id="babytone"><input type="hidden" value="0" class="price" /><span>0 %</span></li>
             </ul>
         </div>
         <div class="help-tip">
