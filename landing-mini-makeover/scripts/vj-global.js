@@ -9,7 +9,7 @@ MINIMAKER.presentation = (function () {
 				this.cookiesPercentage();
 			},			
 			voteColor : function(){				
-				var _self = this;
+				var _self = this,
 					resultPosition = $(".results").position().top;	
 
 				$(".dulux-color-section a").bind("click", function(e){
@@ -19,19 +19,13 @@ MINIMAKER.presentation = (function () {
 					$('html,body').animate({scrollTop: resultPosition});
 					
 					var colorSelection = $(this).attr("href");						
-					
 					$(colorSelection).find("input").val( parseInt($(colorSelection).find("input").val()) + 1 );
-					
 					$(".dulux-color-section a").removeAttr("href");
-					
-					var currentRecord = $(".results li").text().replace( /\%/ig , ',');
-					
-					$.cookie("recordColor", currentRecord.substr( 0,  currentRecord.length - 1), {expires: 365});
 					_self.updateCalculation();
-					_self.cookiesPercentage();
 				});	
 			}, 
 			updateCalculation : function(){
+				
 				$.fn.sumValues = function() {
 					var sum = 0;
 					this.each(function() {
@@ -55,17 +49,13 @@ MINIMAKER.presentation = (function () {
 				
 				
 				$('.results li span').each(function(){
-					$('.results li span').hide();
-					$('.results li span').fadeIn();
+					$(this).hide().fadeIn();
 					$(this).html(percentage($(this).prev("input").val(),$('input.price').sumValues()) + "%");
 					if($(this).prev("input").val() == 0){
 						$(this).html("0.0%");	
 					}
 				});
 						
-			}, 
-			cookiesPercentage : function(){
-				
 			}
 		}
 		
