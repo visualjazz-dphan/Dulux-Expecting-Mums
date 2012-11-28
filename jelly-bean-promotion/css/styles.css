@@ -2,17 +2,14 @@
    Author: Tony Trinh, 21.9.12
 */
 
-/* GLOBAL */
-.wrapper img,
-.colour-trends-2013 img 	{ display: block; }
-.colour-trends-2013 a 		{ color: #777777; }
-.ct13-colours			 	{ width: 960px; }
-.colour-trends-2013 		{ background: #fff; font: 14px/1.6em Tahoma, Verdana, Segoe, sans-serif; color: #777777; }
-.wrapper-screen				{ width: 960px; padding: 0 6px; }
-#wrapper 					{ margin: 0 auto; min-height: 0; } /* remove on implementation - this to simulate .push in build */
+/* temp */
+.wrapper	 	{ background: #fbfbfb; }
+.wrapper img 	{ display: block; }
+#content 		{ width: 960px; margin: 0 6px; padding: 0; }
+body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
 
 /* JELLYBEAN PROMOTION CONTENT */
-.jellybean-wrapper { margin:0 6px; }
+.landing-jellybean-promotion { font-size: 14px; line-height: 1.5; color: #595959; }
 
 .jellybean-head { width:960px; height:496px; background-image:url(../images/bg-jb-head.jpg); background-position:0 0; background-repeat:no-repeat; text-indent:-9999em; }
 

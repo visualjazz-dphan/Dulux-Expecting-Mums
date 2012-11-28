@@ -1,13 +1,11 @@
-<!--#include file="/includes/page-before.shtml" -->
+<!--#include file="/includes/page-before-new.shtml" -->
 
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
 			  //-->
 
-<div id="wrapper">
-
-	<div class="jellybean-wrapper">
-
+<div class="wrapper">
+	<div id="content" class="landing-jellybean-promotion">
 		<div class="jellybean-head">The Bazillion Jelly Beans Giveaway - It's Back!</div>
 		<div class="jellybean-body">
 			<h1>Plus a chance to find a Golden Bean &amp; win $200. 100 to be found*</h1>
@@ -21,9 +19,7 @@
 			</div>
 		</div>
 		<div class="jellybean-footer"></div>
-
 	</div>
-
 </div>
 
-<!--#include file="/includes/page-after.shtml" -->
+<!--#include file="/includes/page-after-new.shtml" -->
