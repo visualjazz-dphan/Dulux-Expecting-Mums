@@ -19,8 +19,8 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 .jellybean-body .info p { font-size:14px; line-height:21px; color:#435298; margin:0 0 10px; }
 .jellybean-body .info p.terms { font-size:12px; }
 .jellybean-body .info p a { color:#435298; }
-.jellybean-body .video-wrapper { width:445px; height:300px; margin:100px 85px 0 0; background-image:url(../images/bg-video-shadow.png); background-position:center bottom; background-repeat:no-repeat; float:right; }
-.jellybean-body .video-wrapper .video { width:416px; height:277px; margin:0 0 0 15px; }
+.jellybean-body .video-wrapper { width:445px; height:257px; margin:143px 85px 0 0; background-image:url(../images/bg-video-shadow.png); background-position:center bottom; background-repeat:no-repeat; float:right; }
+.jellybean-body .video-wrapper .video { width:416px; height:234px; margin:0 0 0 15px; }
 
 
 .jellybean-footer { width:960px; height:171px; background-image:url(../images/bg-jb-footer.jpg); background-position:0 0; background-repeat:no-repeat; }
