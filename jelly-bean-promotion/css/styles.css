@@ -12,6 +12,8 @@
 #wrapper 					{ margin: 0 auto; min-height: 0; } /* remove on implementation - this to simulate .push in build */
 
 /* JELLYBEAN PROMOTION CONTENT */
+.jellybean-wrapper { margin:0 6px; }
+
 .jellybean-head { width:960px; height:496px; background-image:url(../images/bg-jb-head.jpg); background-position:0 0; background-repeat:no-repeat; text-indent:-9999em; }
 
 .jellybean-body { width:960px; height:462px; background-image:url(../images/bg-jb-body.jpg); background-position:0 0; background-repeat:no-repeat; }
