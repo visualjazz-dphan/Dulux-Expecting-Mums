@@ -15,8 +15,8 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 
 .jellybean-body { width:960px; height:462px; background-image:url(../images/bg-jb-body.jpg); background-position:0 0; background-repeat:no-repeat; }
 .jellybean-body h1 { text-indent:-9999em; margin:0; padding:0; }
-.jellybean-body .info { width:325px; float:left; padding:257px 0 0 102px; }
-.jellybean-body .info p { font-size:14px; line-height:19px; color:#435298; margin:0 0 10px; }
+.jellybean-body .info { width:325px; float:left; padding:244px 0 0 102px; }
+.jellybean-body .info p { font-size:14px; line-height:21px; color:#435298; margin:0 0 10px; }
 .jellybean-body .info p.terms { font-size:12px; }
 .jellybean-body .info p a { color:#435298; }
 .jellybean-body .video-wrapper { width:445px; height:300px; margin:100px 85px 0 0; background-image:url(../images/bg-video-shadow.png); background-position:center bottom; background-repeat:no-repeat; float:right; }
