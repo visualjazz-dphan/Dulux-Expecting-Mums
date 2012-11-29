@@ -1,0 +1,90 @@
+<!--#include file="/includes/page-before-new.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div class="wrapper">
+	<div id="content" class="landing-design-notes">
+		
+		<div class="design-notes">
+
+			<div class="intro">
+				<h1>Design Notes</h1>
+				<h2>With Lucy Feagins &amp; Dulux</h2>
+				<h3>The Design Files Daily</h3>
+				<div class="description">
+					<p>Dulux and Lucy Feagins, founder of the leading design blog The Design Files, have collaborated to showcase the latest colour trends for your home.</p>
+					<p>Learn what Lucy says about her favourite hand-picked images featured below and how to ‘achieve the look’ using accent colours, partnering textures and furniture styles and combining colour combinations.</p>
+				</div>
+			</div>
+
+			<div class="looks-header">
+				<div class="issue-dropdown">
+					<label>Select an issue</label>
+					<select>
+						<option>November 2012</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="look1">
+				<div class="inner">
+					<h1>Get The Look</h1>
+					<p>The textured timber panelling in this Brisbane home is the perfect partner for the peppermint green colour used throughout.  When combined with the old-school linoleum flooring, a mish mash of vintage furniture and op shop treasures, the pastel tones in this bright dining room bring to life a laid-back, summery, beach-shack feel.</p>
+					<p>Dulux Spring Burst Half and White Watsonia are a great combination to try.</p>
+					<div class="swatch1">
+						<p>Maidenhair Fern</p>
+					</div>
+					<div class="swatch2">
+						<p>Savannah</p>
+					</div>
+					<div class="swatch3">
+						<p>Spring Burst Half</p>
+					</div>
+					<div class="detail"></div>
+				</div>
+			</div>
+
+			<div class="look2">
+				<div class="inner">
+					<h1>Get The Look</h1>
+					<p>This family home in Melbourne is the perfect example of how bold colour can be used to enliven even the most traditional Victorian home.  The exterior brickwork is striking in deep charcoal, whilst the vivid fire-engine red door provides an unexpected burst of colour.  As this happens, this is actually the back door  - the perfect place to experiment with brave hues if you're not quite confident enough to make this kind of statement for all the world to see!</p>
+					<p>Dulux Ito and Hot Lips are a great combination to try.</p>
+					<div class="swatch1">
+						<p>Stella</p>
+					</div>
+					<div class="swatch2">
+						<p>Hot Lips</p>
+					</div>
+					<div class="swatch3">
+						<p>Ito</p>
+					</div>
+					<div class="detail"></div>
+				</div>
+			</div>
+
+			<div class="look3">
+				<div class="inner">
+					<h1>Get The Look</h1>
+					<p>The textured timber panelling in this Brisbane home is the perfect partner for the peppermint green colour used throughout.  When combined with the old-school linoleum flooring, a mish mash of vintage furniture and op shop treasures, the pastel tones in this bright dining room bring to life a laid-back, summery, beach-shack feel.</p>
+					<p>Dulux Spring Burst Half and White Watsonia are a great combination to try.</p>
+					<div class="swatch1">
+						<p>Maidenhair Fern</p>
+					</div>
+					<div class="swatch2">
+						<p>Savannah</p>
+					</div>
+					<div class="swatch3">
+						<p>Spring Burst Half</p>
+					</div>
+					<div class="detail"></div>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<!--#include file="/includes/page-after-new.shtml" -->

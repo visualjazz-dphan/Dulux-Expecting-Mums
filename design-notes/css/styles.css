@@ -1,0 +1,60 @@
+/* Dulux Colour Trends 2013
+   Author: Tony Trinh, 21.9.12
+*/
+
+/* temp */
+.wrapper	 	{ background: #fbfbfb; }
+.wrapper img 	{ display: block; }
+#content 		{ width: 960px; margin: 0 6px; padding: 0; }
+body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
+
+/* DESIGN NOTES CONTENT */
+
+.design-notes { width:100%; border-top:solid 1px #b0b0a9; }
+.design-notes .intro { margin:0 20px; width:920px; height:497px; background-image:url(../images/bg-design-notes-intro.jpg); background-position:0 0; background-repeat:no-repeat; }
+.design-notes .intro h1,
+.design-notes .intro h2,
+.design-notes .intro h3 { text-indent:-9999em; margin:0; padding:0; }
+.design-notes .intro .description { margin:245px 0 0; width:400px; }
+.design-notes .intro .description p { font-size:14px; color:#10000c; margin:0 0 10px 18px; line-height:20px; }
+
+.design-notes .looks-header { width:920px; height:94px; margin:0 20px; background-color:#e9e9e9; background-image:url(../images/hd-looks-header.gif); background-position:center center; background-repeat:no-repeat; }
+.design-notes .looks-header .issue-dropdown { float:right; width:140px; margin:28px 28px 0 0; }
+.design-notes .looks-header .issue-dropdown label { width:100%; display:block; font-size:15px; color:#818181; text-align:center; }
+.design-notes .looks-header .issue-dropdown select { width:140px; margin:5px 0 0; padding:3px 0; font-size:12px; }
+
+.design-notes .look1 { width:960px; height:594px; overflow:hidden; }
+.design-notes .look1 .inner { width:920px; height:594px; margin:0 20px; background-image:url(../images/bg-look1.jpg); background-position:right 0; background-repeat:no-repeat; float:left; position:relative; }
+.design-notes .look1 .inner h1 { width:279px; height:57px; background-image:url(../images/hd-look1.gif); background-position:0 0; background-repeat:no-repeat; text-indent:-9999em; margin:42px 0 0 20px; padding:0; visibility:visible; }
+.design-notes .look1 .inner p { width:285px; margin:10px 0 0 19px; color:#6e6e6e; font-size:12px; line-height:18px; }
+.design-notes .look1 .inner .swatch1 { width:171px; height:171px; position:absolute; background-image:url(../images/bg-swatch-maidenhair-fern.png); background-repeat:no-repeat; background-position:0 0; left:100px; bottom:35px; }
+.design-notes .look1 .inner .swatch1 p { color:#fff; font-size:17px; text-align:center; margin:90px 0 0; padding:0 30px; width:auto; }
+.design-notes .look1 .inner .swatch2 { width:99px; height:99px; position:absolute; background-image:url(../images/bg-swatch-savannah.png); background-repeat:no-repeat; background-position:0 0; left:380px; bottom:128px; }
+.design-notes .look1 .inner .swatch2 p { color:#84765b; font-size:12px; text-align:center; margin:46px 0 0; padding:0 18px; width:auto; }
+.design-notes .look1 .inner .swatch3 { width:138px; height:138px; position:absolute; background-image:url(../images/bg-swatch-spring-burst-half.png); background-repeat:no-repeat; background-position:0 0; left:345px; bottom:216px; }
+.design-notes .look1 .inner .swatch3 p { color:#447648; font-size:15px; text-align:center; margin:62px 0 0; padding:0 25px; width:auto; }
+.design-notes .look1 .inner .detail { width:226px; height:226px; background-image:url(../images/bg-look1-detail.png); background-repeat:no-repeat; background-position:0 0; position:absolute; bottom:48px; left:-80px; }
+
+.design-notes .look2 { width:960px; height:690px; overflow:hidden; }
+.design-notes .look2 .inner { width:920px; height:690px; margin:0 20px; background-image:url(../images/bg-look2.jpg); background-position:left 0; background-repeat:no-repeat; float:left; position:relative; }
+.design-notes .look2 .inner h1 { width:287px; height:57px; float:right; background-image:url(../images/hd-look2.gif); background-position:0 0; background-repeat:no-repeat; text-indent:-9999em; margin:105px 80px 0 0; padding:0; visibility:visible; }
+.design-notes .look2 .inner p { width:340px; margin:10px 26px 0 0; color:#6e6e6e; font-size:12px; line-height:18px; float:right; clear:right; }
+.design-notes .look2 .inner .swatch1 { width:130px; height:130px; position:absolute; background-image:url(../images/bg-swatch-stella.png); background-repeat:no-repeat; background-position:0 0; left:68px; bottom:15px; }
+.design-notes .look2 .inner .swatch1 p { color:#fff; font-size:14px; text-align:center; margin:69px 0 0; padding:0 30px; width:auto; float:none; }
+.design-notes .look2 .inner .swatch2 { width:158px; height:158px; position:absolute; background-image:url(../images/bg-swatch-hot-lips.png); background-repeat:no-repeat; background-position:0 0; right:307px; bottom:35px; }
+.design-notes .look2 .inner .swatch2 p { color:#fff; font-size:17px; text-align:center; margin:93px 0 0; padding:0 18px; width:auto; float:none; }
+.design-notes .look2 .inner .swatch3 { width:91px; height:91px; position:absolute; background-image:url(../images/bg-swatch-ito.png); background-repeat:no-repeat; background-position:0 0; left:447px; bottom:168px; }
+.design-notes .look2 .inner .swatch3 p { color:#fff; font-size:14px; text-align:center; margin:48px 0 0; padding:0 25px; width:auto; float:none; }
+.design-notes .look2 .inner .detail { width:190px; height:190px; background-image:url(../images/bg-look2-detail.png); background-repeat:no-repeat; background-position:0 0; position:absolute; bottom:75px; right:171px; }
+
+.design-notes .look3 { width:960px; height:594px; overflow:hidden; }
+.design-notes .look3 .inner { width:920px; height:594px; margin:0 20px; background-image:url(../images/bg-look1.jpg); background-position:right 0; background-repeat:no-repeat; float:left; position:relative; }
+.design-notes .look3 .inner h1 { width:279px; height:57px; background-image:url(../images/hd-look1.gif); background-position:0 0; background-repeat:no-repeat; text-indent:-9999em; margin:42px 0 0 20px; padding:0; visibility:visible; }
+.design-notes .look3 .inner p { width:285px; margin:10px 0 0 19px; color:#6e6e6e; font-size:12px; line-height:18px; }
+.design-notes .look3 .inner .swatch1 { width:171px; height:171px; position:absolute; background-image:url(../images/bg-swatch-maidenhair-fern.png); background-repeat:no-repeat; background-position:0 0; left:100px; bottom:35px; }
+.design-notes .look3 .inner .swatch1 p { color:#fff; font-size:17px; text-align:center; margin:90px 0 0; padding:0 30px; width:auto; }
+.design-notes .look3 .inner .swatch2 { width:99px; height:99px; position:absolute; background-image:url(../images/bg-swatch-savannah.png); background-repeat:no-repeat; background-position:0 0; left:380px; bottom:128px; }
+.design-notes .look3 .inner .swatch2 p { color:#84765b; font-size:12px; text-align:center; margin:46px 0 0; padding:0 18px; width:auto; }
+.design-notes .look3 .inner .swatch3 { width:138px; height:138px; position:absolute; background-image:url(../images/bg-swatch-spring-burst-half.png); background-repeat:no-repeat; background-position:0 0; left:345px; bottom:216px; }
+.design-notes .look3 .inner .swatch3 p { color:#447648; font-size:15px; text-align:center; margin:62px 0 0; padding:0 25px; width:auto; }
+.design-notes .look3 .inner .detail { width:226px; height:226px; background-image:url(../images/bg-look1-detail.png); background-repeat:no-repeat; background-position:0 0; position:absolute; bottom:48px; left:-80px; }
