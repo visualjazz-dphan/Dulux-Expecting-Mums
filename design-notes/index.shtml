@@ -23,7 +23,7 @@
 				<div class="issue-dropdown">
 					<label>Select an issue</label>
 					<select>
-						<option>November 2012</option>
+						<option>December 2012</option>
 					</select>
 				</div>
 			</div>
@@ -89,8 +89,8 @@
 				</div>
 				<div class="options">
 					<a class="colour-trends" href="#">Latest Colour Trends</a>
-					<a class="consultation" href="#">Book a colour consultation</a>
-					<a class="wash-and-wear" href="#">Dulux Wash &amp; Wear</a>
+					<a class="consultation" href="http://www.dulux.com.au/services/colour-consultants">Book a colour consultation</a>
+					<a class="wash-and-wear" href="http://www.dulux.com.au/products/wash-and-wear">Dulux Wash &amp; Wear</a>
 				</div>
 			</div>
 
