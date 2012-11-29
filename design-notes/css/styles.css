@@ -41,19 +41,19 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 .design-notes .look2 .inner p { width:370px; margin:10px 26px 0 0; color:#6e6e6e; font-size:12px; line-height:18px; float:right; clear:right; }
 .design-notes .look2 .inner .swatch1 { width:130px; height:130px; position:absolute; background-image:url(../images/bg-swatch-stella.png); background-repeat:no-repeat; background-position:0 0; left:68px; bottom:15px; }
 .design-notes .look2 .inner .swatch1 p { color:#fff; font-size:14px; text-align:center; margin:69px 0 0; padding:0 30px; width:auto; float:none; }
-.design-notes .look2 .inner .swatch2 { width:158px; height:158px; position:absolute; background-image:url(../images/bg-swatch-hot-lips.png); background-repeat:no-repeat; background-position:0 0; right:347px; bottom:35px; }
+.design-notes .look2 .inner .swatch2 { width:158px; height:158px; position:absolute; background-image:url(../images/bg-swatch-hot-lips.png); background-repeat:no-repeat; background-position:0 0; right:328px; bottom:35px; }
 .design-notes .look2 .inner .swatch2 p { color:#fff; font-size:17px; text-align:center; margin:93px 0 0; padding:0 18px; width:auto; float:none; }
-.design-notes .look2 .inner .swatch3 { width:91px; height:91px; position:absolute; background-image:url(../images/bg-swatch-ito.png); background-repeat:no-repeat; background-position:0 0; left:447px; bottom:168px; }
+.design-notes .look2 .inner .swatch3 { width:91px; height:91px; position:absolute; background-image:url(../images/bg-swatch-ito.png); background-repeat:no-repeat; background-position:0 0; left:466px; bottom:168px; }
 .design-notes .look2 .inner .swatch3 p { color:#fff; font-size:14px; text-align:center; margin:48px 0 0; padding:0 25px; width:auto; float:none; }
-.design-notes .look2 .inner .detail { width:190px; height:190px; background-image:url(../images/bg-look2-detail.png); background-repeat:no-repeat; background-position:0 0; position:absolute; bottom:75px; right:211px; }
+.design-notes .look2 .inner .detail { width:190px; height:190px; background-image:url(../images/bg-look2-detail.png); background-repeat:no-repeat; background-position:0 0; position:absolute; bottom:75px; right:192px; }
 
 .design-notes .look3 { width:960px; height:694px; overflow:hidden; position:relative; background-color:#fff; }
 .design-notes .look3 .inner { width:960px; height:694px; background-image:url(../images/bg-look3.jpg); background-position:right 0; background-repeat:no-repeat; float:left; position:relative; }
 .design-notes .look3 .inner h2 { width:286px; height:57px; background-image:url(../images/hd-look3.gif); background-position:0 0; background-repeat:no-repeat; text-indent:-9999em; margin:66px 0 0 20px; padding:0; visibility:visible; }
 .design-notes .look3 .inner p { width:335px; margin:10px 0 0 19px; color:#6e6e6e; font-size:12px; line-height:18px; }
-.design-notes .look3 .inner .swatch1 { width:98px; height:98px; position:absolute; background-image:url(../images/bg-swatch-oolong.png); background-repeat:no-repeat; background-position:0 0; left:397px; bottom:181px; }
+.design-notes .look3 .inner .swatch1 { width:98px; height:98px; position:absolute; background-image:url(../images/bg-swatch-oolong.png); background-repeat:no-repeat; background-position:0 0; left:375px; bottom:181px; }
 .design-notes .look3 .inner .swatch1 p { color:#a1a3a5; font-size:12px; text-align:center; margin:47px 0 0; padding:0 25px; width:auto; }
-.design-notes .look3 .inner .swatch2 { width:122px; height:122px; position:absolute; background-image:url(../images/bg-swatch-mamala-bay.png); background-repeat:no-repeat; background-position:0 0; left:331px; bottom:30px; }
+.design-notes .look3 .inner .swatch2 { width:122px; height:122px; position:absolute; background-image:url(../images/bg-swatch-mamala-bay.png); background-repeat:no-repeat; background-position:0 0; left:313px; bottom:30px; }
 .design-notes .look3 .inner .swatch2 p { color:#94b1c3; font-size:12px; text-align:center; margin:59px 0 0; padding:0 18px; width:auto; }
 .design-notes .look3 .inner .swatch3 { width:197px; height:197px; position:absolute; background-image:url(../images/bg-swatch-gold-rush.png); background-repeat:no-repeat; background-position:0 0; left:105px; bottom:157px; }
 .design-notes .look3 .inner .swatch3 p { color:#fff; font-size:15px; text-align:center; margin:80px 0 0; padding:0 75px; width:auto; }
