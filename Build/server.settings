@@ -5,6 +5,7 @@
 		<NETFramework>v4.0</NETFramework>
 		<PipelineMode>Integrated</PipelineMode>
 		<HostHeaders>
+			<HostHeader>test</HostHeader>
 		</HostHeaders>
 		<!--<SSL>
             <HostHeader name="">
