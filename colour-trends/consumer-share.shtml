@@ -1,0 +1,139 @@
+<!--#include file="/includes/page-before.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div id="wrapper" class="colour-trends-2013 ct13-share ct13-consumer">
+
+	<div class="wrapper-screen ct13-head">
+		<h1>Share</h1>
+		<h2>Dulux Colour Forecast 2013</h2>
+		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/oOkvxrpHXdo?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
+	</div>
+
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="consumer-blur.shtml" class="next-trend">View next trend</a>
+		<a href="consumer-rise.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
+	<div class="wrapper-screen ct13-description">
+		<p class="emphasis">With a new generation embracing digital technology, Share invokes the idea of a world drawn together, with people sharing and soaking up information daily via social media, stimulated and inspired constantly by technology.</p>
+		<p>Share provides a break from this stimulation with a monochromatic palette allowing digital pattern, positive and negative space, tonal shadows and texture to create the mood. Colours are inspired by natural stone and metals transformed with technology, see our ‘get the look’ tips below for easy ways to bring the Share trend into your home.</p>
+	</div>
+
+	<div class="wrapper-screen ct13-colour-list">
+
+		<ul class="ct13-colours">
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row1">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_03.png" alt="Vivid White"></div>
+				<div class="ct13-bottom"><h5>Vivid White</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row2">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_10.png" alt="Exposed Granite"></div>
+				<div class="ct13-bottom">
+					<h5>Exposed Granite</h5>
+					<p class="description">Design Metallic</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col2 ct13-row1">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_05.png" alt="Grey Pebble Quarter*"></div>
+				<div class="ct13-bottom"><h5>Grey Pebble Quarter*</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col4 ct13-row1">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_07.jpg" alt="Styled image featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc">Image styled by Bree Leech featuring Dulux colours Moxa, Vivid White and Design Stone in Charcoal Wash</p></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row3">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_14.png" alt="Mount Buller*"></div>
+				<div class="ct13-bottom"><h5>Mount Buller*</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col2 ct13-row3">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_16.png" alt="Flooded Gum"></div>
+				<div class="ct13-bottom"><h5>Flooded Gum</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row3">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_28.png" alt="Lexicon Quarter"></div>
+				<div class="ct13-bottom"><h5>Lexicon Quarter</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-bigger ct13-col1 ct13-row4">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_21.jpg" alt="Styled image 2 featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc short">Image styled by Bree Leech featuring Dulux colours Moxa, Klute, Clear Concrete, Grey Pebble, Mount Buller and Lexicon Quarter</p></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row4">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_22.png" alt="Clear Concrete*"></div>
+				<div class="ct13-bottom"><h5>Clear Concrete*</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col4 ct13-row5">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_23.png" alt="Moxa"></div>
+				<div class="ct13-bottom"><h5>Moxa</h5></div>
+			</li>
+
+			<!-- <li class="ct13-box ct13-small ct13-col2 ct13-row6"> -->
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row6">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_29.jpg" alt="Rocky Dam"></div>
+				<div class="ct13-bottom">
+					<h5>Rocky Dam</h5>
+					<p class="description">Design Stone</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row6">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_30.jpg" alt="Charcoal Wash"></div>
+				<div class="ct13-bottom">
+					<h5>Charcoal Wash</h5>
+					<p class="description">Design Stone</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-bigger ct13-col1 ct13-row7">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_36.png" alt="Klute*"></div>
+				<div class="ct13-bottom"><h5>Klute*</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row7">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_42.png" alt="Juvenile*"></div>
+				<div class="ct13-bottom"><h5>Juvenile*</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row7">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_38.jpg" alt="Steel Shimmer"></div>
+				<div class="ct13-bottom">
+					<h5>Steel Shimmer</h5>
+					<p class="description">Design Metallic</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col5 ct13-row6">
+				<div class="ct13-top"><img src="images/share/dulux-ct13-share_32.jpg" alt="Styled image 3 featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc right">Image styled by Mim Design featuring Dulux Clear Concrete</p></div>
+			</li>
+
+			<li class="ct13-box ct13-disclaimer">*This is a colour from the Dulux Specifier palette. Sample Pots are available in any Dulux colour, please see your retailer for information</li>
+		</ul>
+	</div>
+
+	<div class="wrapper-screen ct13-footer">
+		<h3>Get the Look</h3>
+		<a href="http://www.dulux.com.au/services/colour-consultants" class="cc-link">Book a Colour Consultation</a>
+		<p class="ct13-tips">Want to recreate the Share look in your home? Here’s some tips on adding some exciting Dulux colour to your interior</p>
+		<ul>
+			<li><span>Add a stone effect wall with Dulux Design Stone, keep the texture natural looking and paint adjacent walls a shade lighter to further define the feature</span></li>
+			<li><span>Choose furniture with simple outlined shapes in black and charcoal to punctuate your space, contrasting against lighter wall colours to create interest</span></li>
+			<li><span>Use slick, refined warm metallic finishes such as rose gold, copper and platinum or break the sleek look with beaten and rustic finshes to add texture</span></li>
+		</ul>
+		<p><a href="/colour-trends/consumer-landing.shtml#suppliers">View list of suppliers</a></p>
+	</div>
+
+<!--#include file="/includes/page-after.shtml" -->

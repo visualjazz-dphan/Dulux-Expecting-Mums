@@ -1,0 +1,63 @@
+
+/* ------------------------------------------
+   STYLES for Mini Makeover Landing page
+   ------------------------------------------ */
+
+/* temp */
+.wrapper	 	{ background: #fbfbfb; }
+.wrapper img 	{ display: block; }
+#content 		{ width: 960px; margin: 0 6px; padding: 0; }
+body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
+
+.mini-makeover 			{ font: 14px/1.5 Calibri, Arial, sans-serif; color: #595959; }
+.mini-makeover .inner 	{ width: 960px; }
+.mini-makeover h2 		{ clear: none; }
+
+.mini-makeover .section-intro 		{ height: 380px; background: url(../images/bg-mini-makeover.jpg) left top no-repeat; }
+.mini-makeover .section-description { height: 385px; color: #666666; background: #fbfbfb url(../images/bg-description.png) no-repeat left bottom; }
+.mini-makeover .section-tech 		{ height: 300px; padding-top: 90px; background: url(../images/bg-barrier-tech.jpg) top left no-repeat; }
+.mini-makeover .section-3col 		{ padding-top: 58px; padding-bottom: 70px; }
+
+/*a.find-out-more { display: block; width: 170px; height: 35px; margin-top: 40px; background: #00275d url(../images/btn-findoutmore.png) no-repeat 50% 50%; }
+a:hover 		{ opacity: 0.85; }*/
+
+.mini-makeover .section-intro 		{ width: 379px; padding-left: 581px; }
+	.mini-makeover .novid			{ background: url(../images/bg-mini-makeover-novid.jpg) left top no-repeat; }
+	.section-intro .youtube 		{ width: 586px; height: 312px; position: absolute; top: 39px; left: 0; background: url(../images/feature-drop-shadow.png) no-repeat 0 2px; }
+	.section-intro .youtube iframe 	{ margin-left: 30px; border: 3px solid #fff; }
+
+.mini-makeover .section-description { position: relative; }
+	.section-description h3 		{ padding: 90px 0 0 30px; font-size: 24px; line-height: 27px; font-weight: normal; width: 525px; }
+	.section-description h3 strong	{ color: #b1b135; }
+	.section-description p 			{ padding: 29px 0 0 30px; font-size: 20px; line-height: 26px; width: 525px; }
+	.section-description .guarantee 			{ position: absolute; right: 45px; top: 20px; width: 275px; border-top: 4px solid #e7e7e7; padding: 18px 0 0; }
+	.section-description .guarantee h3,
+	.section-description .guarantee p			{ width: auto; padding: 0; }
+	.section-description .guarantee h3.ir 		{ font: 0px/0 a; }
+	.section-description .guarantee h3			{ background: url(../images/heading-love-your-dulux-colour.jpg) left top no-repeat; width: 275px; height: 140px; }
+	.section-description .guarantee p 		 	{ color: #00245d; font-size: 18px; width: 275px;  }
+	.section-description .guarantee .border 	{ line-height: 23px; padding: 15px 0; border-bottom: 4px solid #e7e7e7; }
+	.section-description .guarantee .disclaimer { line-height: 12px; font-size: 11px; padding: 6px 0 0; text-align: center; }
+
+	
+	.dulux-color-section { width:960px; margin-bottom:6px; }
+		.dulux-color-section ul { margin:0; padding:0; list-style:none; }
+		.dulux-color-section li { display:block; position:relative; float:left; }
+		.dulux-color-section a { color:#FFFFFF; font-size:22px; position:absolute; right:20px; bottom:22px; text-decoration:none; font-weight:bold; background:url(../images/bgd_sprite.png) left 2px no-repeat; display:block; padding:0 0 0 30px; height:24px; line-height:normal; }
+		.dulux-color-section a.active { background-position:left -22px; }
+		
+		.tapioca-theme { background:url(../images/bg-tapioca.jpg) no-repeat; width:576px; height:931px; }
+		.corolblossom-theme { background:url(../images/bg-blossom.jpg) no-repeat; width:384px; height:931px; }
+		.species-theme { background:url(../images/bg-species.jpg) no-repeat; width:437px; height:945px; }
+		.babytone-theme { background:url(../images/bg-babytone.jpg) no-repeat; width:523px; height:945px; }
+	
+	
+	.results { width:960px; height:174px; background:url(../images/bd_results.jpg) no-repeat; }
+		.results ul { float:right; margin-right:30px; list-style:none; padding:0; }
+		.results li { float:left; width:123px; padding:90px 0 0 0; text-align:center; font-size:30px; font-weight:bold; font-style:italic; color:#FFFFFF; }
+		
+		.disabled { cursor:default; }
+	
+	.help-tip { width:960px; text-align:center; padding:45px 0; font-size:30px; font-weight:bold; font-style:italic; }	
+		.help-tip p a { width:478px; height:50px; background:url(../images/btn_book-consultion.gif) no-repeat; display:block; margin:10px auto 0 auto; text-decoration:none; color:#FFFFFF; text-align:left; padding:3px 0 0 25px; }
+		.help-tip p a:hover { text-decoration:underline; } 

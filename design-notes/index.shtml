@@ -1,0 +1,102 @@
+<!--#include file="/includes/page-before-new.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div class="wrapper">
+	<div id="content" class="landing-design-notes">
+		
+		<div class="design-notes">
+
+			<div class="intro">
+				<h2>Design Notes</h2>
+				<h3>With Lucy Feagins &amp; Dulux</h3>
+				<h4>The Design Files Daily</h4>
+				<div class="description">
+					<p>Dulux and Lucy Feagins, founder of the leading design blog The Design Files, have collaborated to showcase the latest colour trends for your home.</p>
+					<p>Learn what Lucy says about her favourite hand-picked images featured below and how to ‘achieve the look’ using accent colours, partnering textures and furniture styles and combining colour combinations.</p>
+				</div>
+			</div>
+
+			<div class="looks-header">
+				<div class="issue-dropdown">
+					<label>Select an issue</label>
+					<select>
+						<option>More coming soon</option>
+					</select>
+				</div>
+			</div>
+
+			<div class="look1">
+				<div class="inner">
+					<h2>Get The Look</h2>
+					<p>The textured timber panelling in this Brisbane home is the perfect partner for the peppermint green colour used throughout.  When combined with the old-school linoleum flooring, a mish mash of vintage furniture and op shop treasures, the pastel tones in this bright dining room bring to life a laid-back, summery, beach-shack feel.</p>
+					<p>Dulux Spring Burst Half and White Watsonia are a great combination to try.</p>
+					<div class="swatch1">
+						<p>Maidenhair Fern</p>
+					</div>
+					<div class="swatch2">
+						<p>Savannah</p>
+					</div>
+					<div class="swatch3">
+						<p>Spring Burst Half</p>
+					</div>
+					<div class="detail"></div>
+				</div>
+			</div>
+
+			<div class="look2">
+				<div class="inner">
+					<h2>Get The Look</h2>
+					<p>This family home in Melbourne is the perfect example of how bold colour can be used to enliven even the most traditional Victorian home.  The exterior brickwork is striking in deep charcoal, whilst the vivid fire-engine red door provides an unexpected burst of colour.  As this happens, this is actually the back door  - the perfect place to experiment with brave hues if you're not quite confident enough to make this kind of statement for all the world to see!</p>
+					<p>Dulux Ito and Hot Lips are a great combination to try.</p>
+					<div class="swatch1">
+						<p>Stella</p>
+					</div>
+					<div class="swatch2">
+						<p>Hot Lips</p>
+					</div>
+					<div class="swatch3">
+						<p>Ito</p>
+					</div>
+					<div class="detail"></div>
+				</div>
+			</div>
+
+			<div class="look3">
+				<div class="inner">
+					<h2>Get The Look</h2>
+					<p>This home in the country town of Kyneton uses a very deep charcoal tone to dramatic effect in the dining room.  A dark wall treatment is always an effective backdrop for framed artwork and other decorative wall-mounted elements. In this case though it's the yellow accents that really sing - the vintage dining chairs and low-hanging pendant lamp are the perfect finishing touch.</p>
+					<p>Dulux Oolong and Vivid White are a perfect combination to try.</p>
+					<div class="swatch1">
+						<p>Oolong</p>
+					</div>
+					<div class="swatch2">
+						<p>Mamala Bay</p>
+					</div>
+					<div class="swatch3">
+						<p>Gold Rush</p>
+					</div>
+					<div class="detail"></div>
+				</div>
+			</div>
+
+			<div class="sample-pot">
+				<div class="description">
+					<p>To guarantee you’ll absolutely love your colour, use a Dulux Sample Pot to trial on your wall at home. That way, you know, you’ll get it right the first time.</p>
+					<p class="terms">*Using a sample pot to trial a colour is a recommendation only and Dulux accepts no liability for colour choice.</p>
+				</div>
+				<div class="options">
+					<a class="colour-trends" href="#">Latest Colour Trends</a>
+					<a class="consultation" href="http://www.dulux.com.au/services/colour-consultants">Book a colour consultation</a>
+					<a class="wash-and-wear" href="http://www.dulux.com.au/products/wash-and-wear">Dulux Wash &amp; Wear</a>
+				</div>
+			</div>
+
+		</div>
+
+	</div>
+</div>
+
+<!--#include file="/includes/page-after-new.shtml" -->

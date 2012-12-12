@@ -1,0 +1,25 @@
+<!--#include file="/includes/page-before-new.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div class="wrapper">
+	<div id="content" class="landing-jellybean-promotion">
+		<div class="jellybean-head">The Bazillion Jelly Beans Giveaway - It's Back!</div>
+		<div class="jellybean-body">
+			<h1>Plus a chance to find a Golden Bean &amp; win $200. 100 to be found*</h1>
+			<div class="info">
+				<p>Simply purchase 8 litres or more of Dulux Wash &amp; Wear<sup>&reg;</sup> or Weathershield<sup>&reg;</sup> and you'll receive a can of delicious Jelly Beans FREE!</p>
+				<p>Plus, if you find a Golden Bean inside your Jelly Beans can you'll also win $200*. But you’ll need to be quick, offer only available for a limited time.</p>
+				<p class="terms">*Terms &amp; conditions apply - <a href="#">Click here.</a></p>
+			</div>
+			<div class="video-wrapper">
+				<div class="video"><iframe width="416" height="234" src="http://www.youtube.com/embed/kAdZQ_d9Th0?list=UUIPR-5DeST83HuLGdDhuelw&amp;hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
+			</div>
+		</div>
+		<div class="jellybean-footer"></div>
+	</div>
+</div>
+
+<!--#include file="/includes/page-after-new.shtml" -->

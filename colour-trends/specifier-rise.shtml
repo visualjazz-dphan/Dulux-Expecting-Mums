@@ -1,0 +1,143 @@
+<!--#include file="/includes/page-before.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div id="wrapper" class="colour-trends-2013 ct13-rise">
+
+	<div class="wrapper-screen ct13-head">
+		<h1>Rise</h1>
+		<h2>Dulux Colour Forecast 2013</h2>
+		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/QqIBzdrztZQ?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
+	</div>
+
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-share.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-empower.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
+	<div class="wrapper-screen ct13-description">
+		<p class="emphasis">Collaborations between Japanese and Western designers and manufacturers are creating products that are innovative, whilst reinterpreting forms and styles that are quintessentially Japanese.</p>
+		<p>Somewhat austere, the Japanese design aesthetic is calm, quiet, considered and above all functional – a design style that is fitting with today’s need for a cocooning, composed environment and a space for contemplation. A palette of sophisticated pastels allows otherwise bulky forms to appear light and even soft</p>
+	</div>
+
+	<div class="wrapper-screen ct13-colour-list">
+
+		<ul class="ct13-colours">
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row1">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_03.jpg" alt="Liming White 2 Coats"></div>
+				<div class="ct13-bottom">
+					<h5>Liming White 2 Coats</h5>
+					<p class="description">Feast Watson&reg; Floor Finish</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row2">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_10.png" alt="Slip Cast PW1A5"></div>
+				<div class="ct13-bottom"><h5>Slip Cast PW1A5</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col2 ct13-row1">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_05.png" alt="Winnow PW1A4"></div>
+				<div class="ct13-bottom"><h5>Winnow PW1A4</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col4 ct13-row1">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_07.jpg" alt="Styled image featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc">Image styled by Bree Leech featuring Dulux colours Celery Satin, Clunies, Hog Bristle Half and Antique White U.S.A</p></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row3">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_13.png" alt="Self-Destruct P14D3"></div>
+				<div class="ct13-bottom">
+					<h5>Self-Destruct P14D3</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col2 ct13-row3">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_14.png" alt="Focus Point P27D3"></div>
+				<div class="ct13-bottom"><h5>Focus Point P27D3</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row3">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_16.png" alt="Equanimity P32A3"></div>
+				<div class="ct13-bottom"><h5>Equanimity P32A3</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-bigger ct13-col1 ct13-row4">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_21.jpg" alt="Styled image 2 featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc short">Image styled by Mim Design featuring Dulux colours Winnow with details in Limed White, Focus Point and Equanimity </p></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row4">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_22.png" alt="Hog Bristle Half P14D1H"></div>
+				<div class="ct13-bottom"><h5>Hog Bristle Half P14D1H</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col4 ct13-row5">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_23.png" alt="Blind Date P11B3"></div>
+				<div class="ct13-bottom"><h5>Blind Date P11B3</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col2 ct13-row6">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_28.png" alt="Limed White P13B1"></div>
+				<div class="ct13-bottom"><h5>Limed White P13B1</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row6">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_29.png" alt="Celery Satin P19D1"></div>
+				<div class="ct13-bottom">
+					<h5>Celery Satin P19D1</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row6">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_30.png" alt="Clunies PG2E2"></div>
+				<div class="ct13-bottom">
+					<h5>Clunies PG2E2</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-bigger ct13-col1 ct13-row7">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_36.png" alt="Christobel Quarter P09D1Q"></div>
+				<div class="ct13-bottom"><h5>Christobel Quarter P09D1Q</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row7">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_37.png" alt="Unbleached Calico Quarter P10F1Q"></div>
+				<div class="ct13-bottom">
+					<h5>Unbleached Calico Quarter P10F1Q</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row7">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_38.png" alt="Carnelian P25A2"></div>
+				<div class="ct13-bottom">
+					<h5>Carnelian P25A2</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row8">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_41.png" alt="Dewpoint Quarter P32A1Q"></div>
+				<div class="ct13-bottom">
+					<h5>Dewpoint Quarter P32A1Q</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row8">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_42.png" alt="Blue Alps P33A3"></div>
+				<div class="ct13-bottom"><h5>Blue Alps P33A3</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col5 ct13-row6">
+				<div class="ct13-top"><img src="images/rise/dulux-ct13-rise_32.jpg" alt="Styled image 3 featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc right">Image styled by Bree Leech featuring Dulux colours Unbleached Calico Quarter, Celery Satin, Hog Bristle Half, Chrsitobel Quarter, Blue Alps, Self-Destruct, Carnelian and Clunies</p></div>
+			</li>
+
+		</ul>
+
+	</div>
+
+<!--#include file="/includes/page-after.shtml" -->

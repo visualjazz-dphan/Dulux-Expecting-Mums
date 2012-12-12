@@ -12,7 +12,7 @@
         <a class="bck-top" href="#wrapper">Top of the page</a>
 
         <!-- PLACEHOLDING FOOTER FOR TEMPLATE //-->
-        <img src="includes/footer.png" width="970" height="156" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
+        <img src="/includes/footer.png" width="972" height="190" alt="PLACEHOLDING IMAGE FOR STATIC TEMPLATE" />
         <!-- END PLACEHOLDING FOOTER FOR TEMPLATE //-->
     </div>
     <!-- End Wrapper -->
@@ -41,7 +41,7 @@
             <li><a class="pnav-intergrain" href="/specifier/our-brands/intergrain-timber-finishes" title="Intergrain">Intergrain</a></li>
             <li><a class="pnav-envirosolutions" href="/specifier/our-brands/dulux-envirosolutions" title="Envirosolutions">Envirosolutions</a></li>
         </ul>
-        <img class="aus-made" src="/css/imgs/aus-made.png" alt="Australian Made" />
+        <img class="aus-made" src="/includes/imgs/aus-made.png" alt="Australian Made" />
     </div>
 
 <!-- Dock -->
@@ -100,12 +100,6 @@
 
 </form>
 
-    <script type="text/javascript" src="includes/ct13.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            DULUX.ct13.init();
-        });
-    </script>
 
     </body>
 </html>

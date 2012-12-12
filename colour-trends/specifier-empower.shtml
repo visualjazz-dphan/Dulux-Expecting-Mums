@@ -1,0 +1,148 @@
+<!--#include file="/includes/page-before.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+			  //-->
+
+<div id="wrapper" class="colour-trends-2013 ct13-empower">
+
+	<div class="wrapper-screen ct13-head">
+		<h1>Empower</h1>
+		<h2>Dulux Colour Forecast 2013</h2>
+		<div class="iframe-container"><iframe width="524" height="295" src="http://www.youtube.com/embed/wjoZkZZZLGs?hl=en_US&amp;rel=0&amp;controls=0&amp;showinfo=0&amp;modestbranding=0" frameborder="0" allowfullscreen></iframe></div>
+	</div>
+
+	<div class="wrapper-screen ct13-trends-nav">
+		<a href="specifier-rise.shtml" class="next-trend">View next trend</a>
+		<a href="specifier-seek.shtml" class="prev-trend">View previous trend</a>
+	</div>
+
+	<div class="wrapper-screen ct13-description">
+		<p class="emphasis">Empowered by communication literally at our fingertips, our voice is heard as a collective group capable of creating positive change and responding quickly to anything warranting our attention.</p>
+		<p>Our voice is acknowledged as brands become transparent in what they do and who they are, while design responds with customisation. Local change impacts globally so our community is the place to start. A positive trend, the Empower palette is a range of blues inspiring optimism, openness and communication while emphasising the power of colour on mass.</p>
+	</div>
+
+	<div class="wrapper-screen ct13-colour-list">
+
+		<ul class="ct13-colours">
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row1">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_03.png" alt="Liberty P34G3"></div>
+				<div class="ct13-bottom">
+					<h5>Liberty P34G3</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row2">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_10.png" alt="Surf Wash P28F3"></div>
+				<div class="ct13-bottom"><h5>Surf Wash P28F3</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col2 ct13-row1">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_05.png" alt="Mykonos P39H6"></div>
+				<div class="ct13-bottom"><h5>Mykonos P39H6</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col4 ct13-row1">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_07.jpg" alt="Styled image featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc">Image styled by Bree Leech featuring Dulux Liberty, Bahaman Bliss and Misty Blue</p></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col1 ct13-row3">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_13.jpg" alt="Urban Pearl"></div>
+				<div class="ct13-bottom">
+					<h5>Urban Pearl</h5>
+					<p class="description">Design Pearl</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col2 ct13-row3">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_14.png" alt="Sea Bed P31E5"></div>
+				<div class="ct13-bottom"><h5>Sea Bed P31E5</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row3">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_16.png" alt="Esplanade P32D7"></div>
+				<div class="ct13-bottom"><h5>Esplanade P32D7</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-bigger ct13-col1 ct13-row4">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_21.jpg" alt="Styled image 2 featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc short">Image styled by Mim Design featuring Dulux Green Buoy</p></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row4">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_22.png" alt="Species P18G5"></div>
+				<div class="ct13-bottom"><h5>Species P18G5</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-big ct13-col4 ct13-row5">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_23.png" alt="Green Buoy P30H5"></div>
+				<div class="ct13-bottom">
+					<h5>Green Buoy P30H5</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col2 ct13-row6">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_28.png" alt="Lexicon PW1G9"></div>
+				<div class="ct13-bottom"><h5>Lexicon PW1G9</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row6">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_29.png" alt="Blue Sail P40H8"></div>
+				<div class="ct13-bottom">
+					<h5>Blue Sail P40H8</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row6">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_30.png" alt="Mitchell Blue P34E5"></div>
+				<div class="ct13-bottom">
+					<h5>Mitchell Blue P34E5</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-bigger ct13-col1 ct13-row7">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_36.png" alt="Bahaman Bliss P28F6"></div>
+				<div class="ct13-bottom"><h5>Bahaman Bliss P28F6</h5></div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row7">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_37.png" alt="Misty Blue P40F8"></div>
+				<div class="ct13-bottom">
+					<h5>Misty Blue P40F8</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row7">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_38.png" alt="Mystification P41G8"></div>
+				<div class="ct13-bottom">
+					<h5>Mystification P41G8</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col3 ct13-row8">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_41.png" alt="Sea Hunter P35D7"></div>
+				<div class="ct13-bottom">
+					<h5>Sea Hunter P35D7</h5>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col4 ct13-row8">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_42.png" alt="Steel Pearl Satin 971-57127"></div>
+				<div class="ct13-bottom">
+					<h5>Steel Pearl Satin 971-57127</h5>
+					<p class="description">Precious&reg; Powder</p>
+				</div>
+			</li>
+
+			<li class="ct13-box ct13-small ct13-col5 ct13-row6">
+				<div class="ct13-top"><img src="images/empower/dulux-ct13-empower_32.jpg" alt="Styled image 3 featuring Dulux colours"></div>
+				<div class="ct13-bottom"><p class="long-desc right">Image styled by Bree Leech featuring Dulux Design Pearl in Urban Pearl with details in Surf Wash, Mitchell Blue, Blue Sail and Mystification</p></div>
+			</li>
+
+		</ul>
+
+	</div>
+
+<!--#include file="/includes/page-after.shtml" -->
