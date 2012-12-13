@@ -6,6 +6,7 @@
 		<PipelineMode>Integrated</PipelineMode>
 		<HostHeaders>
 			<HostHeader>test</HostHeader>
+			<HostHeader>test2</HostHeader>
 		</HostHeaders>
 		<!--<SSL>
             <HostHeader name="">
