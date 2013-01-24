@@ -1,0 +1,149 @@
+/* Dulux Colour Trends 2013
+   Author: Tony Trinh, 21.9.12
+*/
+
+/* temp */
+.wrapper	 	{ background: #fbfbfb; }
+.wrapper img 	{ display: block; }
+#content 		{ width: 960px; margin: 0 6px; padding: 0; }
+body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
+
+/* DESIGN NOTES CONTENT */
+
+#content.expecting-mums { background:#FFF; padding: 0 6px; margin:0; }
+.expecting-mums ul { margin:0; padding:0; list-style:none; }
+.expecting-mums a.expect-mums-button { border-radius:5px; display:block; padding:10px 15px; width:230px; overflow:hidden; color:#FFF; margin-top:10px; text-decoration:none; }
+	.expecting-mums a.expect-mums-button:hover, .expecting-mums a.expect-mums-button:hover span { text-decoration:underline; }
+	.expecting-mums a.expect-mums-button span { float:left; display:block; float:right; background:url(../images/icon_arrow.png) no-repeat; width:9px; height:14px; margin-top:3px; cursor:pointer; }
+	.expecting-mums a.expect-mums-button span:first-child { width:auto; height:auto; float:left; background:none; margin:0; }
+	
+	.expecting-mums h2 { font-family:'Futura W01 Medium'; font-weight:normal; letter-spacing:normal; }
+	.expecting-mums h3 { font-family:'Futura W01 Bold'; font-weight:normal; letter-spacing:0.5; line-height:38px; }
+
+/* COLOR ROOM */
+
+	#expect-mums-content { width:960px; font-size:15px; }
+	#expect-mums-banner { width:960px; height:403px; background:#f1eebf; color:#5e5e5e; }
+		#expect-mums-banner > div { padding:60px 30px 0 290px; width:640px; height:343px; display:block; background:url(../images/bgd_banner-transperant.png) no-repeat; overflow:hidden; line-height:21px; }
+		#expect-mums-banner h3 { font-size:44px;line-height:46px; padding-bottom:15px; }
+	
+	#expect-mums-colors { width:960px; text-align:center; }	
+		#expect-mums-colors h5 { font-size:17px; color:#7a7a7a; margin:0; padding:15px 0; }
+		#expect-mums-thumbnails { width:960px; height:140px; overflow-x:auto; overflow-y:hidden; text-align:left; }
+		#expect-mums-thumbnails li {float:left; display:block; width:75px; height:75px; margin-left:4px; }
+		#expect-mums-thumbnails li:first-child { margin:0; }
+		#expect-mums-thumbnails li a {display:block; width:65px; height:65px; font-size:20px; color:#000; padding:10px 0 0 10px; text-decoration:none; font-family:'Futura W01 Light'; }
+		#expect-mums-thumbnails li span { display:block; font-size:11px; margin:5px 0 0 10px; color:#afafaf; }
+		
+		#expect-mums-thumbnails li.active a { border:3px solid #132150; width:62px; height:62px; padding:7px 0 0 7px; }
+		#expect-mums-thumbnails li.active span { color:#000000; }
+	
+/* END COLOR ROOM */
+
+
+/* IDEAL NURSERY */
+	
+	#expect-mums-nursery-container { width:100%; height:311px; }
+	#expect-mums-nursery { width:100%; text-align:center; padding:15px 0; }
+		#expect-mums-nursery h3 { font-size:37px; line-height:34px; margin-bottom:15px; color:#7a7a7a; }
+		#expect-mums-nursery h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Medium'; }
+		#expect-mums-nursery ul { position:relative; width:960px; height:200px; margin:auto; }
+		#expect-mums-nursery li { display:inline; }
+		#expect-mums-nursery li a { display:block; float:left; height:200px; position:absolute; text-indent:-999999px; top:0; }
+		#expect-mums-nursery li a.active {top:30px;}
+		
+		#expect-mums-nursery li#dreamy-baby-item a { background:url(../images/visual_dreamy-baby.png) no-repeat; width:207px; left:0; z-index:1; }
+		#expect-mums-nursery li#vintage-baby-item a { background:url(../images/visual_vintage-baby.png) no-repeat; width:203px; left:156px; z-index:2; }
+		#expect-mums-nursery li#bright-baby-item a { background:url(../images/visual_bright-baby.png) no-repeat; width:208px; left:297px; z-index:3; }
+		#expect-mums-nursery li#creative-babies-item a { background:url(../images/visual_creative-babies.png) no-repeat; width:203px; left:457px; z-index:4; }
+		#expect-mums-nursery li#sugar-baby-item a { background:url(../images/visual_sugar-baby.png) no-repeat; width:202px; left:612px; z-index:5; }
+		#expect-mums-nursery li#nature-baby-item a { background:url(../images/visual_nature-baby.png) no-repeat; width:202px; left:756px; z-index:6; }
+		
+		.nursery-content { width:960px; }
+			h2.expect-mums-title { text-align:center; font-size:25px; color:#FFF; padding:10px 0; border-top:1px solid #FFFFFF; border-bottom:1px solid #FFFFFF; text-transform:uppercase; }
+			.nursery-content .nursery-content-detail { width:100%; overflow:hidden; }
+			.nursery-content .nursery-content-detail > div, .nursery-content .nursery-content-detail > img, .nursery-content .nursery-color-code > div, .nursery-content .nursery-color-code > img { float:left; }
+			.nursery-content h3 { font-size:36px; padding-bottom:5px; }
+			.nursery-content h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Medium'; }
+			.nursery-content p { line-height:20px; padding:5px 0; }
+
+			
+			.nursery-content .left-top-text > div { margin:35px 0 20px 30px; width:275px; }
+			.nursery-content .left-top-text > img { float:right; }
+			
+			.nursery-content .left-bottom-text > div { margin:35px 0 20px 30px; width:410px; }
+			.nursery-content .left-bottom-text > img { float:right; }
+			.nursery-content .left-bottom-text h3 { text-align:right; }
+			
+			.nursery-content .right-text > div { margin:20px 0 0 35px; width:400px; }
+			
+			.nursery-content .nursery-color-code { width:100%; overflow:hidden; padding-bottom:25px; margin-top:-45px; }
+			.nursery-color-code > img { margin-right:30px; }
+			.nursery-color-code > div { padding-top:65px; }
+		
+		/*---------- CORLOR CODE CONTENT --------*/	
+		#dreamy-baby-content { color:#7b776f; }
+			#dreamy-baby-content h2, #dreamy-baby-content a.expect-mums-button { background:#9b8d73; }
+			#dreamy-baby-content h3 { color:#9b8d73; }
+			#dreamy-baby-content .nursery-color-code > div { width:380px; }
+			
+		#vintage-baby-content { color:#626558; }
+			#vintage-baby-content h2, #vintage-baby-content a.expect-mums-button { background:#8c9372; }
+			#vintage-baby-content h3 { color:#8c9372; }
+			#vintage-baby-content .nursery-color-code > div { width:460px; }
+			
+		#bright-baby-content { color:#7e5260; }
+			#bright-baby-content h2, #bright-baby-content a.expect-mums-button { background:#b44970; }
+			#bright-baby-content h3 { color:#b44970; }
+			#bright-baby-content .nursery-color-code > div { width:470px; margin-top:30px; }
+			
+		#creative-babies-content { color:#877f62; }
+			#creative-babies-content h2, #creative-babies-content a.expect-mums-button { background:#ffcc2a; }
+			#creative-babies-content h3 { color:#ffcc2a; }
+			#creative-babies-content .nursery-color-code > div { width:540px; }
+			
+		#sugar-baby-content { color:#897675; }
+			#sugar-baby-content h2, #sugar-baby-content a.expect-mums-button { background:#ffa6a0; }
+			#sugar-baby-content h3 { color:#ffa6a0; }
+			#sugar-baby-content .nursery-color-code > div { width:450px; }
+			
+		#nature-baby-content { color:#667676; }
+			#nature-baby-content h2, #nature-baby-content a.expect-mums-button { background:#5f8c8c; }
+			#nature-baby-content h3 { color:#5f8c8c; }
+			#nature-baby-content .nursery-color-code > div { width:370px; margin-top:40px; }
+/* END IDEAL NURSERY */
+
+/* INTRODUCE STUFF */
+	.expect-mums-intro-product { background:#03245a; padding:15px; border-top:1px solid #FFF; color:#03245a; }
+		.expect-mums-intro-product h3 { font-size:29px; color:#FFF; padding-bottom:20px; text-align:center; line-height:22px; font-family:'Futura W01 Medium'; }
+		.expect-mums-intro-product h3 span { font-size:23px; color:#91a5c7; display:block; }
+		.expect-mums-intro-product h3 sup { color:#91a5c7; }
+		.expect-mums-intro-product .expect-mums-intro-detail { background:#FFF; width:100%; overflow:hidden; }
+		.expect-mums-intro-product .expect-mums-intro-detail > img { float:left; }
+		.expect-mums-intro-product .expect-mums-intro-detail > div { float:left; width:640px; padding:10px 0; }
+		.expect-mums-intro-product .expect-mums-intro-detail p { padding-top:20px; }
+		.expect-mums-intro-product a.expect-mums-button { background:#03245a; }
+		.expect-mums-intro-product .available-note { font-size:12px; }
+	
+	.expect-mums-get-off { background:#e9e5e4; padding:0; overflow:hidden; width:100%; }
+		.expect-mums-get-off h3 { text-align:left; font-size:30px; color:#03245a; padding:20px 0 0 0; }
+		.expect-mums-get-off .expect-mums-intro-detail { background:none; }
+		.expect-mums-get-off .expect-mums-intro-detail > div { width:570px; }
+/* END INTRODUCE STUFF */
+
+
+/* EXPECTING MUMS CREDITS */
+	#expect-mums-credits h2 { background:#5f8c8c; width:100%; overflow:hidden; }
+	#expect-mums-credits h3 { font-size:20px; color:#5f8c8c; text-transform:uppercase; margin-bottom:5px; font-family:'Futura W01 Medium';}
+		#expect-mums-credits .em-credits-main-content { width:100%; overflow:hidden; height:auto; background:#f7f9f9; }
+		#expect-mums-credits .em-credits-main-content a { color:#45c4c4; text-decoration:none; }
+		#expect-mums-credits .em-credits-main-content a:hover { text-decoration:underline; }
+		#expect-mums-credits .expect-mums-credits-content { width:440px; float:left; color:#667676; overflow:hidden; font-size:11px; padding:30px 20px; }
+		#expect-mums-credits .expect-mums-credits-content .em-visual-credit { width:208px; float:left; text-align:center; }
+		#expect-mums-credits .expect-mums-credits-content ul { float:left; padding:15px 0 0 15px; display:block; width:210px; }
+		#expect-mums-credits .right-credit .expect-mums-credits-content ul { padding:15px 15px 0 5px; }
+		#expect-mums-credits .expect-mums-credits-content li { padding:3px 0; }
+		#expect-mums-credits .left-credit, #expect-mums-credits .right-credit .expect-mums-credits-content:first-child { background:#f7f9f9; }
+		#expect-mums-credits .right-credit, #expect-mums-credits .left-credit .expect-mums-credits-content:first-child { background:#FFF; }
+
+/* END EXPECTING MUMS CREDITS */
