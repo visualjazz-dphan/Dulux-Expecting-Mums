@@ -50,7 +50,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 		#expect-mums-nursery ul { position:relative; width:960px; height:200px; margin:auto; }
 		#expect-mums-nursery li { display:inline; }
 		#expect-mums-nursery li a { display:block; float:left; height:200px; position:absolute; text-indent:-999999px; top:0; }
-		#expect-mums-nursery li a.active {top:30px;}
+		#expect-mums-nursery li a.active {top:15px;}
 		
 		#expect-mums-nursery li#dreamy-baby-item a { background:url(../images/visual_dreamy-baby.png) no-repeat; width:207px; left:0; z-index:1; }
 		#expect-mums-nursery li#vintage-baby-item a { background:url(../images/visual_vintage-baby.png) no-repeat; width:203px; left:156px; z-index:2; }

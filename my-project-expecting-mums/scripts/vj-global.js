@@ -81,25 +81,25 @@ MYPROJECT.expectingmums = (function () {
 					
 				//Hover state for ideal nursery item
 				$(nurseryItem).hover(function(){
-					$(this).stop().animate({"top": "30px"});	
+					$(this).stop().animate({"top": "15px"});	
 				}, function(){
 					if($(this).hasClass("active")){
-						$(this).stop().animate({"top": "30px"}, "fast");	
+						$(this).stop().animate({"top": "15px"}, "fast");	
 					} else {
-						$(this).stop().animate({"top": "0"}, "fast");
+						$(this).stop().animate({"top": "-15px"}, "fast");
 					}
 				})
 			}, 
 			sickyNursery : function(){
 				var nurseryContent = $("#expect-mums-nursery"),
-					nurseryPos = $("#dreamy-baby-content").position().top - 100,
-					nurseryEndPos = $(".expect-mums-intro-product").position().top - 100;
+					nurseryPos = $("#dreamy-baby-content").position().top - 170,
+					nurseryEndPos = $(".expect-mums-intro-product").position().top - 170;
 									
 				//Sticky nursery show/hide when scrolling window 	
 				$(window).scroll(function(){
 					var scrollPos = $(this).scrollTop();
 						if(scrollPos >= nurseryPos){
-							nurseryContent.css({"position":"fixed", "left":0, "top":-100, "padding":0});
+							nurseryContent.css({"position":"fixed", "left":0, "top":-115, "padding":0});
 							nurseryContent.find("h3").hide();
 						} else{
 							nurseryContent.css({'position': 'relative', "left":0, "top":0, "padding":"20px 0"});
@@ -109,10 +109,10 @@ MYPROJECT.expectingmums = (function () {
 						
 					nurseryContent.find("a").each( function() {
 						var $divId = $(this).attr("href"),
-							divOffset = $($divId).offset().top - 110;
+							divOffset = $($divId).offset().top - 145;
 						if( scrollPos >= divOffset) {
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "-15px"}, "fast");
-							$(this).addClass("active").stop().animate({"top": "30px"}, "fast");	
+							$(this).addClass("active").stop().animate({"top": "15px"}, "fast");	
 						} if(scrollPos > nurseryEndPos){
 							nurseryContent.css({"position":"fixed", "left":0, "top":-200, "padding":0});
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
@@ -122,10 +122,10 @@ MYPROJECT.expectingmums = (function () {
 				
 				//Hash tag to land the correct content
 				nurseryContent.find("a").click(function(e){
-					var currentPos = $(this.hash).offset().top;
+					var currentPos = $(this.hash).offset().top + 50;
 					nurseryContent.find("a").removeClass("active").stop().animate({"top": "-15px"}, "fast");
-					$(this).addClass("active").stop().animate({"top": "30px"}, "fast");
-					$("body, html").animate({scrollTop: currentPos - 100}, "slow");
+					$(this).addClass("active").stop().animate({"top": "15px"}, "fast");
+					$("body, html").animate({scrollTop: currentPos - 120}, "slow");
 					e.preventDefault();
 				})
 			}, 
