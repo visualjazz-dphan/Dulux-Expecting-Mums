@@ -17,8 +17,8 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	.expecting-mums a.expect-mums-button span { float:left; display:block; float:right; background:url(../images/icon_arrow.png) no-repeat; width:9px; height:14px; margin-top:3px; cursor:pointer; }
 	.expecting-mums a.expect-mums-button span:first-child { width:auto; height:auto; float:left; background:none; margin:0; }
 	
-	.expecting-mums h2 { font-family:'Futura W01 Medium'; font-weight:normal; letter-spacing:normal; }
-	.expecting-mums h3 { font-family:'Futura W01 Bold'; font-weight:normal; letter-spacing:0.5; line-height:38px; }
+	.expecting-mums h2 { font-family:'Futura W01 Book'; font-weight:normal; letter-spacing:normal; }
+	.expecting-mums h3 { font-family:'Futura W01 Bold'; font-weight:normal; letter-spacing:-1; line-height:38px; }
 
 /* COLOR ROOM */
 
@@ -46,7 +46,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#expect-mums-nursery-container { width:100%; height:311px; }
 	#expect-mums-nursery { width:100%; text-align:center; padding:15px 0; }
 		#expect-mums-nursery h3 { font-size:37px; line-height:34px; margin-bottom:15px; color:#7a7a7a; }
-		#expect-mums-nursery h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Medium'; }
+		#expect-mums-nursery h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Book'; }
 		#expect-mums-nursery ul { position:relative; width:960px; height:200px; margin:auto; }
 		#expect-mums-nursery li { display:inline; }
 		#expect-mums-nursery li a { display:block; float:left; height:200px; position:absolute; text-indent:-999999px; top:0; }
@@ -64,7 +64,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 			.nursery-content .nursery-content-detail { width:100%; overflow:hidden; }
 			.nursery-content .nursery-content-detail > div, .nursery-content .nursery-content-detail > img, .nursery-content .nursery-color-code > div, .nursery-content .nursery-color-code > img { float:left; }
 			.nursery-content h3 { font-size:36px; padding-bottom:5px; }
-			.nursery-content h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Medium'; }
+			.nursery-content h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Book'; }
 			.nursery-content p { line-height:20px; padding:5px 0; }
 
 			
@@ -115,7 +115,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 
 /* INTRODUCE STUFF */
 	.expect-mums-intro-product { background:#03245a; padding:15px; border-top:1px solid #FFF; color:#03245a; }
-		.expect-mums-intro-product h3 { font-size:29px; color:#FFF; padding-bottom:20px; text-align:center; line-height:22px; font-family:'Futura W01 Medium'; }
+		.expect-mums-intro-product h3 { font-size:29px; color:#FFF; padding-bottom:20px; text-align:center; line-height:22px; font-family:'Futura W01 Book'; }
 		.expect-mums-intro-product h3 span { font-size:23px; color:#91a5c7; display:block; }
 		.expect-mums-intro-product h3 sup { color:#91a5c7; }
 		.expect-mums-intro-product .expect-mums-intro-detail { background:#FFF; width:100%; overflow:hidden; }
@@ -126,7 +126,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 		.expect-mums-intro-product .available-note { font-size:12px; }
 	
 	.expect-mums-get-off { background:#e9e5e4; padding:0; overflow:hidden; width:100%; }
-		.expect-mums-get-off h3 { text-align:left; font-size:30px; color:#03245a; padding:20px 0 0 0; }
+		.expect-mums-get-off h3 { text-align:left; font-size:30px; color:#03245a; padding:20px 0 0 0; line-height:30px; }
 		.expect-mums-get-off .expect-mums-intro-detail { background:none; }
 		.expect-mums-get-off .expect-mums-intro-detail > div { width:570px; }
 /* END INTRODUCE STUFF */
@@ -134,12 +134,12 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 
 /* EXPECTING MUMS CREDITS */
 	#expect-mums-credits h2 { background:#5f8c8c; width:100%; overflow:hidden; }
-	#expect-mums-credits h3 { font-size:20px; color:#5f8c8c; text-transform:uppercase; margin-bottom:5px; font-family:'Futura W01 Medium';}
-		#expect-mums-credits .em-credits-main-content { width:100%; overflow:hidden; height:auto; background:#f7f9f9; }
+	#expect-mums-credits h3 { font-size:20px; color:#5f8c8c; text-transform:uppercase; margin-bottom:5px; font-family:'Futura W01 Book';}
+		#expect-mums-credits .em-credits-main-content { width:100%; overflow:hidden; background:#f7f9f9; }
 		#expect-mums-credits .em-credits-main-content a { color:#45c4c4; text-decoration:none; }
 		#expect-mums-credits .em-credits-main-content a:hover { text-decoration:underline; }
 		#expect-mums-credits .expect-mums-credits-content { width:440px; float:left; color:#667676; overflow:hidden; font-size:11px; padding:30px 20px; }
-		#expect-mums-credits .expect-mums-credits-content .em-visual-credit { width:208px; float:left; text-align:center; }
+		#expect-mums-credits .expect-mums-credits-content .em-visual-credit { width:208px; float:left; text-align:center; height:235px; }
 		#expect-mums-credits .expect-mums-credits-content ul { float:left; padding:15px 0 0 15px; display:block; width:210px; }
 		#expect-mums-credits .right-credit .expect-mums-credits-content ul { padding:15px 15px 0 5px; }
 		#expect-mums-credits .expect-mums-credits-content li { padding:3px 0; }

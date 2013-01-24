@@ -114,7 +114,7 @@ MYPROJECT.expectingmums = (function () {
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "-15px"}, "fast");
 							$(this).addClass("active").stop().animate({"top": "30px"}, "fast");	
 						} if(scrollPos > nurseryEndPos){
-							nurseryContent.css({"position":"fixed", "left":0, "top":-100, "padding":0});
+							nurseryContent.css({"position":"fixed", "left":0, "top":-200, "padding":0});
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
 						}	
 		   			});		
