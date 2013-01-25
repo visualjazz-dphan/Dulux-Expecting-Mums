@@ -29,13 +29,13 @@
            		<h5>Explore and click on the A-Z colour alphabet freeze to see the walls of the nursery change colour </h5>
                 <div id="expect-mums-thumbnails">
                 	<ul>
-                    	<li><a href="javascript:;" data-color="#f1eebf">Aa</a><span>Apple<br /> Slide</span></li>
+                    	<li><a href="javascript:;" data-color="#f1eebf">Aa</a><span>Apple<br /> slide</span></li>
                         <li><a href="javascript:;" data-color="#d3bfc5">Bb</a><span>Bunny<br /> Soft</span></li>
                         <li><a href="javascript:;" data-color="#f7bba2">Cc</a><span>Coral<br /> Blossom</span></li>
-                        <li><a href="javascript:;" data-color="#b2cfd2">Dd</a><span>Drewpoint</span></li>
+                        <li><a href="javascript:;" data-color="#b2cfd2">Dd</a><span>Dewpoint</span></li>
                         <li><a href="javascript:;" data-color="#badca7">Ee</a><span>Embroidered<br />Silk</span></li>
                         <li><a href="javascript:;" data-color="#fbd0d2">Ff</a><span>Fairy Wings</span></li>
-                        <li><a href="javascript:;" data-color="#e3d4b8">Gg</a><span>Glentle<br />Touch</span></li>
+                        <li><a href="javascript:;" data-color="#e3d4b8">Gg</a><span>Glentle<br />touch</span></li>
                         <li><a href="javascript:;" data-color="#f8d164">Hh</a><span>Happy</span></li>
                         <li><a href="javascript:;" data-color="#a5dde3">Ii</a><span>Ice Pack</span></li>
                         <li><a href="javascript:;" data-color="#ebdab6">Jj</a><span>Jodhpurs</span></li>
@@ -74,7 +74,7 @@
           	<h2 class="expect-mums-title">ROOM ONE</h2>
         <div class="nursery-content-detail left-top-text">
             	<div>
-                	<h3>Dreamy baby</h3>
+                	<h3 class="heading-img">Dreamy baby</h3>
                     <p>A nursery that is calm and soothing, with a little something special making the room unique. Using neutral tones and lots of white, a room is created that is relaxing and almost ethereal.</p>
                     <p>The scallop effect on the chimney breast uses Dulux Design Pearl™ as a highlight for a dreamy quality.</p>
                 </div>
@@ -101,7 +101,7 @@
           	<h2 class="expect-mums-title">ROOM TWO</h2>
         <div class="nursery-content-detail left-top-text">
             	<div>
-                	<h3>Vintage baby</h3>
+                	<h3 class="heading-img">Vintage baby</h3>
                     <p>Classic vintage style is timeless, this space has a quirky edge using lots of DIY imagination with the easy to create world map bunting and the painted “vintage find” side table.</p>
                     <p>Green is a colour that can be used for boys and girls, it symbolises nature and works perfectly with mid timber tones so often found in mid-century styles. </p>
                 </div>
@@ -126,8 +126,7 @@
             </div>
         <div class="nursery-content-detail left-bottom-text">
        	  <div>
-                  <h3><span>tips &amp; techniques:</span>Create a vintage<br />
-map bunting</h3>
+                  <h3><span>tips &amp; techniques:</span>Create a vintage<br />map bunting</h3>
                   <p><strong>Step 1:</strong> Remove the pages from an old school atlas (or childrens book, or wrapping paper).</p>
                   <p><strong>Step 2:</strong> Fold one of the pages in half lengthways to create a light seam. Cut diagonally from the point of the seam out to the edge of the page – this gives you a template to use on the rest of the pages – simply cut around the triangle.</p>
                   <p><strong>Step 3:</strong> Either hand or machine sew the pages to a length of ribbon then use tacks to hang it on the nursery wall.</p>
@@ -139,7 +138,7 @@ map bunting</h3>
           	<h2 class="expect-mums-title">ROOM THREE</h2>
         <div class="nursery-content-detail left-top-text">
        	  <div>
-                	<h3>Bright baby</h3>
+                	<h3 class="heading-img">Bright baby</h3>
                     <p>A fresh white space is the perfect start, add bright pops of vivid colour to create a one-of-a-kind look.</p>
                     <p>A painted chair, a dip dyed curtain and a colourful blanket all tie into the diamond pattern feature on the wall, just enough interest to attract babies’ attention and adding an element of joy to the room.</p>
                 </div>
@@ -167,7 +166,7 @@ map bunting</h3>
           	<h2 class="expect-mums-title">ROOM FOUR</h2>
         <div class="nursery-content-detail left-top-text">
        	  <div>
-                	<h3>Creative babies</h3>
+                	<h3 class="heading-img">Creative babies</h3>
                     <p>A soft buttery yellow is perfect for a twin’s nursery. Diagonal stripes create a fun, graphic effect while splashes of other bright colours create a space to exercise their imagination.</p>
                     <p>Use bright graphic prints and fabrics to accessorise the room, alongside simple white furniture pieces.</p>
           </div>
@@ -194,7 +193,7 @@ map bunting</h3>
           	<h2 class="expect-mums-title">ROOM FIVE</h2>
         <div class="nursery-content-detail left-top-text">
        	  <div>
-                	<h3>Sugar baby</h3>
+                	<h3 class="heading-img">Sugar baby</h3>
                     <p>Soft pink is grounded with a pale neutral creating a pastel tinted space that is delicately sweet. The oh-so-cute washing line feature adds an element of whimsy using babies’ petit clothes as a design element.</p>
                     <p>A soft sweet space, Sugar Baby will be relaxed and comforted while she sleeps and plays.</p>
           </div>
@@ -221,7 +220,7 @@ map bunting</h3>
           	<h2 class="expect-mums-title">ROOM SIX</h2>
         <div class="nursery-content-detail left-top-text">
        	  <div>
-                	<h3>Nature baby</h3>
+                	<h3 class="heading-img">Nature baby</h3>
                     <p>A neutral space is transformed into an urban forest, created with a feature of trees painted with shades in the same colour family.</p>
                     <p>Straight lines modernise the tree motive that uses stormy green-blue hues layered to give the motive depth. And no tree is complete without a watchful owl.</p>
                 </div>
@@ -274,7 +273,7 @@ map bunting</h3>
 for your nursery.</h3>
             	<p>Mention this voucher and get a bonus discount on expert colour advice about creating the perfect space for your baby. To redeem this offer, simply call 13 25 25 to book your colour consultancy session and quote the promo code: <strong>NURSERY PROMO</strong>.</p>
             	<p>This voucher is valid until 31 December 2013. The voucher must be printed and presented to your Dulux Colour Consultant in order to receive the $25 discount.</p>
-                <p><a href="#" class="expect-mums-button"><span>Download voucher</span><span></span></a></p>
+                <p><a href="pdf/DUX2906_Dulux_Colour_Consultancy_Voucher_75.5x180mm_330.pdf" target="_blank" class="expect-mums-button"><span>Download voucher</span><span></span></a></p>
           </div>
         </div>
       </div>

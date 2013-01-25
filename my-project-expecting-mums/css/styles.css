@@ -80,37 +80,46 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 			.nursery-content .nursery-color-code { width:100%; overflow:hidden; padding-bottom:25px; margin-top:-45px; }
 			.nursery-color-code > img { margin-right:30px; }
 			.nursery-color-code > div { padding-top:65px; }
+			
+			.nursery-content h3.heading-img { width:212px; height:85px; text-indent:-99999px; }
 		
 		/*---------- CORLOR CODE CONTENT --------*/	
 		#dreamy-baby-content { color:#7b776f; }
 			#dreamy-baby-content h2, #dreamy-baby-content a.expect-mums-button { background:#9b8d73; }
 			#dreamy-baby-content h3 { color:#9b8d73; }
 			#dreamy-baby-content .nursery-color-code > div { width:380px; }
+			#dreamy-baby-content h3.heading-img { background:url(../images/heading_dreamy-baby.gif) no-repeat; }
 			
 		#vintage-baby-content { color:#626558; }
 			#vintage-baby-content h2, #vintage-baby-content a.expect-mums-button { background:#8c9372; }
 			#vintage-baby-content h3 { color:#8c9372; }
 			#vintage-baby-content .nursery-color-code > div { width:460px; }
+			#vintage-baby-content h3.heading-img { background:url(../images/heading_vintage-baby.gif) no-repeat; }
 			
 		#bright-baby-content { color:#7e5260; }
 			#bright-baby-content h2, #bright-baby-content a.expect-mums-button { background:#b44970; }
 			#bright-baby-content h3 { color:#b44970; }
 			#bright-baby-content .nursery-color-code > div { width:470px; margin-top:30px; }
+			#bright-baby-content h3.heading-img { background:url(../images/heading_bright-baby.gif) no-repeat; }
 			
 		#creative-babies-content { color:#877f62; }
 			#creative-babies-content h2, #creative-babies-content a.expect-mums-button { background:#ffcc2a; }
 			#creative-babies-content h3 { color:#ffcc2a; }
 			#creative-babies-content .nursery-color-code > div { width:540px; }
+			#creative-babies-content h3.heading-img { background:url(../images/heading_creative-babies.gif) no-repeat; }
 			
 		#sugar-baby-content { color:#897675; }
 			#sugar-baby-content h2, #sugar-baby-content a.expect-mums-button { background:#ffa6a0; }
 			#sugar-baby-content h3 { color:#ffa6a0; }
 			#sugar-baby-content .nursery-color-code > div { width:450px; }
+			#sugar-baby-content h3.heading-img { background:url(../images/heading_sugar-baby.gif) no-repeat; }
 			
 		#nature-baby-content { color:#667676; }
 			#nature-baby-content h2, #nature-baby-content a.expect-mums-button { background:#5f8c8c; }
 			#nature-baby-content h3 { color:#5f8c8c; }
 			#nature-baby-content .nursery-color-code > div { width:370px; margin-top:40px; }
+			#nature-baby-content h3.heading-img { background:url(../images/heading_nature-baby.gif) no-repeat; }
+			
 /* END IDEAL NURSERY */
 
 /* INTRODUCE STUFF */
