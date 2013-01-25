@@ -83,10 +83,18 @@ MYPROJECT.expectingmums = (function () {
 				$(nurseryItem).hover(function(){
 					$(this).stop().animate({"top": "15px"});	
 				}, function(){
-					if($(this).hasClass("active")){
-						$(this).stop().animate({"top": "15px"}, "fast");	
+					if($(this).parents($("#expect-mums-nursery")).hasClass("active-dock")){
+						if($(this).hasClass("active")){
+							$(this).stop().animate({"top": "15px"}, "fast");	
+						} else {
+							$(this).stop().animate({"top": "-15px"}, "fast");
+						}
 					} else {
-						$(this).stop().animate({"top": "0"}, "fast");
+						if($(this).hasClass("active")){
+							$(this).stop().animate({"top": "15px"}, "fast");	
+						} else {
+							$(this).stop().animate({"top": "0"}, "fast");
+						}
 					}
 				})
 			}, 
@@ -99,10 +107,10 @@ MYPROJECT.expectingmums = (function () {
 				$(window).scroll(function(){
 					var scrollPos = $(this).scrollTop();
 						if(scrollPos >= nurseryPos){
-							nurseryContent.css({"position":"fixed", "left":0, "top":-115, "padding":0});
+							nurseryContent.addClass("active-dock").css({"position":"fixed", "left":0, "top":-115, "padding":0});
 							nurseryContent.find("h3").hide();
 						} else{
-							nurseryContent.css({'position': 'relative', "left":0, "top":0, "padding":"20px 0"});
+							nurseryContent.removeClass("active-dock").css({'position': 'relative', "left":0, "top":0, "padding":"20px 0"});
 							nurseryContent.find("h3").show();
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
 						}	
