@@ -18,7 +18,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	.expecting-mums a.expect-mums-button span:first-child { width:auto; height:auto; float:left; background:none; margin:0; }
 	
 	.expecting-mums h2 { font-family:'Futura W01 Book'; font-weight:normal; letter-spacing:normal; }
-	.expecting-mums h3 { font-family:'Futura W01 Bold'; font-weight:normal; letter-spacing:-1; line-height:38px; }
+	.expecting-mums h3 { font-family:'Futura W01 Bold'; font-weight:normal; letter-spacing:-1px; line-height:38px; }
 
 /* COLOR ROOM */
 
