@@ -92,8 +92,8 @@ MYPROJECT.expectingmums = (function () {
 			}, 
 			sickyNursery : function(){
 				var nurseryContent = $("#expect-mums-nursery"),
-					nurseryPos = $("#dreamy-baby-content").position().top - 170,
-					nurseryEndPos = $(".expect-mums-intro-product").position().top - 170;
+					nurseryPos = $("#dreamy-baby-content").position().top - 100,
+					nurseryEndPos = $(".expect-mums-intro-product").position().top - 100;
 									
 				//Sticky nursery show/hide when scrolling window 	
 				$(window).scroll(function(){
