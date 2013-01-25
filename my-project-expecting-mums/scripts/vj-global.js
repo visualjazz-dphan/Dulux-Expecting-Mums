@@ -109,7 +109,7 @@ MYPROJECT.expectingmums = (function () {
 						
 					nurseryContent.find("a").each( function() {
 						var $divId = $(this).attr("href"),
-							divOffset = $($divId).offset().top - 145;
+							divOffset = $($divId).offset().top - 100;
 						if( scrollPos >= divOffset) {
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "-15px"}, "fast");
 							$(this).addClass("active").stop().animate({"top": "15px"}, "fast");	
