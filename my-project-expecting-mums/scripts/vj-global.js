@@ -86,7 +86,7 @@ MYPROJECT.expectingmums = (function () {
 					if($(this).hasClass("active")){
 						$(this).stop().animate({"top": "15px"}, "fast");	
 					} else {
-						$(this).stop().animate({"top": "-15px"}, "fast");
+						$(this).stop().animate({"top": "0"}, "fast");
 					}
 				})
 			}, 
