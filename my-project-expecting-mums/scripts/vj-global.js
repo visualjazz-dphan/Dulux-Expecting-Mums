@@ -83,7 +83,7 @@ MYPROJECT.expectingmums = (function () {
 				$(nurseryItem).hover(function(){
 					$(this).stop().animate({"top": "15px"});	
 				}, function(){
-					if($(this).parents($("#expect-mums-nursery")).hasClass("active-dock")){
+					if($(this).parents(nurseryContent).hasClass("active-dock")){
 						if($(this).hasClass("active")){
 							$(this).stop().animate({"top": "15px"}, "fast");	
 						} else {
