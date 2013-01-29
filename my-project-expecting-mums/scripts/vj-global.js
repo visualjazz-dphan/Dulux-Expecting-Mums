@@ -26,21 +26,6 @@ MYPROJECT.expectingmums = (function () {
 					$(this).find("a").attr("href", $(this).find("a").attr("data-color"));
 				})	
 				
-				//Looping color
-				/*loopColor = function(){
-					
-						$(numberColors).each(function(index, elm){
-						console.log($(elm))
-						setTimeout(function(){
-						 if(stopLoop) {													
-							 room.animate({'backgroundColor' : $(elm).find("a").attr("data-color")});
-							 $(numberColors).removeClass("active");
-							 $(elm).addClass("active");	
-						 }							 								 
-						}, index * 2000)
-					})
-				}	
-				*/
 				
 				//Looping color
 				loopColor = function(){
@@ -69,11 +54,7 @@ MYPROJECT.expectingmums = (function () {
 				scrollbar.bind('mousewheel', function(event, delta) {	
 					val = this.scrollLeft - (delta * 70);
 					$(this).stop().animate({scrollLeft:val},0);
-				})/*.mouseenter(function(){
-					$("body, html").css({"overflow-y":"hidden", "white-space": "nowrap"})	
-				}).mouseleave(function(){
-					$("body, html").css({"overflow-y":"auto"})	
-				})*/
+				})
 			},
 			idealNursery : function(){
 				var nurseryContent = $("#expect-mums-nursery"),
@@ -81,17 +62,17 @@ MYPROJECT.expectingmums = (function () {
 					
 				//Hover state for ideal nursery item
 				$(nurseryItem).hover(function(){
-					$(this).stop().animate({"top": "15px"});	
+					$(this).stop().animate({"top": "20px"});	
 				}, function(){
 					if($(this).parents(nurseryContent).hasClass("active-dock")){
 						if($(this).hasClass("active")){
-							$(this).stop().animate({"top": "15px"}, "fast");	
+							$(this).stop().animate({"top": "20px"}, "fast");	
 						} else {
-							$(this).stop().animate({"top": "-15px"}, "fast");
+							$(this).stop().animate({"top": "-20px"}, "fast");
 						}
 					} else {
 						if($(this).hasClass("active")){
-							$(this).stop().animate({"top": "15px"}, "fast");	
+							$(this).stop().animate({"top": "20px"}, "fast");	
 						} else {
 							$(this).stop().animate({"top": "0"}, "fast");
 						}
@@ -107,7 +88,7 @@ MYPROJECT.expectingmums = (function () {
 				$(window).scroll(function(){
 					var scrollPos = $(this).scrollTop();
 						if(scrollPos >= nurseryPos){
-							nurseryContent.addClass("active-dock").css({"position":"fixed", "left":0, "top":-115, "padding":0});
+							nurseryContent.addClass("active-dock").css({"position":"fixed", "left":0, "top":-65, "padding":0});
 							nurseryContent.find("h3").hide();
 						} else{
 							nurseryContent.removeClass("active-dock").css({'position': 'relative', "left":0, "top":0, "padding":"20px 0"});
@@ -117,10 +98,10 @@ MYPROJECT.expectingmums = (function () {
 						
 					nurseryContent.find("a").each( function() {
 						var $divId = $(this).attr("href"),
-							divOffset = $($divId).offset().top - 100;
+							divOffset = $($divId).offset().top - 120;
 						if( scrollPos >= divOffset) {
-							nurseryContent.find("a").removeClass("active").stop().animate({"top": "-15px"}, "fast");
-							$(this).addClass("active").stop().animate({"top": "15px"}, "fast");	
+							nurseryContent.find("a").removeClass("active").stop().animate({"top": "-20px"}, "fast");
+							$(this).addClass("active").stop().animate({"top": "20px"}, "fast");	
 						} if(scrollPos > nurseryEndPos){
 							nurseryContent.css({"position":"fixed", "left":0, "top":-200, "padding":0});
 							nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
@@ -130,9 +111,9 @@ MYPROJECT.expectingmums = (function () {
 				
 				//Hash tag to land the correct content
 				nurseryContent.find("a").click(function(e){
-					var currentPos = $(this.hash).offset().top + 50;
-					nurseryContent.find("a").removeClass("active").stop().animate({"top": "-15px"}, "fast");
-					$(this).addClass("active").stop().animate({"top": "15px"}, "fast");
+					var currentPos = $(this.hash).offset().top;
+					nurseryContent.find("a").removeClass("active").stop().animate({"top": "-25px"}, "fast");
+					$(this).addClass("active").stop().animate({"top": "20px"}, "fast");
 					$("body, html").animate({scrollTop: currentPos - 120}, "slow");
 					e.preventDefault();
 				})

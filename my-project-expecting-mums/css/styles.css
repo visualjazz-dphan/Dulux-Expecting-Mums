@@ -50,7 +50,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 		#expect-mums-nursery ul { position:relative; width:960px; height:200px; margin:auto; }
 		#expect-mums-nursery li { display:inline; }
 		#expect-mums-nursery li a { display:block; float:left; height:200px; position:absolute; text-indent:-999999px; top:0; }
-		#expect-mums-nursery li a.active {top:15px;}
+		#expect-mums-nursery li a.active {top:25px;}
 		
 		#expect-mums-nursery li#dreamy-baby-item a { background:url(../images/visual_dreamy-baby.png) no-repeat; width:207px; left:0; z-index:1; }
 		#expect-mums-nursery li#vintage-baby-item a { background:url(../images/visual_vintage-baby.png) no-repeat; width:203px; left:156px; z-index:2; }
@@ -129,7 +129,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 		.expect-mums-intro-product h3 sup { color:#91a5c7; }
 		.expect-mums-intro-product .expect-mums-intro-detail { background:#FFF; width:100%; overflow:hidden; }
 		.expect-mums-intro-product .expect-mums-intro-detail > img { float:left; }
-		.expect-mums-intro-product .expect-mums-intro-detail > div { float:left; width:640px; padding:10px 0; }
+		.expect-mums-intro-product .expect-mums-intro-detail > div { float:left; width:640px; padding:10px 0 25px 0; }
 		.expect-mums-intro-product .expect-mums-intro-detail p { padding-top:20px; }
 		.expect-mums-intro-product a.expect-mums-button { background:#03245a; }
 		.expect-mums-intro-product .available-note { font-size:12px; }
