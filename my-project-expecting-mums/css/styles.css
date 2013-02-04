@@ -8,6 +8,14 @@
 #content 		{ width: 960px; margin: 0 6px; padding: 0; }
 body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
 
+
+/* WEB-FONT */
+@import url("//hello.myfonts.net/count/25a751");
+@font-face {font-family: 'FuturaBT-Light';src: url('../webfonts/25A751_0_0.eot');src: url('../webfonts/25A751_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_0_0.woff') format('woff'),url('../webfonts/25A751_0_0.ttf') format('truetype');}
+@font-face {font-family: 'FuturaBT-Book';src: url('../webfonts/25A751_1_0.eot');src: url('../webfonts/25A751_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_1_0.woff') format('woff'),url('../webfonts/25A751_1_0.ttf') format('truetype');}
+@font-face {font-family: 'FuturaBT-Bold';src: url('../webfonts/25A751_2_0.eot');src: url('../webfonts/25A751_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_2_0.woff') format('woff'),url('../webfonts/25A751_2_0.ttf') format('truetype');}
+/* END WEB-FONT */
+
 /* DESIGN NOTES CONTENT */
 
 #content.expecting-mums { background:#FFF; padding: 0 6px; margin:0; }
@@ -17,8 +25,8 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	.expecting-mums a.expect-mums-button span { float:left; display:block; float:right; background:url(../images/icon_arrow.png) no-repeat; width:9px; height:14px; margin-top:3px; cursor:pointer; }
 	.expecting-mums a.expect-mums-button span:first-child { width:auto; height:auto; float:left; background:none; margin:0; }
 	
-	.expecting-mums h2 { font-family:'Futura W01 Book'; font-weight:normal; letter-spacing:normal; }
-	.expecting-mums h3 { font-family:'Futura W01 Bold'; font-weight:normal; letter-spacing:-1px; line-height:38px; }
+	.expecting-mums h2 { font-family:'FuturaBT-Book'; font-weight:normal; letter-spacing:normal; }
+	.expecting-mums h3 { font-family:'FuturaBT-Bold'; font-weight:normal; letter-spacing:-1px; line-height:38px; }
 
 /* COLOR ROOM */
 
@@ -32,7 +40,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 		#expect-mums-thumbnails { width:960px; height:140px; overflow-x:auto; overflow-y:hidden; text-align:left; }
 		#expect-mums-thumbnails li {float:left; display:block; width:75px; height:75px; margin-left:4px; }
 		#expect-mums-thumbnails li:first-child { margin:0; }
-		#expect-mums-thumbnails li a {display:block; width:65px; height:65px; font-size:20px; color:#000; padding:10px 0 0 10px; text-decoration:none; font-family:'Futura W01 Light'; }
+		#expect-mums-thumbnails li a {display:block; width:65px; height:65px; font-size:20px; color:#000; padding:10px 0 0 10px; text-decoration:none; font-family:'FuturaBT-Light'; }
 		#expect-mums-thumbnails li span { display:block; font-size:11px; margin:5px 0 0 10px; color:#afafaf; }
 		
 		#expect-mums-thumbnails li.active a { border:3px solid #132150; width:62px; height:62px; padding:7px 0 0 7px; }
@@ -46,7 +54,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#expect-mums-nursery-container { width:100%; height:311px; }
 	#expect-mums-nursery { width:100%; text-align:center; padding:15px 0; }
 		#expect-mums-nursery h3 { font-size:37px; line-height:34px; margin-bottom:15px; color:#7a7a7a; }
-		#expect-mums-nursery h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Book'; }
+		#expect-mums-nursery h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'FuturaBT-Book'; }
 		#expect-mums-nursery ul { position:relative; width:960px; height:200px; margin:auto; }
 		#expect-mums-nursery li { display:inline; }
 		#expect-mums-nursery li a { display:block; float:left; height:200px; position:absolute; text-indent:-999999px; top:0; }
@@ -64,7 +72,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 			.nursery-content .nursery-content-detail { width:100%; overflow:hidden; }
 			.nursery-content .nursery-content-detail > div, .nursery-content .nursery-content-detail > img, .nursery-content .nursery-color-code > div, .nursery-content .nursery-color-code > img { float:left; }
 			.nursery-content h3 { font-size:36px; padding-bottom:5px; }
-			.nursery-content h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'Futura W01 Book'; }
+			.nursery-content h3 span { font-size:20px; display:block; text-transform:uppercase; font-family:'FuturaBT-Book'; }
 			.nursery-content p { line-height:20px; padding:5px 0; }
 
 			
@@ -75,7 +83,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 			.nursery-content .left-bottom-text > img { float:right; }
 			.nursery-content .left-bottom-text h3 { text-align:right; }
 			
-			.nursery-content .right-text > div { margin:20px 0 0 35px; width:400px; }
+			.nursery-content .right-text > div { margin:20px 0 0 35px; width:410px; }
 			
 			.nursery-content .nursery-color-code { width:100%; overflow:hidden; padding-bottom:25px; margin-top:-45px; }
 			.nursery-color-code > img { margin-right:30px; }
@@ -124,7 +132,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 
 /* INTRODUCE STUFF */
 	.expect-mums-intro-product { background:#03245a; padding:15px; border-top:1px solid #FFF; color:#03245a; }
-		.expect-mums-intro-product h3 { font-size:29px; color:#FFF; padding-bottom:20px; text-align:center; line-height:22px; font-family:'Futura W01 Book'; }
+		.expect-mums-intro-product h3 { font-size:29px; color:#FFF; padding-bottom:20px; text-align:center; line-height:22px; font-family:'FuturaBT-Book'; }
 		.expect-mums-intro-product h3 span { font-size:23px; color:#91a5c7; display:block; }
 		.expect-mums-intro-product h3 sup { color:#91a5c7; }
 		.expect-mums-intro-product .expect-mums-intro-detail { background:#FFF; width:100%; overflow:hidden; }
@@ -143,7 +151,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 
 /* EXPECTING MUMS CREDITS */
 	#expect-mums-credits h2 { background:#5f8c8c; width:100%; overflow:hidden; }
-	#expect-mums-credits h3 { font-size:20px; color:#5f8c8c; text-transform:uppercase; margin-bottom:5px; font-family:'Futura W01 Book';}
+	#expect-mums-credits h3 { font-size:20px; color:#5f8c8c; text-transform:uppercase; margin-bottom:5px; font-family:'FuturaBT-Book';}
 		#expect-mums-credits .em-credits-main-content { width:100%; overflow:hidden; background:#f7f9f9; }
 		#expect-mums-credits .em-credits-main-content a { color:#45c4c4; text-decoration:none; }
 		#expect-mums-credits .em-credits-main-content a:hover { text-decoration:underline; }

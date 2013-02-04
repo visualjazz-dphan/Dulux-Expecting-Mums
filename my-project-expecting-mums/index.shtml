@@ -4,7 +4,6 @@
 			  New templates to handle the full width content may be required
 //-->
 <script type="text/javascript" src="scripts/jquery-1.8.21.custom.min.js"></script>
-<script type="text/javascript" src="http://fast.fonts.com/jsapi/bad1defb-2f27-4d7a-b331-29b731cd76bb.js"></script>
 <script type="text/javascript" src="scripts/jquery.animate-colors.js"></script>
 <script type="text/javascript" src="scripts/mousewheel.js"></script>
 <script type="text/javascript" src="scripts/vj-global.js"></script>
