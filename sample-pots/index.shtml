@@ -1,0 +1,19 @@
+<!--#include file="/includes/page-before-new.shtml" -->
+
+<!-- VJI DEV: This page breaks away from the existing Dulux template structure
+			  New templates to handle the full width content may be required
+//-->
+<script type="text/javascript" src="scripts/jquery-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="scripts/vj-global.js"></script>
+<script type="text/javascript">
+	$(document).ready( function() {	
+		MYPROJECT.samplePots.init();
+	});
+</script>    
+
+
+<div id="sample-pots" class="wrapper">
+	some content
+</div>
+
+<!--#include file="/includes/page-after-new.shtml" -->

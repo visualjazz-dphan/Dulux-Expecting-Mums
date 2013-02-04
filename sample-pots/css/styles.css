@@ -1,0 +1,17 @@
+/* Dulux Sample Pots
+   Author: Tony Trinh, 4.2.13
+*/
+
+/* temp */
+.wrapper	 	{ background: #fbfbfb; margin: 0 auto; width: 972px; padding: 0; }
+.wrapper img 	{ display: block; }
+body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fixed 0 0; height: auto; }
+
+/* WEB-FONT */
+@import url("//hello.myfonts.net/count/25a751");
+@font-face {font-family: 'FuturaBT-Light';src: url('../webfonts/25A751_0_0.eot');src: url('../webfonts/25A751_0_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_0_0.woff') format('woff'),url('../webfonts/25A751_0_0.ttf') format('truetype');}
+@font-face {font-family: 'FuturaBT-Book';src: url('../webfonts/25A751_1_0.eot');src: url('../webfonts/25A751_1_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_1_0.woff') format('woff'),url('../webfonts/25A751_1_0.ttf') format('truetype');}
+@font-face {font-family: 'FuturaBT-Bold';src: url('../webfonts/25A751_2_0.eot');src: url('../webfonts/25A751_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_2_0.woff') format('woff'),url('../webfonts/25A751_2_0.ttf') format('truetype');}
+
+/* global */
+#sample-pots {  }
