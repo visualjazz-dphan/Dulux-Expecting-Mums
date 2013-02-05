@@ -1,9 +1,10 @@
-<!--#include file="/includes/page-before-new.shtml" -->
+<!--#include file="/sample-pots/temp/page-before-new.shtml" -->
 
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
 //-->
-<script type="text/javascript" src="scripts/jquery-1.8.21.custom.min.js"></script>
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="scripts/jquery.cycle.all.js"></script>
 <script type="text/javascript" src="scripts/vj-global.js"></script>
 <script type="text/javascript">
 	$(document).ready( function() {	
@@ -11,9 +12,40 @@
 	});
 </script>    
 
-
 <div id="sample-pots" class="wrapper">
-	some content
+
+	<div id="sp-intro" class="sp-section">
+		<h3>Add some <span class="green">c</span><span class="red">o</span><span class="mustard">l</span><span class="blue">o</span><span class="yellow">u</span><span class="pink">r</span> to your Easter</h3>
+		<h1>Free Dulux colour sample pots, delivered to your door</h1>
+		<p>We’ve selected the fifty most popular colours to help you find something that suits your needs.</p>
+		<p>All you have to do is get inspired, choose two colour from the Dulux Top 50 list and then submit your details to receive your free Sample Pots.</p>
+		<p>It’s that easy!</p>
+	</div>
+	
+	<div id="sp-carousel" class="sp-section">
+
+		<h2>1. Get inspired</h2>
+		<p>Browse these inspirational videos by our resident Dulux colour expert</p>
+
+		<div class="sp-carousel-wrap">
+			<ul id="sp-carousel-nav"></ul>
+			<a href="#" id="sp-carousel-prev">prev</a>
+			<a href="#" id="sp-carousel-next">next</a>
+			<ul id="sp-carousel-slides">
+				<li data-cname="Whites" data-class="sp-whites"><img src="images/temp/test1.jpg" alt=""></li>
+				<li data-cname="Earth" data-class="sp-earth"><img src="images/temp/test2.jpg" alt=""></li>
+				<li data-cname="Browns" data-class="sp-browns"><img src="images/temp/test3.jpg" alt=""></li>
+				<li data-cname="Greys" data-class="sp-greys"><img src="images/temp/test4.jpg" alt=""></li>
+				<li data-cname="Pinks" data-class="sp-pinks"><img src="images/temp/test5.jpg" alt=""></li>
+				<li data-cname="Blues" data-class="sp-blues"><img src="images/temp/test6.jpg" alt=""></li>
+				<li data-cname="Greens" data-class="sp-greens"><img src="images/temp/test6.jpg" alt=""></li>
+				<li data-cname="Yellows" data-class="sp-yellows"><img src="images/temp/test6.jpg" alt=""></li>
+				<li data-cname="Reds" data-class="sp-reds"><img src="images/temp/test6.jpg" alt=""></li>
+			</ul>
+		</div>
+
+	</div>
+
 </div>
 
 <!--#include file="/includes/page-after-new.shtml" -->

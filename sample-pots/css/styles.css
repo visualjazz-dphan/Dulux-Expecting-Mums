@@ -14,4 +14,50 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 @font-face {font-family: 'FuturaBT-Bold';src: url('../webfonts/25A751_2_0.eot');src: url('../webfonts/25A751_2_0.eot?#iefix') format('embedded-opentype'),url('../webfonts/25A751_2_0.woff') format('woff'),url('../webfonts/25A751_2_0.ttf') format('truetype');}
 
 /* global */
-#sample-pots {  }
+#sample-pots { overflow: hidden; background: #fff; }
+	#sample-pots h1,
+	#sample-pots h2,
+	#sample-pots h3 { color: #132150; letter-spacing: -1.5px; padding-left: 40px; }
+	#sample-pots h1 { font: 45px/1 'FuturaBT-Bold'; visibility: visible; }
+	#sample-pots h2 { font: 35px/1 'FuturaBT-Bold'; padding-bottom: 9px; }
+	#sample-pots h3 { font: 34px/1.2 'FuturaBT-Book'; }
+	#sample-pots p { font-size: 15px; color: #231f20; line-height: 1.2; padding-left: 40px; }
+.sp-section { width: 960px; margin: 0 6px; float: left; }
+
+/* intro */
+#sp-intro { height: 450px; background: url(../images/bg-intro.jpg) no-repeat; }
+	#sp-intro h3 { padding-top: 41px; padding-bottom: 11px; }
+	#sp-intro h3 .green { color: #008e96; }
+	#sp-intro h3 .red { color: #cd5526; }
+	#sp-intro h3 .mustard { color: #b2b06c; }
+	#sp-intro h3 .blue { color: #2a4271; }
+	#sp-intro h3 .yellow { color: #fcd33b; }
+	#sp-intro h3 .pink { color: #dfa3bc; }
+	#sp-intro h1 { width: 700px; padding-bottom: 25px; }
+	#sp-intro p { width: 468px; padding-bottom: 15px; }
+
+/* colour carousel */
+#sp-carousel {}
+	#sp-carousel p { padding-bottom: 27px; }
+	.sp-carousel-wrap { overflow: hidden; position: relative; width: 918px; margin: 0 auto; }
+	.sp-carousel-wrap ul { list-style: none; }
+	#sp-carousel-nav { overflow: hidden; height: 92px; }
+	#sp-carousel-nav li { display: block; float: left; width: 102px; height: 92px; }
+	#sp-carousel-nav a { display: block; width: 102px; height: 48px; padding: 32px 0 0 0; margin: 10px 0 2px; background: url(../images/bg-carousel-colours.png) left bottom no-repeat; text-align: center; font: 15px/1 'FuturaBT-Bold'; color: #fff; text-decoration: none;
+		-webkit-transition: all 0.2s linear;
+		-moz-transition: all 0.2s linear;
+		-o-transition: all 0.2s linear;
+		transition: all 0.2s linear; }
+	#sp-carousel-nav .sp-earth a { background-position: -102px bottom; } /* double line */
+	#sp-carousel-nav .sp-browns a { background-position: -204px bottom; }
+	#sp-carousel-nav .sp-greys a { background-position: -306px bottom; }
+	#sp-carousel-nav .sp-pinks a { background-position: -408px bottom; }
+	#sp-carousel-nav .sp-blues a { background-position: -510px bottom; }
+	#sp-carousel-nav .sp-greens a { background-position: -612px bottom; }
+	#sp-carousel-nav .sp-yellows a { background-position: -714px bottom; }
+	#sp-carousel-nav .sp-reds a { background-position: -816px bottom; }
+	#sp-carousel-slides { width: 517px; height: 281px; float: left; z-index: 0; }
+	#sp-carousel-prev, #sp-carousel-next
+	#sp-carousel-prev, #sp-carousel-next { display: block; width: 50px; height: 50px; text-align: center; background: #eeeeee; position: absolute; top: 150px; left: 0; z-index: 1; }
+	#sp-carousel-next { left: auto; right: 0; z-index: 2; }
+	#sp-carousel-nav a:hover, #sp-carousel-nav .activeSlide a { height: 53px; padding-top: 39px; margin: 0; /* add shadow + arrow */ }
