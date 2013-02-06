@@ -7,10 +7,11 @@ MYPROJECT.samplePots = (function () {
 		var slideColor, slideClass;
 
 		$('#sp-carousel-slides')
-			.cycle({ 
-			    speed:       500, 
-			    timeout:     0, 
-			    pager:      '#sp-carousel-nav', 
+			.cycle({
+				fx: 		'turnDown',
+			    speed: 		500, 
+			    timeout: 	0, 
+			    pager: 		'#sp-carousel-nav', 
 			    pagerEvent: 'click', 
 			    pauseOnPagerHover: true,
 			    next: '#sp-carousel-next', 

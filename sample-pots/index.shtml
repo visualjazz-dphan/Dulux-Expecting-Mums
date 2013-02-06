@@ -32,16 +32,186 @@
 			<a href="#" id="sp-carousel-prev">prev</a>
 			<a href="#" id="sp-carousel-next">next</a>
 			<ul id="sp-carousel-slides">
-				<li data-cname="Whites" data-class="sp-whites"><img src="images/temp/test1.jpg" alt=""></li>
-				<li data-cname="Earth" data-class="sp-earth"><img src="images/temp/test2.jpg" alt=""></li>
-				<li data-cname="Browns" data-class="sp-browns"><img src="images/temp/test3.jpg" alt=""></li>
-				<li data-cname="Greys" data-class="sp-greys"><img src="images/temp/test4.jpg" alt=""></li>
-				<li data-cname="Pinks" data-class="sp-pinks"><img src="images/temp/test5.jpg" alt=""></li>
-				<li data-cname="Blues" data-class="sp-blues"><img src="images/temp/test6.jpg" alt=""></li>
-				<li data-cname="Greens" data-class="sp-greens"><img src="images/temp/test6.jpg" alt=""></li>
-				<li data-cname="Yellows" data-class="sp-yellows"><img src="images/temp/test6.jpg" alt=""></li>
-				<li data-cname="Reds" data-class="sp-reds"><img src="images/temp/test6.jpg" alt=""></li>
+				<li data-cname="Whites &amp; Neutrals" data-class="sp-whites" class="sp-whites">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						<p>Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Earth" data-class="sp-earth" class="sp-earth">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo. Lorem ipsum dolor sit amet, ultricies fermentum consectetur adipiscing.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Browns" data-class="sp-browns" class="sp-browns">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Greys" data-class="sp-greys" class="sp-greys">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Pinks" data-class="sp-pinks" class="sp-pinks">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. Vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo. Lorem ipsum dolor sit amet, ultricies fermentum consectetur adipiscing.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Blues" data-class="sp-blues" class="sp-blues">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo. Lorem ipsum dolor sit amet, ultricies fermentum.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Greens" data-class="sp-greens" class="sp-greens">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Yellows" data-class="sp-yellows" class="sp-yellows">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
+				<li data-cname="Reds" data-class="sp-reds" class="sp-reds">
+					<div class="sp-carousel-slide-info">
+						<h4>Painting with colours</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra.</p>
+					</div>
+					<div class="sp-carousel-slide-video">
+						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</li>
 			</ul>
+		</div>
+
+	</div>
+
+	<div id="sp-colours" class="sp-section">
+
+		<h2>2. Pick your sample pot colours</h2>
+		<p>Select your two favourite colours to add them to your order</p>
+
+		<ul class="sp-cgrid-categories">
+			<li class="wide">Whites &amp; Neutrals</li>
+			<li>Earth</li>
+			<li>Browns</li>
+			<li>Greys</li>
+			<li>Pinks</li>
+			<li>Blues</li>
+			<li>Greens</li>
+			<li>Yellows</li>
+			<li class="last">Reds</li>
+		</ul>
+
+		<!-- #include file="colour-grid.shtml" -->
+
+	</div>
+
+	<div id="sp-form" class="sp-section">
+
+		<h2>3. Place your order</h2>
+
+		<div class="sp-left">
+
+			<h4>Your colours</h4>
+			<p>Select your two favourite colours above</p>
+
+			<div id="sp-colour-one">
+				Pink Clay
+				<!-- close button -->
+			</div>
+			<div id="sp-colour-two">
+				Pick another colour
+			</div>
+
+			<h4>Terms &amp; Conditions</h4>
+			<p>Open to Australian residents only. For a limited time, while stocks last. Maximum of two Sample Pots per person and order.</p>
+			<p><strong>Delivery</strong><br/>Your Sample Pots with be delivered via the Australia Post network using Regular Post. You will receive your order in approximately 2-7 working days.
+			</p>
+			<p>Please contact Dulux Customer Service on 13 25 25 for any enquiries you may have regarding the delivery of your Sample Pots.</p>
+
+		</div>
+
+		<div class="sp-right">
+			
+			<h4>Your address</h4>
+			<p><span>Please complete all required fields*</span> to ensure delivery of your Sample Pots</p>
+
+			<fieldset>
+				<ul>
+					<li>
+						<label for="spName">Name<span>*</span></label>
+						<input type="text" class="required" id="spName" name="spName">
+					</li>
+					<li>
+						<label for="spAddress">Address<span>*</span></label>
+						<input type="text" class="required" id="spAddress" name="spAddress">
+						<input type="text">
+					</li>
+					<li>
+						<label for="spSuburb">Suburb<span>*</span></label>
+						<input type="text" class="required" id="spSuburb" name="spSuburb">
+					</li>
+					<li>
+						<!-- dropdown -->
+					</li>
+					<li>
+						<label for="spPostcode">Postcode<span>*</span></label>
+						<input type="text" class="required" id="spPostcode" name="spPostcode">
+					</li>
+					<li>
+						<label for="spEmail">Email<span>*</span></label>
+						<input type="text" class="required email" id="spEmail" name="spEmail">
+					</li>
+					<li>
+						<label for="spMobile">Phone</label>
+						<input type="text" id="spMobile" name="spMobile">
+					</li>
+					<li class="checkbox">
+						<label for="spAgreeTC">I agree to the promotion Terms &amp; Conditions</label>
+						<input type="checkbox" class="required" id="spAgreeTC" name="spAgreeTC">
+					</li>
+					<li class="checkbox">
+						<label for="spUpdates">Please  keep me up to date with the latest Dulux News & Offers (by selecting YES you agree to being contacted by email or post using the contact details provided).<br /><a href="#">View the Dulux Privacy Policy</a></label>
+						<input type="checkbox" class="required" id="spUpdates" name="spUpdates">
+					</li>
+				</ul>
+				<input type="submit" value="Place order" class="button submit-btn">
+			</fieldset>
+
 		</div>
 
 	</div>
