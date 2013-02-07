@@ -1,4 +1,4 @@
-<!--#include file="/sample-pots/temp/page-before-new.shtml" -->
+<!-- #include file="/sample-pots/temp/page-before-new.shtml" -->
 
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
@@ -39,7 +39,8 @@
 						<p>Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" 1 height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Earth" data-class="sp-earth" class="sp-earth">
@@ -48,7 +49,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo. Lorem ipsum dolor sit amet, ultricies fermentum consectetur adipiscing.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Browns" data-class="sp-browns" class="sp-browns">
@@ -57,7 +59,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Greys" data-class="sp-greys" class="sp-greys">
@@ -66,7 +69,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Pinks" data-class="sp-pinks" class="sp-pinks">
@@ -75,7 +79,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. Vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo. Lorem ipsum dolor sit amet, ultricies fermentum consectetur adipiscing.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Blues" data-class="sp-blues" class="sp-blues">
@@ -84,7 +89,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus. Nullam auctor fermentum dolor eu commodo. Lorem ipsum dolor sit amet, ultricies fermentum.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Greens" data-class="sp-greens" class="sp-greens">
@@ -93,7 +99,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Yellows" data-class="sp-yellows" class="sp-yellows">
@@ -102,7 +109,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra. In ipsum massa, ullamcorper sed vehicula eu, tempus id risus.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 				<li data-cname="Reds" data-class="sp-reds" class="sp-reds">
@@ -111,7 +119,8 @@
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ultricies fermentum viverra.</p>
 					</div>
 					<div class="sp-carousel-slide-video">
-						<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>
+						<!--<iframe width="500" height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>-->
+						<img src="images/temp/video-placeholder.jpg" alt="video img placeholder" class="sp-video" />
 					</div>
 				</li>
 			</ul>
@@ -144,17 +153,24 @@
 
 		<h2>3. Place your order</h2>
 
+		<div class="test"></div>
+
 		<div class="sp-left">
 
 			<h4>Your colours</h4>
 			<p>Select your two favourite colours above</p>
 
-			<div id="sp-colour-one">
+			<!-- <div class="sp-colour-box sp-colour-added a37" id="sp-colour-one">
 				Pink Clay
-				<!-- close button -->
+				<a href="#" id="sp-close-btn">Remove Colour</a>
+			</div> -->
+			<div class="sp-colour-box" id="sp-colour-one" data-selected="unselected">
+				<span>Pick another colour</span>
+				<a href="#" class="sp-close-btn">Remove Colour</a>
 			</div>
-			<div id="sp-colour-two">
-				Pick another colour
+			<div class="sp-colour-box" id="sp-colour-two" data-selected="unselected">
+				<span>Pick another colour</span>
+				<a href="#" class="sp-close-btn">Remove Colour</a>
 			</div>
 
 			<h4>Terms &amp; Conditions</h4>

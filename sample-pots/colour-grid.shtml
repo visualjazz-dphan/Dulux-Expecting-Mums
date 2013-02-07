@@ -1,306 +1,337 @@
+<!-- <a href="#" class="sp-popup sp-warning">
+	<span class="heading"><h5>You have already chosen two colours</h5></span>
+	<span class="sp-desc">
+		If you would like to select a different colour, please remove a colour first.
+	</span>
+</a>
+<a href="#" class="sp-popup b22">
+	<span class="heading"><h5>Zygger Lioness Long Name</h5></span>
+	<span class="sp-added">
+		Added!
+	</span>
+</a>
+<a href="#" class="sp-popup a37">
+	<span class="heading"><h5>Short Name</h5></span>
+	<span class="sp-desc">
+		Click to add this colour to your free sample pot order
+	</span>
+</a> -->
+
+<div id="sp-blocker"></div>
+
 <ul id="sp-cgrid">
 	<!-- row 1 -->
 		<li class="b22 small-gap"><!-- A -->
-			<a href="#" class="sp-active">
-				<span class="sp-code">B22</span>
+			<!-- <a href="#" class="sp-colour-btn sp-active">
+				<span class="sp-code">b22</span>
+				<span class="sp-name">White on White</span>
+			</a> -->
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b22</span>
 				<span class="sp-name">White on White</span>
 			</a>
 		</li>
 		<li class="b1"><!-- B -->
-			<a href="#">
-				<span class="sp-code">B1</span>
+			<!-- <a href="#" class="sp-popup b1">
+				<span class="heading"><h5>Zygger Lioness Long Name</h5></span>
+				<span class="sp-desc">
+					Click to add this colour to your free sample pot order
+				</span>
+			</a> -->
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b1</span>
 				<span class="sp-name">Natural White</span>
 			</a>
 		</li>
 		<li class="a221"><!-- C -->
-			<a href="#">
-				<span class="sp-code">A221</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a221</span>
 				<span class="sp-name">Rodham</span>
 			</a>
 		</li>
 		<li class="a143"><!-- D -->
-			<a href="#">
-				<span class="sp-code">A143</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a143</span>
 				<span class="sp-name">Sea Elephant</span>
 			</a>
 		</li>
 		<li class="gr22"><!-- E -->
-			<a href="#">
-				<span class="sp-code">GR22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">gr22</span>
 				<span class="sp-name">Namadji</span>
 			</a>
 		</li>
 		<li class="a37"><!-- F -->
-			<a href="#">
-				<span class="sp-code">A37</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a37</span>
 				<span class="sp-name">Scarlet Ribbons</span>
 			</a>
 		</li>
 		<li class="a388"><!-- G -->
-			<a href="#">
-				<span class="sp-code">A388</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a388</span>
 				<span class="sp-name">Mystification</span>
 			</a>
 		</li>
 		<li class="a302"><!-- H -->
-			<a href="#">
-				<span class="sp-code">A302</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a302</span>
 				<span class="sp-name">Zuni</span>
 			</a>
 		</li>
 		<li class="a182"><!-- I -->
-			<a href="#">
-				<span class="sp-code">A182</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a182</span>
 				<span class="sp-name">Happy</span>
 			</a>
 		</li>
 		<li class="a61 no-gap"><!-- J -->
-			<a href="#">
-				<span class="sp-code">A61</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a61</span>
 				<span class="sp-name">Red Box</span>
 			</a>
 		</li>
 	<!-- row 2 -->
 		<li class="b22 small-gap"><!-- A -->
-			<a href="#">
-				<span class="sp-code">B22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b22</span>
 				<span class="sp-name">White on White</span>
 			</a>
 		</li>
 		<li class="b1"><!-- B -->
-			<a href="#">
-				<span class="sp-code">B1</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b1</span>
 				<span class="sp-name">Natural White</span>
 			</a>
 		</li>
 		<li class="a221"><!-- C -->
-			<a href="#">
-				<span class="sp-code">A221</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a221</span>
 				<span class="sp-name">Rodham</span>
 			</a>
 		</li>
 		<li class="a143"><!-- D -->
-			<a href="#">
-				<span class="sp-code">A143</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a143</span>
 				<span class="sp-name">Sea Elephant</span>
 			</a>
 		</li>
 		<li class="gr22"><!-- E -->
-			<a href="#">
-				<span class="sp-code">GR22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">gr22</span>
 				<span class="sp-name">Namadji</span>
 			</a>
 		</li>
 		<li class="a37"><!-- F -->
-			<a href="#">
-				<span class="sp-code">A37</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a37</span>
 				<span class="sp-name">Scarlet Ribbons</span>
 			</a>
 		</li>
 		<li class="a388"><!-- G -->
-			<a href="#">
-				<span class="sp-code">A388</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a388</span>
 				<span class="sp-name">Mystification</span>
 			</a>
 		</li>
 		<li class="a302"><!-- H -->
-			<a href="#">
-				<span class="sp-code">A302</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a302</span>
 				<span class="sp-name">Zuni</span>
 			</a>
 		</li>
 		<li class="a182"><!-- I -->
-			<a href="#">
-				<span class="sp-code">A182</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a182</span>
 				<span class="sp-name">Happy</span>
 			</a>
 		</li>
 		<li class="a61 no-gap"><!-- J -->
-			<a href="#">
-				<span class="sp-code">A61</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a61</span>
 				<span class="sp-name">Red Box</span>
 			</a>
 		</li>
 	<!-- row 3 -->
 		<li class="b22 small-gap"><!-- A -->
-			<a href="#">
-				<span class="sp-code">B22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b22</span>
 				<span class="sp-name">White on White</span>
 			</a>
 		</li>
 		<li class="b1"><!-- B -->
-			<a href="#">
-				<span class="sp-code">B1</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b1</span>
 				<span class="sp-name">Natural White</span>
 			</a>
 		</li>
 		<li class="a221"><!-- C -->
-			<a href="#">
-				<span class="sp-code">A221</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a221</span>
 				<span class="sp-name">Rodham</span>
 			</a>
 		</li>
 		<li class="a143"><!-- D -->
-			<a href="#">
-				<span class="sp-code">A143</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a143</span>
 				<span class="sp-name">Sea Elephant</span>
 			</a>
 		</li>
 		<li class="gr22"><!-- E -->
-			<a href="#">
-				<span class="sp-code">GR22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">gr22</span>
 				<span class="sp-name">Namadji</span>
 			</a>
 		</li>
 		<li class="a37"><!-- F -->
-			<a href="#">
-				<span class="sp-code">A37</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a37</span>
 				<span class="sp-name">Scarlet Ribbons</span>
 			</a>
 		</li>
 		<li class="a388"><!-- G -->
-			<a href="#">
-				<span class="sp-code">A388</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a388</span>
 				<span class="sp-name">Mystification</span>
 			</a>
 		</li>
 		<li class="a302"><!-- H -->
-			<a href="#">
-				<span class="sp-code">A302</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a302</span>
 				<span class="sp-name">Zuni</span>
 			</a>
 		</li>
 		<li class="a182"><!-- I -->
-			<a href="#">
-				<span class="sp-code">A182</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a182</span>
 				<span class="sp-name">Happy</span>
 			</a>
 		</li>
 		<li class="a61 no-gap"><!-- J -->
-			<a href="#">
-				<span class="sp-code">A61</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a61</span>
 				<span class="sp-name">Red Box</span>
 			</a>
 		</li>
 	<!-- row 4 -->
 		<li class="b22 small-gap"><!-- A -->
-			<a href="#">
-				<span class="sp-code">B22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b22</span>
 				<span class="sp-name">White on White</span>
 			</a>
 		</li>
 		<li class="b1"><!-- B -->
-			<a href="#">
-				<span class="sp-code">B1</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b1</span>
 				<span class="sp-name">Natural White</span>
 			</a>
 		</li>
 		<li class="a221"><!-- C -->
-			<a href="#">
-				<span class="sp-code">A221</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a221</span>
 				<span class="sp-name">Rodham</span>
 			</a>
 		</li>
 		<li class="a143"><!-- D -->
-			<a href="#">
-				<span class="sp-code">A143</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a143</span>
 				<span class="sp-name">Sea Elephant</span>
 			</a>
 		</li>
 		<li class="gr22"><!-- E -->
-			<a href="#">
-				<span class="sp-code">GR22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">gr22</span>
 				<span class="sp-name">Namadji</span>
 			</a>
 		</li>
 		<li class="a37"><!-- F -->
-			<a href="#">
-				<span class="sp-code">A37</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a37</span>
 				<span class="sp-name">Scarlet Ribbons</span>
 			</a>
 		</li>
 		<li class="a388"><!-- G -->
-			<a href="#">
-				<span class="sp-code">A388</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a388</span>
 				<span class="sp-name">Mystification</span>
 			</a>
 		</li>
 		<li class="a302"><!-- H -->
-			<a href="#">
-				<span class="sp-code">A302</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a302</span>
 				<span class="sp-name">Zuni</span>
 			</a>
 		</li>
 		<li class="a182"><!-- I -->
-			<a href="#">
-				<span class="sp-code">A182</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a182</span>
 				<span class="sp-name">Happy</span>
 			</a>
 		</li>
 		<li class="a61 no-gap"><!-- J -->
-			<a href="#">
-				<span class="sp-code">A61</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a61</span>
 				<span class="sp-name">Red Box</span>
 			</a>
 		</li>
 	<!-- row 5 -->
 		<li class="b22 small-gap"><!-- A -->
-			<a href="#">
-				<span class="sp-code">B22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b22</span>
 				<span class="sp-name">White on White</span>
 			</a>
 		</li>
 		<li class="b1"><!-- B -->
-			<a href="#">
-				<span class="sp-code">B1</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">b1</span>
 				<span class="sp-name">Natural White</span>
 			</a>
 		</li>
 		<li class="a221"><!-- C -->
-			<a href="#">
-				<span class="sp-code">A221</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a221</span>
 				<span class="sp-name">Rodham</span>
 			</a>
 		</li>
 		<li class="a143"><!-- D -->
-			<a href="#">
-				<span class="sp-code">A143</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a143</span>
 				<span class="sp-name">Sea Elephant</span>
 			</a>
 		</li>
 		<li class="gr22"><!-- E -->
-			<a href="#">
-				<span class="sp-code">GR22</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">gr22</span>
 				<span class="sp-name">Namadji</span>
 			</a>
 		</li>
 		<li class="a37"><!-- F -->
-			<a href="#">
-				<span class="sp-code">A37</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a37</span>
 				<span class="sp-name">Scarlet Ribbons</span>
 			</a>
 		</li>
 		<li class="a388"><!-- G -->
-			<a href="#">
-				<span class="sp-code">A388</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a388</span>
 				<span class="sp-name">Mystification</span>
 			</a>
 		</li>
 		<li class="a302"><!-- H -->
-			<a href="#">
-				<span class="sp-code">A302</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a302</span>
 				<span class="sp-name">Zuni</span>
 			</a>
 		</li>
 		<li class="a182"><!-- I -->
-			<a href="#">
-				<span class="sp-code">A182</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a182</span>
 				<span class="sp-name">Happy</span>
 			</a>
 		</li>
 		<li class="a61 no-gap"><!-- J -->
-			<a href="#">
-				<span class="sp-code">A61</span>
+			<a href="#" class="sp-colour-btn">
+				<span class="sp-code">a61</span>
 				<span class="sp-name">Red Box</span>
 			</a>
 		</li>
