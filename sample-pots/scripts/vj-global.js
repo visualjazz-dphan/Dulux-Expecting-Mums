@@ -37,6 +37,7 @@ MYPROJECT.samplePots = (function () {
 			colourSelected = null,
 			$selectedColourOne = $('#sp-colour-one'),
 			$selectedColourTwo = $('#sp-colour-two'),
+			$removeColourBtn = $('#sp-form').find('.sp-close-btn'),
 			popupOpened = false,
 			warningPopup = false;
 
@@ -168,10 +169,12 @@ MYPROJECT.samplePots = (function () {
 					if ($selectedColourOne.attr('data-selected') === 'unselected') {
 						//console.log('nothing in 1');
 						$selectedColourOne.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').children('.sp-close-btn').css('visibility', 'visible');
+						//pass value to hidden field #1 here
 
 					} else {
 						//console.log('nothing in 2');
 						$selectedColourTwo.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').children('.sp-close-btn').css('visibility', 'visible');
+						//pass value to hidden field #2 here
 					}
 
 					//2. change text 'added'
@@ -189,6 +192,21 @@ MYPROJECT.samplePots = (function () {
 			});
 
 		}
+
+		$removeColourBtn.on('click', function (e) {
+
+			//console.log('clicked')
+			e.preventDefault()
+
+			var $this = $(this);
+
+			//retreive colour identifier for active class removal later
+			$this.parent().removeClass().addClass('sp-colour-box').find('span').text('Pick another colour').end().attr('data-selected', 'unselected');
+
+			//find + remove active on colour in grid
+			//$this.addClass('sp-active');
+
+		});
 
 	}
 		
