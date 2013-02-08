@@ -4,28 +4,44 @@ MYPROJECT.samplePots = (function () {
 		
 	var colourCarousel = function () {
 
-		var slideColor, slideClass;
+		var slideColor, slideClass,
+			firstTime = true;
+			// iframeTemplate = '<iframe width="500" 1 height="281" src="http://www.youtube.com/embed/iCkYw3cRwLo?rel=0" frameborder="0" allowfullscreen></iframe>';
 
-		$('#sp-carousel-slides')
-			.cycle({
-				fx: 		'turnDown',
-			    speed: 		500, 
-			    timeout: 	0, 
-			    pager: 		'#sp-carousel-nav', 
-			    pagerEvent: 'click', 
-			    pauseOnPagerHover: true,
-			    next: '#sp-carousel-next', 
-    			prev: '#sp-carousel-prev',
+		$('#sp-carousel-slides').cycle({
 
-    			// callback fn that creates a thumbnail to use as pager anchor 
-			    pagerAnchorBuilder: function(idx, slide) { 
+			fx: 		'scrollHorz',
+		    speed: 		500, 
+		    timeout: 	0, 
+		    pager: 		'#sp-carousel-nav', 
+		    pagerEvent: 'click', 
+		    pauseOnPagerHover: true,
+		    next: '#sp-carousel-next', 
+			prev: '#sp-carousel-prev',
 
-			    	slideColor = $(slide).data('cname');
-					slideClass = $(slide).data('class');
+			// callback fn that creates a thumbnail to use as pager anchor 
+		    pagerAnchorBuilder: function(idx, slide) { 
+
+		    	slideColor = $(slide).data('cname');
+				slideClass = $(slide).data('class');
+				
+		        return '<li class="' +slideClass +'"><a href="#">' +slideColor +'</a></li>';
+		    },
+			after: function(currSlideElement, nextSlideElement, options, forwardFlag) {
+				var ytid = $(nextSlideElement).find('.sp-carousel-slide-video').data('ytid');
 					
-			        return '<li class="' +slideClass +'"><a href="#">' +slideColor +'</a></li>'; 
-			    } 
-			});
+		    	if (firstTime === true) {
+		    		//console.log(firstTime)
+		    		$(nextSlideElement).find('.sp-carousel-slide-video').append('<iframe width="500" height="281" class="sp-video" src="http://www.youtube.com/embed/' +ytid +'?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+		    		firstTime = false;
+		    	} else {
+		    		//console.log(firstTime)
+		    		$(nextSlideElement).find('.sp-carousel-slide-video').append('<iframe width="500" height="281" class="sp-video" src="http://www.youtube.com/embed/' +ytid +'?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+		    		$(currSlideElement).find('.sp-carousel-slide-video').html('');
+		    	}
+
+			}
+		});
 
 	},
 
@@ -39,7 +55,8 @@ MYPROJECT.samplePots = (function () {
 			$selectedColourTwo = $('#sp-colour-two'),
 			$removeColourBtn = $('#sp-form').find('.sp-close-btn'),
 			popupOpened = false,
-			warningPopup = false;
+			warningPopup = false,
+			popupClicked = false;
 
 		$cGrid.find('a').on('click', function (e) {
 
@@ -124,68 +141,79 @@ MYPROJECT.samplePots = (function () {
 
 				e.preventDefault();
 
-				var $this = $(this),
-					colourName = $this.find('h5').text(),
-					colourClass = $this.data('class'),
-					$closeBtn = $('#sp-form').find('.sp-colour-box.sp-colour-added.'+colourClass).children('.sp-close-btn');
+				//if statement to disable double adding/removing
+				//for when popup has added colour, but still showing - can't click to add/remove again
+				if (popupClicked === false) {
 
-				if (warningPopup === true) {
-					//if 2 colours have already been selected
+					var $this = $(this),
+						colourName = $this.find('h5').text(),
+						colourClass = $this.data('class'),
+						$closeBtn = $('#sp-form').find('.sp-colour-box.sp-colour-added.'+colourClass).children('.sp-close-btn');
 
-					$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
-					popupOpened = false;
-					$cgridBlocker.hide();	
-				
-				} else if (colourSelected === 'yes') {
-					//check if colour already added to colour selection box, yes == remove colour, no(else) == add colour
+					popupClicked = true;
 
-					//console.log('colourSelected: ' +colourSelected);
-					if ($selectedColourOne.hasClass(colourClass)) {
-						//if box 1 has colour to be removed
-						$selectedColourOne.removeClass('sp-colour-added ' +colourClass).find('span').text('Pick another colour').end().attr('data-selected', 'unselected');
-					} else {
-						//otherwise must be box 2 to have colour removed
-						$selectedColourTwo.removeClass('sp-colour-added ' +colourClass).find('span').text('Pick another colour').end().attr('data-selected', 'unselected');
-					}
+					if (warningPopup === true) {
+						//if 2 colours have already been selected
 
-					//2. hide close button
-					$closeBtn.css('visibility', 'hidden');
-
-					//3. change text 'removed'
-					$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Removed!');
-
-					//4. close popup + remove blocker + add selected class to colour
-					setTimeout(function() {
-						$this.siblings('.sp-colour-btn').css('z-index', '0').removeClass('sp-active').end().remove();
+						$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
 						popupOpened = false;
 						$cgridBlocker.hide();
-					}, 1000);
+						popupClicked = false;
+					
+					} else if (colourSelected === 'yes') {
+						//check if colour already added to colour selection box, yes == remove colour, no(else) == add colour
 
-				} else {
+						//console.log('colourSelected: ' +colourSelected);
+						if ($selectedColourOne.hasClass(colourClass)) {
+							//if box 1 has colour to be removed
+							$selectedColourOne.removeClass('sp-colour-added ' +colourClass).find('span').text('Pick another colour').end().attr('data-selected', 'unselected').attr('data-colourcode', 'none');
+						} else {
+							//otherwise must be box 2 to have colour removed
+							$selectedColourTwo.removeClass('sp-colour-added ' +colourClass).find('span').text('Pick another colour').end().attr('data-selected', 'unselected').attr('data-colourcode', 'none');
+						}
 
-					//console.log('colourSelected: ' +colourSelected);
+						//2. hide close button
+						$closeBtn.css('visibility', 'hidden');
 
-					//1. check & add to selected colours
-					if ($selectedColourOne.attr('data-selected') === 'unselected') {
-						//console.log('nothing in 1');
-						$selectedColourOne.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').children('.sp-close-btn').css('visibility', 'visible');
-						//pass value to hidden field #1 here
+						//3. change text 'removed'
+						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Removed!');
+
+						//4. close popup + remove blocker + add selected class to colour
+						setTimeout(function() {
+							$this.siblings('.sp-colour-btn').css('z-index', '0').removeClass('sp-active').end().remove();
+							popupOpened = false;
+							$cgridBlocker.hide();
+							popupClicked = false;
+						}, 1000);
 
 					} else {
-						//console.log('nothing in 2');
-						$selectedColourTwo.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').children('.sp-close-btn').css('visibility', 'visible');
-						//pass value to hidden field #2 here
+
+						//console.log('colourSelected: ' +colourSelected);
+
+						//1. check & add to selected colours
+						if ($selectedColourOne.attr('data-selected') === 'unselected') {
+							//console.log('nothing in 1');
+							$selectedColourOne.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').attr('data-colourcode', colourClass).children('.sp-close-btn').css('visibility', 'visible');
+							//pass value to hidden field #1 here
+
+						} else {
+							//console.log('nothing in 2');
+							$selectedColourTwo.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').attr('data-colourcode', colourClass).children('.sp-close-btn').css('visibility', 'visible');
+							//pass value to hidden field #2 here
+						}
+
+						//2. change text 'added'
+						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Added!');
+
+						//3. close popup + remove blocker + add selected class to colour
+						setTimeout(function() {
+							$this.siblings('.sp-colour-btn').css('z-index', '0').addClass('sp-active').end().remove();
+							popupOpened = false;
+							$cgridBlocker.hide();
+							popupClicked = false;
+						}, 1000);
+
 					}
-
-					//2. change text 'added'
-					$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Added!');
-
-					//3. close popup + remove blocker + add selected class to colour
-					setTimeout(function() {
-						$this.siblings('.sp-colour-btn').css('z-index', '0').addClass('sp-active').end().remove();
-						popupOpened = false;
-						$cgridBlocker.hide();
-					}, 1000);
 
 				}
 
@@ -198,13 +226,14 @@ MYPROJECT.samplePots = (function () {
 			//console.log('clicked')
 			e.preventDefault()
 
-			var $this = $(this);
+			var $this = $(this),
+				colourIdentification = $this.parent().attr('data-colourcode');
 
-			//retreive colour identifier for active class removal later
-			$this.parent().removeClass().addClass('sp-colour-box').find('span').text('Pick another colour').end().attr('data-selected', 'unselected');
+			//find, remove active on colour in grid
+			$cGrid.find('.'+colourIdentification).children('a').removeClass('sp-active');
 
-			//find + remove active on colour in grid
-			//$this.addClass('sp-active');
+			//retreive colour identifier for active class removal later + reset data-colourcode + hide close button
+			$this.parent().removeClass().addClass('sp-colour-box').attr('data-selected', 'unselected').attr('data-colourcode', 'none').find('span').text('Pick another colour').end().end().css('visibility', 'hidden');
 
 		});
 

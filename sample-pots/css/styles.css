@@ -35,7 +35,9 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#sp-intro h3 .yellow { color: #fcd33b; }
 	#sp-intro h3 .pink { color: #dfa3bc; }
 	#sp-intro h1 { width: 700px; padding-bottom: 25px; }
-	#sp-intro p { width: 468px; padding-bottom: 15px; }
+	#sp-intro p { width: 468px; padding-bottom: 10px; }
+	#sp-intro .red { color: #e00026; }
+	#sp-intro .sp-small { font-size: 11px; line-height: 13px; padding-bottom: 0; margin-top: 6px; }
 
 /* colour carousel */
 #sp-carousel {}
@@ -152,13 +154,54 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#sp-cgrid .sp-popup.sp-warning:after { border-top: 15px solid #fff; }
 
 /* form */
-#sp-form { overflow: hidden; }
+#sp-form { overflow: hidden; padding-bottom: 80px; }
 	#sp-form h2,
 	.sp-left,
 	.sp-right { display: block; float: left; width: 920px; }
-	.sp-left { width: 340px; margin-left: 30px; }
-	.sp-right { width: 520px; margin-right: 40px; }
-
+	.sp-left { width: 340px; margin-left: 40px; }
+	.sp-right { width: 560px; margin-right: 20px; }
+	#sp-form h2 { padding-bottom: 28px; }
+	#sp-form h4 { padding-bottom: 5px; }
+	#sp-form .sp-right p,
+	#sp-form .sp-right h4 { padding-left: 129px; float: left; }
+	#sp-form p { font-size: 12px; padding-left: 0; padding-bottom: 23px; }
+	#sp-form .red { color: #ce0000; }
 	.sp-colour-box { width: 318px; height: 32px; padding: 56px 0 0; border: 1px dashed #c0c2c4; background: #fafafa; margin-bottom: 12px; color: #a1a0a0; font-size: 15px; text-align: center; position: relative; }
 	.sp-colour-added { border: none; padding: 57px 1px 1px 1px; color: #000; }
 	.sp-close-btn { position: absolute; top: 0; right: 0; background: url(../images/sprite24.png) right -260px no-repeat; display: block; width: 26px; height: 26px; text-indent: -999em; visibility: hidden; }
+	#sp-colour-two { margin-bottom: 45px; }
+	#sp-form .sp-tnc { font-size: 10px; color: #727272; padding-bottom: 10px; }
+	#sp-form fieldset,
+	#address-form,
+	#address-form li,
+	#address-form label,
+	#address-form input { float: left; width: 560px; }
+	#address-form { list-style: none; }
+	#address-form li { margin-bottom: 13px; }
+	#address-form label { width: 119px; text-align: right; padding-right: 10px; padding-top: 6px; font-size: 20px; color: #231f20; cursor: pointer; }
+	#address-form input,
+	#address-form select { width: 287px; padding: 0 10px; height: 36px; border: 1px solid #c9c9c9; background: #fafafa; box-shadow: inset 2px 2px 7px 1px rgba(0, 0, 0, 0.1); font: 15px/1 Arial, Helvetica, sans-serif; }
+	#address-form .second-field { margin: 6px 0 0 129px; }
+	#address-form .short-field { width: 93px; }
+	#address-form select { width: 229px; padding: 7px; }
+	#address-form .sp-checkbox input { float: right; background: none; box-shadow: none; width: auto; height: auto; margin: 2px 10px 0 0; padding: 1px;  }
+	#address-form .sp-checkbox label { float: right; width: 350px; padding: 0 56px 0 0; text-align: left; font-size: 13px; }
+	#address-form .sp-checkbox a { color: #003bff; }
+	#address-form .sp-phone { margin-bottom: 23px; position: relative; }
+	#address-form .sp-phone span { color: #7c7c7c; position: absolute; right: 71px; top: 12px; }
+	#address-form .sp-captcha { width: 431px; padding: 7px 0 0 129px; margin-bottom: 21px; }
+	#address-form .sp-submit { width: 438px; padding: 0 122px 0 0; margin-bottom: 0; }
+	#address-form .sp-submit input { float: right; font: 24px/42px 'FuturaBT-Bold'; color: #313131; cursor: pointer; padding: 0; text-align: center; border: 1px solid #919191; width: 190px; height: 42px; border-radius: 4px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
+		background: #ececec; /* Old browsers */
+		background: -moz-linear-gradient(top, #ececec 0%, #bababa 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ececec), color-stop(100%,#bababa)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #ececec 0%,#bababa 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #ececec 0%,#bababa 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #ececec 0%,#bababa 100%); /* IE10+ */
+		background: linear-gradient(to bottom, #ececec 0%,#bababa 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#bababa',GradientType=0 ); /* IE6-9 */
+		-webkit-transition: all 0.33s ease-out;
+		-moz-transition: all 0.33s ease-out;
+		-o-transition: all 0.33s ease-out;
+		transition: all 0.33s ease-out; }
+	#address-form .sp-submit input:hover { color: #ce0000; }
