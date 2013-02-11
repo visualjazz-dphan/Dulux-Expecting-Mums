@@ -54,6 +54,9 @@ MYPROJECT.samplePots = (function () {
 			$selectedColourOne = $('#sp-colour-one'),
 			$selectedColourTwo = $('#sp-colour-two'),
 			$removeColourBtn = $('#sp-form').find('.sp-close-btn'),
+			$colourCodeOne = $('#colour-sel-one'),
+			$colourCodeTwo = $('#colour-sel-two'),
+			$oneColourAdded = $('#one-colour-added'),
 			popupOpened = false,
 			warningPopup = false,
 			popupClicked = false;
@@ -167,20 +170,29 @@ MYPROJECT.samplePots = (function () {
 						if ($selectedColourOne.hasClass(colourClass)) {
 							//if box 1 has colour to be removed
 							$selectedColourOne.removeClass('sp-colour-added ' +colourClass).find('span').text('Pick another colour').end().attr('data-selected', 'unselected').attr('data-colourcode', 'none');
+							//remove colour code from hidden input 1
+							$colourCodeOne.val('');
 						} else {
 							//otherwise must be box 2 to have colour removed
 							$selectedColourTwo.removeClass('sp-colour-added ' +colourClass).find('span').text('Pick another colour').end().attr('data-selected', 'unselected').attr('data-colourcode', 'none');
+							//remove colour code from hidden input 1
+							$colourCodeTwo.val('');
+						}
+
+						//if both colour codes are removed, empty field 'at least one colour added' for valiation purposes
+						if (($colourCodeOne.val() === '') && ($colourCodeTwo.val() === '')) {
+							$oneColourAdded.val('');
 						}
 
 						//2. hide close button
 						$closeBtn.css('visibility', 'hidden');
 
-						//3. change text 'removed'
-						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Removed!');
+						//3. change text 'removed' + remove selected class to colour
+						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Removed!').end().siblings('.sp-colour-btn').removeClass('sp-active');
 
-						//4. close popup + remove blocker + add selected class to colour
+						//4. close popup + remove blocker
 						setTimeout(function() {
-							$this.siblings('.sp-colour-btn').css('z-index', '0').removeClass('sp-active').end().remove();
+							$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
 							popupOpened = false;
 							$cgridBlocker.hide();
 							popupClicked = false;
@@ -195,11 +207,14 @@ MYPROJECT.samplePots = (function () {
 							//console.log('nothing in 1');
 							$selectedColourOne.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').attr('data-colourcode', colourClass).children('.sp-close-btn').css('visibility', 'visible');
 							//pass value to hidden field #1 here
-
+							$colourCodeOne.val(colourClass);
+							$oneColourAdded.val(colourClass).trigger('change');
 						} else {
 							//console.log('nothing in 2');
 							$selectedColourTwo.addClass('sp-colour-added ' +colourClass).find('span').text(colourName).end().attr('data-selected', 'selected').attr('data-colourcode', colourClass).children('.sp-close-btn').css('visibility', 'visible');
 							//pass value to hidden field #2 here
+							$colourCodeTwo.val(colourClass);
+							$oneColourAdded.val(colourClass).trigger('change');
 						}
 
 						//2. change text 'added'
@@ -232,12 +247,78 @@ MYPROJECT.samplePots = (function () {
 			//find, remove active on colour in grid
 			$cGrid.find('.'+colourIdentification).children('a').removeClass('sp-active');
 
+			//remove colour code from appropriate hidden field
+			if ($this.closest('div').attr('id') === 'sp-colour-one') {
+				$colourCodeOne.val('');
+			} else {
+				$colourCodeTwo.val('');
+			}
+
+			//if both colour codes are removed, empty field 'at least one colour added' for valiation purposes
+			if (($colourCodeOne.val() === '') && ($colourCodeTwo.val() === '')) {
+				$oneColourAdded.val('');
+			}
+
 			//retreive colour identifier for active class removal later + reset data-colourcode + hide close button
 			$this.parent().removeClass().addClass('sp-colour-box').attr('data-selected', 'unselected').attr('data-colourcode', 'none').find('span').text('Pick another colour').end().end().css('visibility', 'hidden');
 
 		});
 
-	}
+	},
+
+	validation = {
+    //call this function on any page that requires some sort of form validation..
+
+        init: function () {
+
+            var form = $('#aspnetForm');
+
+            form.each(function () {
+                var $this = $(this);
+                validation.basic($this);
+            });
+
+            form.find('.rule').each(function () {
+                var $this = $(this),
+					type = $this.data('type'),
+					param = $this.data('param'),
+					obj = {};
+
+                obj[type] = param;
+
+                $this.rules("add", obj);
+            });
+        },
+        basic: function (ele) {
+            ele.validate({
+                //basic validation, adds an error class to the input in error.
+                //TODO add handling for checkboxes..
+                //thinking about changin markup to suit...
+                showErrors: function (errorMap, errorList) {
+                    for (var i = 0, max = errorList.length; i < max; i += 1) {
+                        $(errorList[i].element).addClass('error');
+                        if ($('#one-colour-added').hasClass('error')) {
+                            $('#sp-colour-validation').css('visibility', 'visible');
+                        }
+                        $('#sp-error-msg').show();
+                    }
+                }
+            });
+            ele.on('change', '.error', function () {
+                if ($(this).valid()) {
+                    $(this).removeClass('error');
+                    if (!$('#one-colour-added').hasClass('error')) {
+                        $('#sp-colour-validation').css('visibility', 'hidden');
+                    }
+                }
+            });
+            ele.on('keyup', '.error', function () {
+                if ($(this).valid()) {
+                    $(this).removeClass('error');
+                }
+            });
+        }
+    }
 		
 	// public functions
 	return {
@@ -248,6 +329,7 @@ MYPROJECT.samplePots = (function () {
 
 			colourCarousel();
 			colourPicker();
+			validation.init();
 
 		}
 	};

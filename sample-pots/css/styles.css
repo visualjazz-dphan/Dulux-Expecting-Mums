@@ -65,7 +65,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#sp-carousel-slides li { float: none; position: relative; }
 	#sp-carousel-slides li .sp-carousel-slide-info { width: 248px; padding: 0 600px 0 70px; height: 271px; }
 	#sp-carousel-slides li .sp-carousel-slide-video { width: 536px; height: 325px; position: absolute; top: 27px; right: 50px; background: url(../images/bg-video-border-shadow.png); }
-	#sp-carousel-slides li .sp-carousel-slide-video .sp-video { padding: 14px 0 0 15px; }
+	#sp-carousel-slides li .sp-carousel-slide-video .sp-video { margin: 14px 0 0 15px; }
 	#sp-carousel-slides h4 { color: #fff; padding: 47px 0 29px 0; }
 	#sp-carousel-slides p { line-height: 1.45; padding: 0 0 15px 0; color: #fff; }
 	#sp-carousel-slides .sp-whites .sp-carousel-slide-info { background: #c7bca3; }
@@ -127,26 +127,115 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#sp-cgrid .sp-popup .sp-added { font-size: 12px; line-height: 1.3; }
 	#sp-cgrid .sp-popup .sp-added { font-weight: bold; }
 
-	#sample-pots .b22 					{ background: #eceff0; }
-	#sp-cgrid .sp-popup.b22:after 		{ border-top: 15px solid #eceff0; }
-	#sample-pots .b1 					{ background: #e3dece; }
-	#sp-cgrid .sp-popup.b1:after 		{ border-top: 15px solid #e3dece; }
-	#sample-pots .a221 					{ background: #c2b298; }
-	#sp-cgrid .sp-popup.a221:after 		{ border-top: 15px solid #c2b298; }
-	#sample-pots .a143 					{ background: #bcada1; }
-	#sp-cgrid .sp-popup.a143:after 		{ border-top: 15px solid #bcada1; }
-	#sample-pots .gr22 					{ background: #a3a29f; }
-	#sp-cgrid .sp-popup.gr22:after 		{ border-top: 15px solid #a3a29f; }
-	#sample-pots .a37 					{ background: #ffd3d1; }
-	#sp-cgrid .sp-popup.a37:after 		{ border-top: 15px solid #ffd3d1; }
-	#sample-pots .a388 					{ background: #b2cfd2; }
-	#sp-cgrid .sp-popup.a388:after 		{ border-top: 15px solid #b2cfd2; }
-	#sample-pots .a302 					{ background: #87cec8; }
-	#sp-cgrid .sp-popup.a302:after 		{ border-top: 15px solid #87cec8; }
-	#sample-pots .a182 					{ background: #fde59a; }
-	#sp-cgrid .sp-popup.a182:after 		{ border-top: 15px solid #fde59a; }
-	#sample-pots .a61 					{ background: #cd5526; }
-	#sp-cgrid .sp-popup.a61:after 		{ border-top: 15px solid #cd5526; }
+	#sample-pots .b22 					{ background: rgb(236, 239, 240); }
+	#sp-cgrid .sp-popup.b22:after 		{ border-top: 15px solid rgb(236, 239, 240); }
+	#sample-pots .b18 					{ background: rgb(235, 233, 224); }
+	#sp-cgrid .sp-popup.b18:after 		{ border-top: 15px solid rgb(235, 233, 224); }
+	#sample-pots .b11 					{ background: rgb(241, 242, 241); }
+	#sp-cgrid .sp-popup.b11:after 		{ border-top: 15px solid rgb(241, 242, 241); }
+	#sample-pots .b17 					{ background: rgb(239, 234, 224); }
+	#sp-cgrid .sp-popup.b17:after 		{ border-top: 15px solid rgb(239, 234, 224); }
+	#sample-pots .b15 					{ background: rgb(227, 222, 206); }
+	#sp-cgrid .sp-popup.b15:after 		{ border-top: 15px solid rgb(227, 222, 206); }
+
+	#sample-pots .b1 					{ background: rgb(238, 236, 229); }
+	#sp-cgrid .sp-popup.b1:after 		{ border-top: 15px solid rgb(238, 236, 229); }
+	#sample-pots .a168 					{ background: rgb(207, 201, 192); }
+	#sp-cgrid .sp-popup.a168:after 		{ border-top: 15px solid rgb(207, 201, 192); }
+	#sample-pots .a216 					{ background: rgb(206, 201, 186); }
+	#sp-cgrid .sp-popup.a216:after 		{ border-top: 15px solid rgb(206, 201, 186); }
+	#sample-pots .a180 					{ background: rgb(220, 208, 187); }
+	#sp-cgrid .sp-popup.a180:after 		{ border-top: 15px solid rgb(220, 208, 187); }
+	#sample-pots .a192 					{ background: rgb(207, 199, 184); }
+	#sp-cgrid .sp-popup.a192:after 		{ border-top: 15px solid rgb(207, 199, 184); }
+
+	#sample-pots .a221 					{ background: rgb(178, 176, 108); }
+	#sp-cgrid .sp-popup.a221:after 		{ border-top: 15px solid rgb(178, 176, 108); }
+	#sample-pots .a248 					{ background: rgb(141, 148, 114); }
+	#sp-cgrid .sp-popup.a248:after 		{ border-top: 15px solid rgb(141, 148, 114); }
+	#sample-pots .a215 					{ background: rgb(139, 131, 109); }
+	#sp-cgrid .sp-popup.a215:after 		{ border-top: 15px solid rgb(139, 131, 109); }
+	#sample-pots .a191 					{ background: rgb(176, 167, 149); }
+	#sp-cgrid .sp-popup.a191:after 		{ border-top: 15px solid rgb(176, 167, 149); }
+	#sample-pots .a179 					{ background: rgb(194, 178, 152); }
+	#sp-cgrid .sp-popup.a179:after 		{ border-top: 15px solid rgb(194, 178, 152); }
+
+	#sample-pots .a143 					{ background: rgb(119, 102, 92); }
+	#sp-cgrid .sp-popup.a143:after 		{ border-top: 15px solid rgb(119, 102, 92); }
+	#sample-pots .a143 					{ background: rgb(150, 133, 120); }
+	#sp-cgrid .sp-popup.a143:after 		{ border-top: 15px solid rgb(150, 133, 120); }
+	#sample-pots .a143 					{ background: rgb(188, 173, 161); }
+	#sp-cgrid .sp-popup.a143:after 		{ border-top: 15px solid rgb(188, 173, 161); }
+	#sample-pots .a164 					{ background: rgb(161, 139, 113); }
+	#sp-cgrid .sp-popup.a164:after 		{ border-top: 15px solid rgb(161, 139, 113); }
+	#sample-pots .a164 					{ background: rgb(131, 109, 89); }
+	#sp-cgrid .sp-popup.a164:after 		{ border-top: 15px solid rgb(131, 109, 89); }
+
+	#sample-pots .gr22 					{ background: rgb(67, 63, 59); }
+	#sp-cgrid .sp-popup.gr22:after 		{ border-top: 15px solid rgb(67, 63, 59); }
+	#sample-pots .gr10 					{ background: rgb(60, 62, 63); }
+	#sp-cgrid .sp-popup.gr10:after 		{ border-top: 15px solid rgb(60, 62, 63); }
+	#sample-pots .gr11 					{ background: rgb(141, 141, 138); }
+	#sp-cgrid .sp-popup.gr11:after 		{ border-top: 15px solid rgb(141, 141, 138); }
+	#sample-pots .gr23 					{ background: rgb(136, 138, 137); }
+	#sp-cgrid .sp-popup.gr23:after 		{ border-top: 15px solid rgb(136, 138, 137); }
+	#sample-pots .gr12 					{ background: rgb(163, 162, 159); }
+	#sp-cgrid .sp-popup.gr12:after 		{ border-top: 15px solid rgb(163, 162, 159); }
+
+	#sample-pots .a37 					{ background: rgb(164, 51, 78); }
+	#sp-cgrid .sp-popup.a37:after 		{ border-top: 15px solid rgb(164, 51, 78); }
+	#sample-pots .a74 					{ background: rgb(202, 113, 105); }
+	#sp-cgrid .sp-popup.a74:after 		{ border-top: 15px solid rgb(202, 113, 105); }
+	#sample-pots .a75 					{ background: rgb(255, 211, 209); }
+	#sp-cgrid .sp-popup.a75:after 		{ border-top: 15px solid rgb(255, 211, 209); }
+	#sample-pots .a16 					{ background: rgb(134, 71, 102); }
+	#sp-cgrid .sp-popup.a16:after 		{ border-top: 15px solid rgb(134, 71, 102); }
+	#sample-pots .a26 					{ background: rgb(223, 163, 188); }
+	#sp-cgrid .sp-popup.a26:after 		{ border-top: 15px solid rgb(223, 163, 188); }
+
+	#sample-pots .a388 					{ background: rgb(42, 66, 113); }
+	#sp-cgrid .sp-popup.a388:after 		{ border-top: 15px solid rgb(42, 66, 113); }
+	#sample-pots .a329 					{ background: rgb(13, 125, 159); }
+	#sp-cgrid .sp-popup.a329:after 		{ border-top: 15px solid rgb(13, 125, 159); }
+	#sample-pots .a336 					{ background: rgb(162, 196, 208); }
+	#sp-cgrid .sp-popup.a336:after 		{ border-top: 15px solid rgb(162, 196, 208); }
+	#sample-pots .a323 					{ background: rgb(131, 171, 179); }
+	#sp-cgrid .sp-popup.a323:after 		{ border-top: 15px solid rgb(131, 171, 179); }
+	#sample-pots .a324 					{ background: rgb(178, 207, 210); }
+	#sp-cgrid .sp-popup.a324:after 		{ border-top: 15px solid rgb(178, 207, 210); }
+
+	#sample-pots .a302 					{ background: rgb(0, 142, 150); }
+	#sp-cgrid .sp-popup.a302:after 		{ border-top: 15px solid rgb(0, 142, 150); }
+	#sample-pots .a302 					{ background: rgb(50, 171, 181); }
+	#sp-cgrid .sp-popup.a302:after 		{ border-top: 15px solid rgb(50, 171, 181); }
+	#sample-pots .a305 					{ background: rgb(126, 198, 202); }
+	#sp-cgrid .sp-popup.a305:after 		{ border-top: 15px solid rgb(126, 198, 202); }
+	#sample-pots .a293 					{ background: rgb(135, 206, 200); }
+	#sp-cgrid .sp-popup.a293:after 		{ border-top: 15px solid rgb(135, 206, 200); }
+	#sample-pots .a320 					{ background: rgb(39, 105, 115); }
+	#sp-cgrid .sp-popup.a320:after 		{ border-top: 15px solid rgb(39, 105, 115); }
+
+	#sample-pots .a182 					{ background: rgb(248, 209, 100); }
+	#sp-cgrid .sp-popup.a182:after 		{ border-top: 15px solid rgb(248, 209, 100); }
+	#sample-pots .a218 					{ background: rgb(220, 212, 103); }
+	#sp-cgrid .sp-popup.a218:after 		{ border-top: 15px solid rgb(220, 212, 103); }
+	#sample-pots .a206 					{ background: rgb(253, 229, 154); }
+	#sp-cgrid .sp-popup.a206:after 		{ border-top: 15px solid rgb(253, 229, 154); }
+	#sample-pots .a209 					{ background: rgb(224, 200, 130); }
+	#sp-cgrid .sp-popup.a209:after 		{ border-top: 15px solid rgb(224, 200, 130); }
+	#sample-pots .a205 					{ background: rgb(252, 211, 59); }
+	#sp-cgrid .sp-popup.a205:after 		{ border-top: 15px solid rgb(252, 211, 59); }
+
+	#sample-pots .a61 					{ background: rgb(148, 48, 47); }
+	#sp-cgrid .sp-popup.a61:after 		{ border-top: 15px solid rgb(148, 48, 47); }
+	#sample-pots .a73 					{ background: rgb(151, 52, 44); }
+	#sp-cgrid .sp-popup.a73:after 		{ border-top: 15px solid rgb(151, 52, 44); }
+	#sample-pots .a67 					{ background: rgb(119, 57, 56); }
+	#sp-cgrid .sp-popup.a67:after 		{ border-top: 15px solid rgb(119, 57, 56); }
+	#sample-pots .a97 					{ background: rgb(205, 85, 38); }
+	#sp-cgrid .sp-popup.a97:after 		{ border-top: 15px solid rgb(205, 85, 38); }
+	#sample-pots .a88 					{ background: rgb(144, 59, 47); }
+	#sp-cgrid .sp-popup.a88:after 		{ border-top: 15px solid rgb(144, 59, 47); }
 
 	#sp-cgrid .sp-warning { background: #fff; }
 	#sp-cgrid .sp-warning .heading { height: 68px; }
@@ -160,10 +249,12 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	.sp-right { display: block; float: left; width: 920px; }
 	.sp-left { width: 340px; margin-left: 40px; }
 	.sp-right { width: 560px; margin-right: 20px; }
+	#sp-form .sel-colour-wrap { position: relative; }
+	#sp-colour-validation { position: absolute; top: 0; right: 0; width: 15px; height: 192px; background: #ce0000; text-indent: -999em; visibility: hidden; }
 	#sp-form h2 { padding-bottom: 28px; }
 	#sp-form h4 { padding-bottom: 5px; }
 	#sp-form .sp-right p,
-	#sp-form .sp-right h4 { padding-left: 129px; float: left; }
+	#sp-form .sp-right h4 { padding-left: 129px; float: left; display: block; width: 431px; }
 	#sp-form p { font-size: 12px; padding-left: 0; padding-bottom: 23px; }
 	#sp-form .red { color: #ce0000; }
 	.sp-colour-box { width: 318px; height: 32px; padding: 56px 0 0; border: 1px dashed #c0c2c4; background: #fafafa; margin-bottom: 12px; color: #a1a0a0; font-size: 15px; text-align: center; position: relative; }
@@ -171,6 +262,7 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	.sp-close-btn { position: absolute; top: 0; right: 0; background: url(../images/sprite24.png) right -260px no-repeat; display: block; width: 26px; height: 26px; text-indent: -999em; visibility: hidden; }
 	#sp-colour-two { margin-bottom: 45px; }
 	#sp-form .sp-tnc { font-size: 10px; color: #727272; padding-bottom: 10px; }
+	#sp-form .sp-delivery { font-size: 10px; padding-bottom: 25px;  }
 	#sp-form fieldset,
 	#address-form,
 	#address-form li,
@@ -181,10 +273,11 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 	#address-form label { width: 119px; text-align: right; padding-right: 10px; padding-top: 6px; font-size: 20px; color: #231f20; cursor: pointer; }
 	#address-form input,
 	#address-form select { width: 287px; padding: 0 10px; height: 36px; border: 1px solid #c9c9c9; background: #fafafa; box-shadow: inset 2px 2px 7px 1px rgba(0, 0, 0, 0.1); font: 15px/1 Arial, Helvetica, sans-serif; }
+		.oldie #address-form input { padding: 6px 10px 0; height: 31px; line-height: 1.5; }
 	#address-form .second-field { margin: 6px 0 0 129px; }
 	#address-form .short-field { width: 93px; }
 	#address-form select { width: 229px; padding: 7px; }
-	#address-form .sp-checkbox input { float: right; background: none; box-shadow: none; width: auto; height: auto; margin: 2px 10px 0 0; padding: 1px;  }
+	#address-form .sp-checkbox input { float: right; background: none; box-shadow: none; width: auto; height: auto; margin: 2px 10px 0 0; padding: 1px; border: none; }
 	#address-form .sp-checkbox label { float: right; width: 350px; padding: 0 56px 0 0; text-align: left; font-size: 13px; }
 	#address-form .sp-checkbox a { color: #003bff; }
 	#address-form .sp-phone { margin-bottom: 23px; position: relative; }
@@ -205,3 +298,8 @@ body			{ background: #FBFBFB url(../images/temp/pageBackground.jpg) no-repeat fi
 		-o-transition: all 0.33s ease-out;
 		transition: all 0.33s ease-out; }
 	#address-form .sp-submit input:hover { color: #ce0000; }
+	#address-form .error { border-color: #ce0000; background-color: #fffcd4; }
+	#address-form .sp-checkbox .error { outline: 3px solid #E71818; }
+		.oldie #address-form .sp-checkbox .error { border: 3px solid #E71818; }
+	#address-form .sp-hidden { visibility: hidden; height: 0; margin: 0; overflow: hidden; }
+	#sp-error-msg { float: left; margin: 0 0 25px 129px; width: 388px; padding: 10px; background: #fff9b5; color: #231F20; font-size: 12px; line-height: 1.2; display: none; }

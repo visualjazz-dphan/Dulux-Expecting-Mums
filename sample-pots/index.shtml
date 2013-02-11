@@ -3,16 +3,19 @@
 <!-- VJI DEV: This page breaks away from the existing Dulux template structure
 			  New templates to handle the full width content may be required
 //-->
-<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.cycle.all.js"></script>
+<script type="text/javascript" src="scripts/jquery.validation.js"></script>
 <script type="text/javascript" src="scripts/vj-global.js"></script>
 <script type="text/javascript">
-	$(document).ready( function() {	
-		MYPROJECT.samplePots.init();
-	});
-</script>    
+    $(document).ready( function() { 
+        MYPROJECT.samplePots.init();
+    });
+</script> 
 
-<div id="sample-pots" class="wrapper">
+<!--[if lt IE 7]> <div id="sample-pots" class="no-js ie6 oldie wrapper"> <![endif]-->
+<!--[if IE 7]> <div id="sample-pots" class="no-js ie7 oldie wrapper"> <![endif]-->
+<!--[if IE 8]> <div id="sample-pots" class="no-js ie8 oldie wrapper"> <![endif]-->
+<!--[if gt IE 8]><!--> <div id="sample-pots" class="wrapper"> <!--<![endif]-->
 
 	<div id="sp-intro" class="sp-section">
 		<h3>Add some <span class="green">c</span><span class="red">o</span><span class="mustard">l</span><span class="blue">o</span><span class="yellow">u</span><span class="pink">r</span> to your Easter</h3>
@@ -138,27 +141,33 @@
 				Pink Clay
 				<a href="#" id="sp-close-btn">Remove Colour</a>
 			</div> -->
-			<div class="sp-colour-box" id="sp-colour-one" data-selected="unselected" data-colourcode="none">
-				<span>Pick another colour</span>
-				<a href="#" class="sp-close-btn">Remove Colour</a>
-			</div>
-			<div class="sp-colour-box" id="sp-colour-two" data-selected="unselected" data-colourcode="none">
-				<span>Pick another colour</span>
-				<a href="#" class="sp-close-btn">Remove Colour</a>
+			<div class="sel-colour-wrap">
+				<div class="sp-colour-box" id="sp-colour-one" data-selected="unselected" data-colourcode="none">
+					<span>Pick another colour</span>
+					<a href="#" class="sp-close-btn">Remove Colour</a>
+				</div>
+				<div class="sp-colour-box" id="sp-colour-two" data-selected="unselected" data-colourcode="none">
+					<span>Pick another colour</span>
+					<a href="#" class="sp-close-btn">Remove Colour</a>
+				</div>
+				<div id="sp-colour-validation">Please select at least 1 colour!</div>
 			</div>
 
 			<h4>Terms &amp; Conditions</h4>
 			<p class="sp-tnc">Open to Australian residents only. For a limited time, while stocks last. Maximum of two Sample Pots per person and order.</p>
 			<p class="sp-tnc"><strong>Delivery</strong><br/>Your Sample Pots with be delivered via the Australia Post network using Regular Post. You will receive your order in approximately 2-7 working days.
 			</p>
-			<p class="sp-tnc">Please contact Dulux Customer Service on 13 25 25 for any enquiries you may have regarding the delivery of your Sample Pots.</p>
+			<p class="sp-tnc">For any enquiries please contact Dulux Customer Service on 13 25 25.</p>
 
 		</div>
 
 		<div class="sp-right">
 			
-			<h4>Your address</h4>
-			<p><span class="red">Please complete all required fields*</span> to ensure delivery of your Sample Pots</p>
+			<h4>Your details</h4>
+			<p class="sp-delivery"><span class="red">Please complete all required fields*</span> to ensure delivery of your Sample Pots</p>
+			<div id="sp-error-msg">
+				<span class="red">Please complete all required fields*</span> and select at least 1 colour to ensure delivery of your Sample Pots
+			</div>
 
 			<fieldset>
 				<ul id="address-form">
@@ -169,7 +178,7 @@
 					<li>
 						<label for="spAddress">Address<span class="red">*</span></label>
 						<input type="text" class="required" id="spAddress" name="spAddress">
-						<input type="text" class="second-field">
+						<input type="text" class="required second-field">
 					</li>
 					<li>
 						<label for="spSuburb">Suburb<span class="red">*</span></label>
@@ -179,19 +188,19 @@
 						<label for="spState">State<span class="red">*</span></label>
 						<select class="required" id="spState" name="spState">
 							<option value="">Please Select</option>
-							<option value="">Victoria</option>
-							<option value="">New South Wales</option>
-							<option value="">Queensland</option>
-							<option value="">Northern Territory</option>
-							<option value="">Western Australia</option>
-							<option value="">South Australia</option>
-							<option value="">Tasmania</option>
-							<option value="">Australian Capital Territory</option>
+							<option value="VIC">Victoria</option>
+							<option value="NSW">New South Wales</option>
+							<option value="QLD">Queensland</option>
+							<option value="NT">Northern Territory</option>
+							<option value="WA">Western Australia</option>
+							<option value="SA">South Australia</option>
+							<option value="TAS">Tasmania</option>
+							<option value="ACT">Australian Capital Territory</option>
 						</select>
 					</li>
 					<li>
 						<label for="spPostcode">Postcode<span class="red">*</span></label>
-						<input type="text" class="short-field required" id="spPostcode" name="spPostcode" maxlength="4">
+						<input type="text" class="short-field required digits" id="spPostcode" name="spPostcode" maxlength="4">
 						<!-- digits only -->
 					</li>
 					<li>
@@ -208,8 +217,14 @@
 						<input type="checkbox" class="required" id="spAgreeTC" name="spAgreeTC">
 					</li>
 					<li class="sp-checkbox">
-						<label for="spUpdates">Please  keep me up to date with the latest Dulux News & Offers (by selecting YES you agree to being contacted by email or post using the contact details provided).<br /><a href="#">View the Dulux Privacy Policy</a></label>
-						<input type="checkbox" class="required" id="spUpdates" name="spUpdates">
+						<label for="spUpdates">Please  keep me up to date with the latest Dulux News & Offers (by selecting YES you agree to being contacted using the details provided).<br />View the Dulux <a href="#">Privacy Policy</a></label>
+						<input type="checkbox" id="spUpdates" name="spUpdates" checked>
+					</li>
+					<li class="sp-hidden">
+						<input type="text" id="colour-sel-one" name="colourSelOne">
+						<input type="text" id="colour-sel-two" name="colourSelTwo">
+						<input type="text" class="required" id="one-colour-added" name="colourAdded">
+						<!-- take colour codes from #colour-sel-one & #colour-sel-two, #one-colour-added is only for validation purposes -->
 					</li>
 					<li class="sp-captcha">
 						<img src="images/temp/pretend-captcha.jpg" alt="captcha placeholder" />
