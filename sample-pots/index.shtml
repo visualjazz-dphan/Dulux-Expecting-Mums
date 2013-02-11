@@ -217,7 +217,7 @@
 						<input type="checkbox" class="required" id="spAgreeTC" name="spAgreeTC">
 					</li>
 					<li class="sp-checkbox">
-						<label for="spUpdates">Please  keep me up to date with the latest Dulux News & Offers (by selecting YES you agree to being contacted using the details provided).<br />View the Dulux <a href="#">Privacy Policy</a></label>
+						<label for="spUpdates">Please  keep me up to date with the latest Dulux News & Offers (by selecting YES you agree to being contacted using the details provided).<br />View the Dulux <a href="http://www.dulux.com.au/privacy-policy" target="_blank">Privacy Policy</a></label>
 						<input type="checkbox" id="spUpdates" name="spUpdates" checked>
 					</li>
 					<li class="sp-hidden">
