@@ -21,9 +21,8 @@
 	<span class="sp-name">White on White</span>
 </a> -->
 
-<div id="sp-blocker"></div>
-
 <ul id="sp-cgrid">
+		<li id="sp-blocker"></li>
 	<!-- row 1 -->
 		<li class="b22 small-gap"><!-- A -->
 			<a href="#" class="sp-colour-btn">

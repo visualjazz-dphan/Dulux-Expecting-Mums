@@ -49,7 +49,6 @@ MYPROJECT.samplePots = (function () {
 
 		var $cGrid = $('#sp-cgrid'),
 			$cgridBlocker = $('#sp-blocker'),
-			// $popup = $('#sp-popup'),
 			colourSelected = null,
 			$selectedColourOne = $('#sp-colour-one'),
 			$selectedColourTwo = $('#sp-colour-two'),
@@ -67,7 +66,9 @@ MYPROJECT.samplePots = (function () {
 			var $this = $(this),
 				colourClass = $this.find('.sp-code').text(),
 				colourName = $this.find('.sp-name').text(),
-				closePopup = function () {
+				closePopup = function (warningPopup) {
+					//console.log('close me ', warningPopup, " ",$this.siblings('.sp-popup.'+colourClass).length," ", colourClass )
+					//window.testob = $this.siblings('.sp-popup.'+colourClass);
 					if (warningPopup === true) {
 						$this.siblings('.sp-popup.sp-warning').remove();
 					} else {
@@ -75,13 +76,15 @@ MYPROJECT.samplePots = (function () {
 					}
 					popupOpened = false;
 					$cgridBlocker.hide();
-					$this.css('z-index', '0');
+					$this.css('z-index', '0').parent('li').css('z-index', '0');
 				};
 
 			if (popupOpened === false) {
 
+				popupOpened = true;
 				$cgridBlocker.show();
-				$this.css({'position': 'relative','z-index': '2'});
+				//must also increase z-index of parent for IE7 :/
+				$this.css({'position': 'relative','z-index': '2'}).parent('li').css('z-index', '2');
 
 				//check if colour already selected
 				if ($this.hasClass('sp-active')) {
@@ -126,7 +129,6 @@ MYPROJECT.samplePots = (function () {
 				}
 
 				bindPopup(warningPopup, colourSelected);
-				popupOpened = true;
 
 				$cgridBlocker.on('click', function () {
 					closePopup(warningPopup);
@@ -158,7 +160,7 @@ MYPROJECT.samplePots = (function () {
 					if (warningPopup === true) {
 						//if 2 colours have already been selected
 
-						$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
+						$this.siblings('.sp-colour-btn').css('z-index', '0').end().parent('li').css('z-index', '0').end().remove();
 						popupOpened = false;
 						$cgridBlocker.hide();
 						popupClicked = false;
@@ -192,11 +194,11 @@ MYPROJECT.samplePots = (function () {
 
 						//4. close popup + remove blocker
 						setTimeout(function() {
-							$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
+							$this.siblings('.sp-colour-btn').css('z-index', '0').end().parent('li').css('z-index', '0').end().remove();
 							popupOpened = false;
 							$cgridBlocker.hide();
 							popupClicked = false;
-						}, 1000);
+						}, 500);
 
 					} else {
 
@@ -218,15 +220,15 @@ MYPROJECT.samplePots = (function () {
 						}
 
 						//2. change text 'added' + add selected class to colour
-						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Added!').end().siblings('.sp-colour-btn').css('z-index', '0').addClass('sp-active');
+						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Added!').end().siblings('.sp-colour-btn').addClass('sp-active');
 
 						//3. close popup + remove blocker
 						setTimeout(function() {
-							$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
+							$this.siblings('.sp-colour-btn').css('z-index', '0').end().parent('li').css('z-index', '0').end().remove();
 							popupOpened = false;
 							$cgridBlocker.hide();
 							popupClicked = false;
-						}, 1000);
+						}, 500);
 
 					}
 
