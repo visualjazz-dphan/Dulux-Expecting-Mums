@@ -217,12 +217,12 @@ MYPROJECT.samplePots = (function () {
 							$oneColourAdded.val(colourClass).trigger('change');
 						}
 
-						//2. change text 'added'
-						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Added!');
+						//2. change text 'added' + add selected class to colour
+						$this.find('.sp-desc').removeClass('sp-desc').addClass('sp-added').text('Added!').end().siblings('.sp-colour-btn').css('z-index', '0').addClass('sp-active');
 
-						//3. close popup + remove blocker + add selected class to colour
+						//3. close popup + remove blocker
 						setTimeout(function() {
-							$this.siblings('.sp-colour-btn').css('z-index', '0').addClass('sp-active').end().remove();
+							$this.siblings('.sp-colour-btn').css('z-index', '0').end().remove();
 							popupOpened = false;
 							$cgridBlocker.hide();
 							popupClicked = false;

@@ -178,7 +178,7 @@
 					<li>
 						<label for="spAddress">Address<span class="red">*</span></label>
 						<input type="text" class="required" id="spAddress" name="spAddress">
-						<input type="text" class="required second-field">
+						<input type="text" class="second-field">
 					</li>
 					<li>
 						<label for="spSuburb">Suburb<span class="red">*</span></label>
