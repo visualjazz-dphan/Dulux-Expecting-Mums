@@ -80,43 +80,50 @@ MYPROJECT.expectingmums = (function () {
 				})
 			}, 
 			sickyNursery : function(){
-				var nurseryContent = $("#expect-mums-nursery"),
+				
+				var isiPhone = navigator.userAgent.toLowerCase().indexOf("iphone"),
+				    isiPad = navigator.userAgent.toLowerCase().indexOf("ipad"),				
+				    nurseryContent = $("#expect-mums-nursery"),
 					nurseryPos = $("#dreamy-baby-content").position().top - 100,
 					nurseryEndPos = $(".expect-mums-intro-product").position().top - 75;
 									
-				//Sticky nursery show/hide when scrolling window 	
-				$(window).scroll(function(){
-					var scrollPos = $(this).scrollTop();
-						if(scrollPos >= nurseryPos){
-							nurseryContent.addClass("active-dock").css({"position":"fixed", "left":0, "top":-65, "padding":0});
-							nurseryContent.find("h3").hide();
-						} else{
-							nurseryContent.removeClass("active-dock").css({'position': 'relative', "left":0, "top":0, "padding":"20px 0"});
-							nurseryContent.find("h3").show();
-							nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
-						}	
-						
-					nurseryContent.find("a").each( function() {
-						var $divId = $(this).attr("href"),
-							divOffset = $($divId).offset().top - 120;
-						if( scrollPos >= divOffset) {
-							nurseryContent.find("a").removeClass("active").stop().animate({"top": "-20px"}, "fast");
-							$(this).addClass("active").stop().animate({"top": "20px"}, "fast");	
-						} if(scrollPos > nurseryEndPos){
-							nurseryContent.css({"position":"fixed", "left":0, "top":-200, "padding":0});
-							nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
-						}	
-		   			});		
-				})	
-				
-				//Hash tag to land the correct content
-				nurseryContent.find("a").click(function(e){
-					var currentPos = $(this.hash).offset().top;
-					nurseryContent.find("a").removeClass("active").stop().animate({"top": "-25px"}, "fast");
-					$(this).addClass("active").stop().animate({"top": "20px"}, "fast");
-					$("body, html").animate({scrollTop: currentPos - 120}, "slow");
-					e.preventDefault();
-				})
+				if(isiPad > -1 ||  isiPhone > -1){
+					
+				} else {
+					//Sticky nursery show/hide when scrolling window 	
+					$(window).scroll(function(){
+						var scrollPos = $(this).scrollTop();
+							if(scrollPos >= nurseryPos){
+								nurseryContent.addClass("active-dock").css({"position":"fixed", "left":0, "top":-65, "padding":0});
+								nurseryContent.find("h3").hide();
+							} else{
+								nurseryContent.removeClass("active-dock").css({'position': 'relative', "left":0, "top":0, "padding":"20px 0"});
+								nurseryContent.find("h3").show();
+								nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
+							}	
+							
+						nurseryContent.find("a").each( function() {
+							var $divId = $(this).attr("href"),
+								divOffset = $($divId).offset().top - 120;
+							if( scrollPos >= divOffset) {
+								nurseryContent.find("a").removeClass("active").stop().animate({"top": "-20px"}, "fast");
+								$(this).addClass("active").stop().animate({"top": "20px"}, "fast");	
+							} if(scrollPos > nurseryEndPos){
+								nurseryContent.css({"position":"fixed", "left":0, "top":-200, "padding":0});
+								nurseryContent.find("a").removeClass("active").stop().animate({"top": "0"}, "fast");
+							}	
+						});		
+					})	
+					
+					//Hash tag to land the correct content
+					nurseryContent.find("a").click(function(e){
+						var currentPos = $(this.hash).offset().top;
+						nurseryContent.find("a").removeClass("active").stop().animate({"top": "-25px"}, "fast");
+						$(this).addClass("active").stop().animate({"top": "20px"}, "fast");
+						$("body, html").animate({scrollTop: currentPos - 120}, "slow");
+						e.preventDefault();
+					})	
+				}
 			}, 
 			styleCredit : function(){
 				var currentColumns = $(".expect-mums-credits-content");
