@@ -88,9 +88,8 @@ MYPROJECT.expectingmums = (function () {
 					nurseryEndPos = $(".expect-mums-intro-product").position().top - 75;
 									
 				if(isiPad > -1 ||  isiPhone > -1){
-					nurseryContent.find("a").click(function(e){
+					nurseryContent.find("a").click(function(){
 						$(this).removeClass("active");
-						e.preventDefault();
 					})	
 				} else {
 					//Sticky nursery show/hide when scrolling window 	
