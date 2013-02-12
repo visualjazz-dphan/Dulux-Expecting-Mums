@@ -2,6 +2,9 @@ var MYPROJECT = MYPROJECT || {};
 
 MYPROJECT.expectingmums = (function () {
 		
+		var   isiPhone = navigator.userAgent.toLowerCase().indexOf("iphone"),
+			  isiPad = navigator.userAgent.toLowerCase().indexOf("ipad");		
+		
 		expectingMums = {
 			 init: function (){
 				this.colorRoom();
@@ -61,29 +64,37 @@ MYPROJECT.expectingmums = (function () {
 					nurseryItem = nurseryContent.find("li > a");					
 					
 				//Hover state for ideal nursery item
-				$(nurseryItem).hover(function(){
-					$(this).stop().animate({"top": "20px"});	
-				}, function(){
-					if($(this).parents(nurseryContent).hasClass("active-dock")){
-						if($(this).hasClass("active")){
-							$(this).stop().animate({"top": "20px"}, "fast");	
-						} else {
-							$(this).stop().animate({"top": "-20px"}, "fast");
-						}
-					} else {
-						if($(this).hasClass("active")){
-							$(this).stop().animate({"top": "20px"}, "fast");	
-						} else {
-							$(this).stop().animate({"top": "0"}, "fast");
-						}
-					}
-				})
+				
+				if(isiPad > -1 ||  isiPhone > -1){
+					$(nurseryItem).hover(function(){	
+						(this).stop();
+					}, function(){
+						(this).stop();	
+					})
+				} else {
+					$(nurseryItem).hover(function(){
+						$(this).stop().animate({"top": "20px"});	
+						}, function(){
+							if($(this).parents(nurseryContent).hasClass("active-dock")){
+								if($(this).hasClass("active")){
+									$(this).stop().animate({"top": "20px"}, "fast");	
+								} else {
+									$(this).stop().animate({"top": "-20px"}, "fast");
+								}
+							} else {
+								if($(this).hasClass("active")){
+									$(this).stop().animate({"top": "20px"}, "fast");	
+								} else {
+									$(this).stop().animate({"top": "0"}, "fast");
+								}
+							}
+					})	
+				} 
+				
 			}, 
 			sickyNursery : function(){
 				
-				var isiPhone = navigator.userAgent.toLowerCase().indexOf("iphone"),
-				    isiPad = navigator.userAgent.toLowerCase().indexOf("ipad"),				
-				    nurseryContent = $("#expect-mums-nursery"),
+				var nurseryContent = $("#expect-mums-nursery"),
 					nurseryPos = $("#dreamy-baby-content").position().top - 100,
 					nurseryEndPos = $(".expect-mums-intro-product").position().top - 75;
 									
